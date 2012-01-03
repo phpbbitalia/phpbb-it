@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-29
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-12-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL con estensione MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
-	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
+	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'Supporto XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib compressioni supportate [ gz, .tar.gz, .zip ]',
@@ -233,6 +233,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Errore d’installazione',
 	'INST_ERR_DB_CONNECT'		=> 'Impossibile collegarsi al database, controlla il messaggio d’errore qui sotto.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Il file del database che hai specificato si trova nella cartella della tua Board. Devi mettere questo file in una zona non accessibile da web.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Il prefisso inserito non è valido. Si deve iniziare con una lettera e deve contenere solo lettere, numeri e underscore (trattini bassi).',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nessun messaggio d’errore restituito.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'La versione di MySQL installata su questa macchina è incompatibile con l’opzione “MySQL con estensione MySQLi” selezionata. In alternativa prova l’opzione “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'La versione dell’estensione SQLite che hai installato è troppo vecchia e deve essere aggiornata almeno alla 2.8.2.',
@@ -354,6 +355,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Impossibile trovare queste tabelle<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefisso delle tabelle nel database',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Il prefisso deve iniziare con una lettera e deve contenere solo lettere, numeri e underscore (trattini bassi).',
 	'TABLE_PREFIX_SAME'			=> 'Il prefisso della tabella deve essere quello utilizzato dal software da cui state facendo la conversione.<br />» Il prefisso specificato per la tabella era %s.',
 	'TESTS_PASSED'				=> 'Test superati',
 	'TESTS_FAILED'				=> 'Test falliti',
@@ -522,7 +524,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES'					=> 'Aggiornamento file',
 	'UPDATE_FILES_NOTICE'			=> 'Assicurati di aggiornare anche i file della Board, questo file aggiorna solo il tuo database.',
 	'UPDATE_INSTALLATION'			=> 'Aggiornamento installazione phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Con questa opzione è possibile aggiornare all’ultima versione l’installazione del tuo phpBB.<br />Durante il processo saranno controllati tutti i tuoi file per la loro integrità. Potrai esaminare tutte le differenze e i file prima dell’aggiornamento.<br /><br />L’aggiornamento del file può essere fatto in due modi diversi.</p><h2>Aggiornamento Manuale</h2><p> Con questo aggiornamento scarichi solo i tuoi file modificati, per assicurarti di non perdere le modifiche che potresti avere apportato. Dopo aver scaricato questo pacchetto devi caricare manualmente i file nella loro posizione corretta nella cartella "principale" del tuo phpBB. Una volta fatto questo, potrai eseguire nuovamente un controllo sui file per vedere se sono stati spostati nella cartella corretta.</p><h2>Aggiornamento automatico via FTP</h2><p>Questo metodo è simile al primo ma senza la necessità di scaricare i file modificati e di caricarli da soli. Verrà fatto in automatico. Per utilizzare questo metodo devi conoscere i dettagli del login per l’FTP poichè saranno richiesti. Appena finito sarai reindirizzato nuovamente al controllo dei file per assicurarti che tutto sia stato aggiornato correttamente.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Con questa opzione è possibile aggiornare all’ultima versione l’installazione del tuo phpBB.<br />Durante il processo saranno controllati tutti i tuoi file per la loro integrità. Potrai esaminare tutte le differenze e i file prima dell’aggiornamento.<br /><br />L’aggiornamento del file può essere fatto in due modi diversi.</p><h2>Aggiornamento Manuale</h2><p> Con questo aggiornamento scarichi solo i tuoi file modificati, per assicurarti di non perdere le modifiche che potresti avere apportato. Dopo aver scaricato questo pacchetto devi caricare manualmente i file nella loro posizione corretta nella cartella "principale" del tuo phpBB. Una volta fatto questo, potrai eseguire nuovamente un controllo sui file per vedere se sono stati spostati nella cartella corretta.</p><h2>Aggiornamento automatico via FTP</h2><p>Questo metodo è simile al primo ma senza la necessità di scaricare i file modificati e di caricarli da soli. Verrà fatto in automatico. Per utilizzare questo metodo devi conoscere i dettagli del login per l’FTP perché saranno richiesti. Appena finito sarai reindirizzato nuovamente al controllo dei file per assicurarti che tutto sia stato aggiornato correttamente.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Annuncio di rilascio</h1>

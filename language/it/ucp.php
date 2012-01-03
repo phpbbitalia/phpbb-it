@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-21
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	<br />
 	“%1$s” utilizza il sistema phpBB (in seguito “loro”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) che è un software per la creazione di comunità web rilasciata sotto “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (in seguito “GPL”) liberamente scaricabile da <a href="http://www.phpbb.com/">www.phpbb.com</a>. Il software phpBB facilita le aree di discussione internet, phpBB Group non è responsabile dei contenuti e della gestione. Per ulteriori informazioni su phpBB: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
 	<br />
-	Accetti di non inviare alcun tipo di offesa, oscenità, volgarità, calunnia, minaccia, orientamento sessuale, o qualsiasi altro tipo di materiale che può violare una qualsiasi legge del proprio Stato, o dello Stato dove “%1$s” è ospitato, o di una legge internazionale. Fare ciò porta all’immediato e permanente divieto di accesso, con notifica al tuo provider Internet se è ritenuto da noi opportuno. Tutti gli indirizzi IP sono registrati per salvaguardare e rinforzare queste condizioni. Accetti che “%1$s” abbia il diritto di rimuovere, riscrivere, spostare o chiudere qualsiasi argomento in qualsiasi momento lo ritenga necessario. Come fruitore di questo servizio, accetti che ogni informazione tu abbia inviato sia conservata in un database. Al contempo queste informazioni non saranno divulgate a nessuno senza il tuo consenso, nè “%1$s” o phpBB sono da ritenersi responsabili per qualsiasi violazione al sistema che possa compromettere queste informazioni.
+	Accetti di non inviare alcun tipo di offesa, oscenità, volgarità, calunnia, minaccia, orientamento sessuale, o qualsiasi altro tipo di materiale che può violare una qualsiasi legge del proprio Stato, o dello Stato dove “%1$s” è ospitato, o di una legge internazionale. Fare ciò porta all’immediato e permanente divieto di accesso, con notifica al tuo provider Internet se è ritenuto da noi opportuno. Tutti gli indirizzi IP sono registrati per salvaguardare e rinforzare queste condizioni. Accetti che “%1$s” abbia il diritto di rimuovere, riscrivere, spostare o chiudere qualsiasi argomento in qualsiasi momento lo ritenga necessario. Come fruitore di questo servizio, accetti che ogni informazione tu abbia inviato sia conservata in un database. Al contempo queste informazioni non saranno divulgate a nessuno senza il tuo consenso, né “%1$s” o phpBB sono da ritenersi responsabili per qualsiasi violazione al sistema che possa compromettere queste informazioni.
 	',
 
 	'PRIVACY_POLICY'		=> 'Questo paragrafo spiega dettagliatamente come “%1$s” ed eventuali affiliati (in seguito “noi”, “nostro”, “%1$s”, “%2$s”) e phpBB (in seguito “essi”, “loro”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) usano le informazioni raccolte durante qualsiasi sessione d’uso da te effettuata (in seguito “le tue informazioni”).<br />
@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Immagine attuale',
 	'CURRENT_PASSWORD'			=> 'Password attuale',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Devi confermare la tua password attuale se vuoi cambiarla, oppure se stai modificando l’indirizzo e-mail o il nome utente.',
+	'CUR_PASSWORD_EMPTY'		=> 'Non hai inserito la password attuale.',
 	'CUR_PASSWORD_ERROR'		=> 'La password attuale inserita non è corretta.',
 	'CUSTOM_DATEFORMAT'			=> 'Personalizza…',
 
@@ -268,9 +269,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Sposta nella cartella',
 	'MOVE_UP'						=> 'Sposta su',
 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Non hai inserito un indirizzo e-mail di conferma.',
 	'NEW_EMAIL_ERROR'				=> 'L’indirizzo e-mail inserito non coincide.',
 	'NEW_FOLDER_NAME'				=> 'Nuovo nome cartella',
 	'NEW_PASSWORD'					=> 'Nuova password',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Non hai inserito la password di conferma.',
 	'NEW_PASSWORD_ERROR'			=> 'Le password che hai inserito non coincidono.',
 	'NOTIFY_METHOD'					=> 'Metodo di avviso',
 	'NOTIFY_METHOD_BOTH'			=> 'Entrambi',

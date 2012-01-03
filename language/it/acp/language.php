@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'Il pacchetto lingua <strong>%s</strong> è stato rimosso. Per tutti gli utenti che usavano questa lingua è stata ripristinata la lingua predefinita.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Dettagli pacchetto lingua',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Il pacchetto lingua <strong>%s</strong> è stato installato.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'I campi profilo personalizzati, sono stati copiati dalla lingua predefinita. Se è necessario, modificali.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nome locale',
 	'LANGUAGE_PACK_NAME'				=> 'Nome',

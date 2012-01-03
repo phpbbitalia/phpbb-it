@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-17
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -161,11 +161,12 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Modifica messaggio',
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Indirizzo e-mail',
-	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Si è verificato un errore alla <strong>linea %1$s</strong> durante l’invio e-mail. Messaggio: %2$s.',
+	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Si è verificato un errore alla <strong>riga %1$s</strong> durante l’invio e-mail. Messaggio: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Devi specificare un oggetto per il nuovo argomento.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Devi specificare un oggetto per il nuovo messaggio.',
 	'ENABLED'							=> 'Abilitato',
 	'ENCLOSURE'							=> 'Incluso',
+	'ENTER_USERNAME'					=> 'Inserisci nome utente',
 	'ERR_CHANGING_DIRECTORY'			=> 'Impossibile cambiare cartella.',
 	'ERR_CONNECTING_SERVER'				=> 'Errore durante la connessione al server.',
 	'ERR_JAB_AUTH'						=> 'Autorizzazione negata sul server Jabber.',
@@ -201,7 +202,8 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_LINK'		=> 'Clicca per leggere le regole del forum',
 	'FROM'					=> 'da',
 	'FSOCK_DISABLED'		=> 'L’operazione non puó essere terminata perché la funzione <var>fsockopen</var> è stata disabilitata o il server interrogato non puó essere trovato.',
-
+	'FSOCK_TIMEOUT'			=> 'Si è verificato un timeout durante la lettura dal flusso di rete.',
+	
 	'FTP_FSOCK_HOST'				=> 'Host FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Server FTP utilizzato per la connessione del tuo sito.',
 	'FTP_FSOCK_PASSWORD'			=> 'Password FTP',
@@ -249,7 +251,7 @@ $lang = array_merge($lang, array(
 	'G_BOTS'					=> 'Bot',
 	'G_GUESTS'					=> 'Ospiti',
 	'G_REGISTERED'				=> 'Utenti registrati',
-	'G_REGISTERED_COPPA'		=> 'Utenti MINORENNI registrati',
+	'G_REGISTERED_COPPA'		=> 'Utenti COPPA registrati',
 	'G_GLOBAL_MODERATORS'		=> 'Moderatori globali',
 	'G_NEWLY_REGISTERED'		=> 'Nuovi utenti registrati',
 
@@ -651,6 +653,10 @@ $lang = array_merge($lang, array(
 	'UNREAD_PMS'			=> '<strong>%d</strong> messaggi non letti',
 	'UNREAD_POST'			=> 'Messaggio da leggere',
 	'UNREAD_POSTS'			=> 'Messaggi da leggere',
+	'UNWATCH_FORUM_CONFIRM'		=> 'Sei sicuro di voler rimuovere la sottoscrizione da questo forum?',
+	'UNWATCH_FORUM_DETAILED'	=> 'Sei sicuro di voler rimuovere la sottoscrizione dal forum “%s”?',
+	'UNWATCH_TOPIC_CONFIRM'		=> 'Sei sicuro di voler rimuovere la sottoscrizione da questo argomento?',
+	'UNWATCH_TOPIC_DETAILED'	=> 'Sei sicuro di voler rimuovere la sottoscrizione dall’argomento “%s”?',
 	'UNWATCHED_FORUMS'		=> 'Non stai piú controllando i forum selezionati.',
 	'UNWATCHED_TOPICS'		=> 'Non stai piú controllando gli argomenti selezionati.',
 	'UNWATCHED_FORUMS_TOPICS'	=> 'Non stai piú controllando le voci selezionati.',
@@ -699,6 +705,10 @@ $lang = array_merge($lang, array(
 
 	'WARNINGS'			=> 'Richiami',
 	'WARN_USER'			=> 'Richiama utente',
+	'WATCH_FORUM_CONFIRM'	=> 'Sei sicuro di voler sottoscrivere questo forum?',
+	'WATCH_FORUM_DETAILED'	=> 'Sei sicuro di voler sottoscrivere il forum “%s”?',
+	'WATCH_TOPIC_CONFIRM'	=>'Sei sicuro di voler sottoscrivere questo argomento?',
+	'WATCH_TOPIC_DETAILED'	=> 'Sei sicuro di voler sottoscrivere l’argomento “%s”?',
 	'WELCOME_SUBJECT'	=> 'Benvenuto in %s',
 	'WEBSITE'			=> 'Sito web',
 	'WHOIS'				=> 'Whois',

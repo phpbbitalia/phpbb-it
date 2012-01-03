@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 

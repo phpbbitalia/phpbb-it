@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-21
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Collegamento allegato: [attachment=]nomefile.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Grassetto: [b]testo[/b]',
 	'BBCODE_C_HELP'				=> 'Codice: [code]codice[/code]',
-	'BBCODE_E_HELP'				=> 'Lista: Aggiungi elementi alla lista',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Dimensione testo: [size=85]testo piccolo[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>non attivo</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>attivo</em>',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Colore: [color=red]testo[/color]  Tip: puoi usare anche codici esadecimali dei colori color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Sottolineato: [u]testo[/u]',
 	'BBCODE_W_HELP'				=> 'Collegamento: [url]http://url[/url] o [url=http://url]testo aggiuntivo[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
+	'BBCODE_Y_HELP'				=> 'Lista: Aggiungi elementi alla lista',
 	'BUMP_ERROR'				=> 'Non puoi fare il bump di questo argomento così presto dopo l’ultimo messaggio.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Puoi cancellare solo i messaggi che non hanno avuto risposte.',

@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-18
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Fuso orario ospite',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fuso orario da utilizzare per la visualizzazione degli utenti che non sono loggati (ospiti, ma anche Bot). Gli utenti loggati possono scegliere il fuso orario in fase di registrazione e possono modificarlo nel proprio Pannello di Controllo Utente.',
 	'WARNINGS_EXPIRE'				=> 'Durata del richiamo',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Puoi decidere il numero di giorni che devono trascorrere prima che il richiamo scompaia automaticamente dalla documentazione dell’utente.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Numero di giorni che devono trascorrere prima che l’avviso scada automaticamente dal record di un utente. Imposta questo valore a 0 per rendere permanenti i richiami.',
 ));
 
 // Board Features
@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Link massimi per messaggio',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Numero massimo di URL in un argomento. 0 = illimitato.',
 	'MIN_CHAR_LIMIT'                => 'Numero minimo di caratteri per messaggio',
-    'MIN_CHAR_LIMIT_EXPLAIN'        => 'Il numero minimo consentito di caratteri che l’utente deve inserire all’interno di un messaggio.',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Il numero minimo di caratteri che un utente deve inserire in un messaggio o in un messaggio privato. Il minimo per questa voce è 1.',
 	'POSTING'						=> 'Invio messaggi',
 	'POSTS_PER_PAGE'				=> 'Messaggi per pagina',
 	'QUOTE_DEPTH_LIMIT'				=> 'Limite massimo di citazioni annidate per messaggio',
@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	'COPPA'						=> 'Impostazioni reg. Minore (COPPA)',
 	'COPPA_FAX'					=> 'Numero di fax per reg. Minore',
 	'COPPA_MAIL'				=> 'Indirizzo postale per reg. Minore',
-	'COPPA_MAIL_EXPLAIN'		=> 'Questo è l’indirizzo al quale i genitori devono spedire il modulo di registrazione per gli utenti minorenni.',
+	'COPPA_MAIL_EXPLAIN'		=> 'Questo è l’indirizzo al quale i genitori devono spedire il modulo di registrazione per gli utenti COPPA.',
 	'ENABLE_COPPA'				=> 'Abilita reg. Minore',
 	'ENABLE_COPPA_EXPLAIN'		=> 'Richiede agli utenti di dichiarare se hanno più o meno di 13 anni. Se questa funzione è disabilitata il gruppo reg. Minore non verrà più visualizzato.',
 	'MAX_CHARS'					=> 'Massimo',

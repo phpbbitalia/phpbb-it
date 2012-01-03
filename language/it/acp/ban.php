@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -68,7 +68,8 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Puoi riabilitare (o non-escludere) dal ban più indirizzi IP con un’unica azione, selezionando e cliccando su <strong>Invia.</strong> Gli IP esclusi hanno uno sfondo grigio.',
 
 	'LENGTH_BAN_INVALID'		=> 'La data deve essere nel formato <kbd>AAAA-MM-GG</kbd>.',
-
+	'OPTIONS_BANNED'			=> 'Bannato',
+	'OPTIONS_EXCLUDED'			=> 'Escluso',
 	'PERMANENT'		=> 'Permanente',
 	
 	'UNTIL'						=> 'Fino a',

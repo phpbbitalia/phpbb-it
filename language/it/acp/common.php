@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-14
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-24
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -325,6 +325,16 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Database server',
 	'DATABASE_SIZE'			=> 'Dimensione database',
+
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'La funzione di sovraccarico non è correttamente configurata.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve essere impostta su 0 o su 4. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'La codifica trasparente dei caratteri non è correttamente configurata',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve essere impostato su 0. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'La codifica HTTP dei caratteri in ingresso non è correttamente configurata',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> deve essere impostata su <samp>pass</samp>. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'La codifica HTTP dei caratteri in uscita non è correttamente configurata',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve essere impostata su <samp>pass</samp>. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
 
 	'FILES_PER_DAY'		=> 'Allegati al giorno',
 	'FORUM_STATS'		=> 'Statistiche',

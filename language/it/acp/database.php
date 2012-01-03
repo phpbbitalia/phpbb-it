@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-24
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Il file di backup sembra essere corrotto.',
 	'RESTORE_OPTIONS'		=> 'Opzioni di ripristino',
+	'RESTORE_SELECTED_BACKUP'	=> 'Sei sicuro di voler ripristinare il backup selezionato?',
 	'RESTORE_SUCCESS'		=> 'Il database è stato ripristinato.<br /><br />La tua Board dovrebbe essere tornata allo stato in cui si trovava al momento del backup.',
 
 	'SELECT_ALL'			=> 'Seleziona tutti',
@@ -67,7 +68,7 @@ $lang = array_merge($lang, array(
 	'START_BACKUP'			=> 'Avvia backup',
 	'START_RESTORE'			=> 'Avvia ripristino',
 	'STORE_AND_DOWNLOAD'	=> 'Salva e scarica',
-	'STORE_LOCAL'			=> 'Salva file in locale',
+	'STORE_LOCAL'			=> 'Salva file in store',
 	'STRUCTURE_ONLY'		=> 'Solo struttura',
 
 	'TABLE_SELECT'		=> 'Seleziona tabelle',

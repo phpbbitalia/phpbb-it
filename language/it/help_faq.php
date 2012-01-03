@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-21
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -61,7 +61,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi sono registrato tempo fa, ma non riesco piú a connettermi?!',
-		1 => 'Verifica il messaggio di posta elettronica che ti è stato inviato la prima volta che ti sei registrato, controlla nome utente e password e riprova. È possibile che un amministratore abbia cancellato o disattivato il tuo account per qualche ragione. Molti siti rimuovono periodicamente gli account degli utenti che non hanno mai inviato messaggi, per ridurre la grandezza del database. Se il motivo è quest’ultimo registrati nuovamente e cerca di farti coinvolgere maggiormente nelle discussioni.'
+		1 => 'È possibile che un amministratore abbia cancellato o disattivato il tuo account per qualche ragione. Molti siti rimuovono periodicamente gli account degli utenti che non hanno mai inviato messaggi, per ridurre la grandezza del database. Se il motivo è quest’ultimo registrati nuovamente e cerca di farti coinvolgere maggiormente nelle discussioni.'
 	),
 	array(
 		0 => 'Che cosa è COPPA?',

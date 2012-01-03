@@ -8,7 +8,7 @@ hai ricevuto un nuovo messaggio privato da parte di "{AUTHOR_NAME}" nel tuo acco
 
 Puoi vedere il tuo nuovo messaggio privato sul link seguente:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Hai richiesto di essere avvisato per questi eventi: ricorda che puoi sempre scegliere di non ricevere avvisi per i nuovi messaggi cambiando le impostazioni nel tuo profilo utente.
 
