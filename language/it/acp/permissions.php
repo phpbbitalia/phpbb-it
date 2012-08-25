@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-10
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
-		<p>I permessi sono molto specifici e raggruppati in quattro sezioni importanti, che sono:</p>
+		<p>I permessi sono specifici e raggruppati in quattro sezioni importanti, che sono:</p>
 
 		<h2>Permessi globali</h2>
 		<p>Sono usati per controllare l’accesso a livello globale e si applicano all’intera Board. Sono suddivisi in permessi utente, permessi gruppi, amministratori e moderatori globali.</p>
 
 		<h2>Permessi forum</h2>
-		<p>Sono usati per controllare l’accesso a livello di singolo forum. Sono suddivisi in permessi forum, moderatori, permessi forum utente e permessi forum gruppi.</p>
+		<p>Sono usati per controllare l’accesso a livello del singolo forum. Sono suddivisi in permessi forum, moderatori, permessi forum utente e permessi forum gruppi.</p>
 
 		<h2>Ruolo permessi</h2>
 		<p>Sono usati per generare diversi insiemi di permessi per i vari tipi di permesso, che successivamente possono essere assegnati su base di ruolo. I ruoli predefiniti dovrebbero permettere la gestione di Board grandi e piccole, in ogni caso all’interno di ciascuna delle quattro sezioni puoi aggiungere/modificare/eliminare ruoli a seconda delle tue necessità.</p>
@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Accesso standard + sondaggi',
 	'ROLE_FORUM_READONLY'		=> 'Accesso sola lettura',
 	'ROLE_FORUM_STANDARD'		=> 'Accesso standard',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Nuovo Utente registrato',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Accesso Nuovo utente registrato',
 	'ROLE_MOD_FULL'				=> 'Moderatore totale',
 	'ROLE_MOD_QUEUE'			=> 'Coda moderatore',
 	'ROLE_MOD_SIMPLE'			=> 'Moderatore semplice',
@@ -182,7 +182,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Niente Avatar',
 	'ROLE_USER_NOPM'			=> 'Niente MP',
 	'ROLE_USER_STANDARD'		=> 'Caratteristiche standard',
-	'ROLE_USER_NEW_MEMBER'		=> 'Nuovo Utente registrato',
+	'ROLE_USER_NEW_MEMBER'		=> 'Caratteristiche Nuovo utente registrato',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Può accedere alla gestione forum e alle impostazioni di permessi forum.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Ha accesso a tutte le funzioni di amministratore della Board.<br />Non consigliato.',
@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'SET_PERMISSIONS'				=> 'Imposta permessi',
 	'SET_ROLE_PERMISSIONS'			=> 'Imposta permessi ruolo',
 	'SET_USERS_PERMISSIONS'			=> 'Imposta permessi utente',
-	'SET_USERS_FORUM_PERMISSIONS'	=> 'Imposta permessi forum degli utenti',
+	'SET_USERS_FORUM_PERMISSIONS'	=> 'Imposta permessi forum utente',
 
 	'TRACE_DEFAULT'					=> 'Come predefinito ogni permesso è <samp>NO</samp> (non impostato). Il permesso può quindi essere sovrascritto da altre impostazioni.',
 	'TRACE_FOR'						=> 'Traccia per',

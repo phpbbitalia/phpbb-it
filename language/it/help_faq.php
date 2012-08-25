@@ -334,7 +334,7 @@ $help = array(
    ), 
    array( 
       0 => 'Perché la caratteristica X non è disponibile?', 
-      1 => 'Questo programma è stato scritto da phpBB Group. Se credi che ci sia bisogno di aggiungere una funzionalità, visita il sito phpbb.com e vedi cosa il phpBB Group ha da dire a riguardo. Sei pregato di non fare richieste per nuove caratteristiche nei forum di phpbb.com; il Gruppo si appoggia a Sourceforge per la gestione di nuove funzionalità. Leggi il forum e cerca di capire, se vengono spiegate, quali sono le nostre posizioni a proposito di quella caratteristica e segui la procedura data.' 
+      1 => 'Questo programma è stato scritto da phpBB Group. Se credi che ci sia bisogno di aggiungere una nuova funzionalità, o vuoi segnalare un errore, visita il sito <a href="http://area51.phpbb.com/">Area51</a>, dove potrai farlo.' 
    ), 
    array( 
       0 => 'Chi devo contattare per segnalare abusi e/o per questioni d’ordine legale concernenti questa Board?', 

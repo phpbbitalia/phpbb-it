@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Qui puoi gestire gli Indici del motore di ricerca. Poiché normalmente utilizzi solo un motore di ricerca dovresti cancellare tutti gli Indici di cui non fai uso. Dopo avere modificato alcune delle impostazioni di ricerca (es. il numero minimo o massimo dei caratteri) potrebbe valere la pena di ricreare l’Indice cosicché rifletta quelle modifiche.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Qui puoi definire quale motore di ricerca sarà utilizzato per l’indirizzamento dei messaggi e per le ricerche. Puoi impostare diverse opzioni che possono influire sull’elaborazione richiesta. Alcune di queste impostazioni sono le stesse per tutti i motori di ricerca.',
+	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Qui puoi gestire gli Indici del motore di ricerca. Poiché normalmente si utilizza solo un motore di ricerca dovresti cancellare tutti gli Indici di cui non fai uso. Dopo aver modificato alcune delle impostazioni di ricerca (es. il numero minimo o massimo dei caratteri) potrebbe essere utile ricreare l’Indice in modo che rifletta quelle modifiche.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Qui puoi definire quale motore di ricerca sarà utilizzato per l’indicizzazione dei messaggi e per le ricerche. Puoi impostare diverse opzioni che possono influire sull’elaborazione richiesta. Alcune di queste impostazioni sono le stesse per tutti i motori di ricerca.',
 
 	'COMMON_WORD_THRESHOLD'					=> 'Soglia parola comune',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Le parole contenute nella maggior parte dei messaggi saranno considerate come parole comuni. Le parole comuni vengono ignorate nelle ricerche. Imposta zero per disabilitare. Questo ha effetto solo se ci sono più di 100 messaggi.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Sei sicuro di voler passare ad un motore di ricerca diverso? Dopo avere modificato il motore di ricerca dovrai creare un Indice per il nuovo motore di ricerca. Se non vi proponete di tornare al vecchio motore di ricerca potete anche cancellare l’Indice del vecchio motore di ricerca per liberare risorse di sistema.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Sei sicuro di voler passare ad un motore di ricerca diverso? Dopo avere modificato il motore di ricerca dovrai creare un Indice per il nuovo motore di ricerca. Se non vuoi tornare al vecchio motore di ricerca puoi anche cancellare l’Indice del vecchio motore di ricerca per liberare risorse di sistema.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continua il precedente processo di cancellazione indirizzo',
-	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Avviato processo di cancellazione indirizzo. Per poter accedere nuovamente alla pagina dell’Indice di ricerca dovete prima completarlo.',
+	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Avviato processo di cancellazione indirizzo. Per poter accedere nuovamente alla pagina dell’Indice di ricerca devi prima completarlo.',
 	'CONTINUE_INDEXING'						=> 'Continua il precedente processo di indicizzazione',
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Avviato processo di indicizzazione. Per poter accedere nuovamente alla pagina dell’Indice di ricerca dovete prima completarlo.',
 	'CREATE_INDEX'							=> 'Crea Indice',
@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
 
 	'INDEX_STATS'							=> 'Indice statistiche',
 	'INDEXING_IN_PROGRESS'					=> 'Indicizzazione in corso',
-	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Il motore di ricerca sta indicizzando tutti i messaggi del forum. Questo può impiegare da alcuni minuti ad alcune ore, attendi.',
+	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Il motore di ricerca sta indicizzando tutti i messaggi del Forum. Questo può impiegare da alcuni minuti ad alcune ore, attendi.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Limite di caricamento del sistema per ricerca pagina',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Se il limite di caricamento del sistema eccede di un minuto questo valore, la pagina andrà offline, 1.0 uguaglia l’utilizzo del ~100% di un processore. Questo funziona solo su server basati UNIX.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Se il limite di caricamento del sistema eccede di un minuto questo valore, la pagina andrà OffLine, 1.0 uguaglia l’utilizzo del ~100% di un processore. Questo funziona solo su server basati su UNIX.',
 
 	'MAX_SEARCH_CHARS'						=> 'Valore massimo caratteri indicizzati dalla ricerca',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Le parole con non più di questo numero di caratteri saranno indicizzate per la ricerca.',

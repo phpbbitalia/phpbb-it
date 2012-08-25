@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-24
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-10
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Permessi globali',
 	'ACP_GROUPS'					=> 'Gruppi',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permessi forum gruppi',
-	'ACP_GROUPS_MANAGE'				=> 'Gestione gruppi',
+	'ACP_GROUPS_MANAGE'				=> 'Gestisci gruppi',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Gestione gruppi',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permessi gruppi',
 	
@@ -327,10 +327,10 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'Dimensione database',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'La funzione di sovraccarico non è correttamente configurata.',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve essere impostta su 0 o su 4. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'La codifica trasparente dei caratteri non è correttamente configurata',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve essere impostato su 0. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'               => 'La funzione di sovraccarico non è correttamente configurata.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'         => '<var>mbstring.func_overload</var> deve essere impostata su 0 o su 4. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'La codifica trasparente dei caratteri non è correttamente configurata',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'   => '<var>mbstring.encoding_translation</var> deve essere impostata su 0. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'La codifica HTTP dei caratteri in ingresso non è correttamente configurata',
 	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> deve essere impostata su <samp>pass</samp>. Puoi controllare il valore corrente nella pagina <samp>Informazioni *php</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'La codifica HTTP dei caratteri in uscita non è correttamente configurata',
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Sconosciuto',
 	'INACTIVE_USERS'				=> 'Utenti non attivi',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Elenco di utenti registrati ma non attivi. Puoi attivarli, cancellarli o mandare loro un avviso (via e-mail) se lo desideri.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Elenco degli ultimi 10 utenti registrati non attivi. Una lista completa può essere vista nella sezione utenti o dal collegamento qui sotto da dove puoi attivare, cancellare o inviare un avviso (via e-mail) se lo desideri.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Elenco degli ultimi 10 utenti registrati non attivi. Gli account sono inattivi o perché è abilitata l’attivazione degli utenti nelle impostazioni di registrazione utente, o perché questi account sono stati disattivati. Una lista completa può essere vista dal collegamento qui sotto da dove puoi attivare, cancellare o inviare un avviso (via e-mail) se lo desideri.',
 
 	'NO_INACTIVE_USERS'	=> 'Non sono presenti utenti non attivi',
 

@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-01
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Gruppi di estensioni',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Dimensione massima',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Dimensione massima di ogni file; 0 = illimitata.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Dimensione massima di ogni file. Se questo valore è uguale a 0, la dimensione del file inviabile sarà limitata solo dalla configurazione PHP.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Dimensione massima messaggi privati',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Dimensione massima di ogni file (0 = illimitata) allegato ai messaggi privati.',
 	'ATTACH_ORPHAN_URL'					=> 'Allegati orfani',

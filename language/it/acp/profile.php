@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-07-25
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -132,6 +132,10 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Salva',
 	'SECOND_OPTION'					=> 'Seconda opzione',
+	
+	'SHOW_NOVALUE_FIELD'			=> 'Mostra il campo se nessun valore è stato selezionato',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Determina se il campo del profilo deve essere visualizzato se nessun valore è stato selezionato per i campi opzionali o se nessun valore è ancora stato selezionato per i campi obbligatori.',
+	
 	'STEP_1_EXPLAIN_CREATE'			=> 'Qui puoi inserire i primi parametri di base del tuo nuovo campo profilo. Queste informazioni sono necessarie per il secondo passo quando sarai in grado di impostare le restanti opzioni e potrai vedere in anteprima il tuo campo profilo e migliorarlo, se vorrai, in seguito.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Qui puoi cambiare i parametri di base del tuo campo profilo. Le opzioni relative sono ricalcolate nel secondo passo, quando potrai vedere l’anteprima e testare le impostazioni modificate.',
 	'STEP_1_TITLE_CREATE'			=> 'Aggiungi campo profilo',

@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-01
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -48,13 +48,13 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Questa opzione renderà la Board non disponibile per gli utenti. Qualora lo desiderassi puoi lasciare un breve messaggio di spiegazione (non deve superare i 255 caratteri).',
 	'OVERRIDE_STYLE'				=> 'Annulla lo stile dell’utente',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Sostituisce lo stile dell’utente con quello predefinito.',
-	'SITE_DESC'						=> 'Descrizione del sito',
-	'SITE_NAME'						=> 'Nome del sito',
+	'SITE_DESC'						=> 'Descrizione Board',
+	'SITE_NAME'						=> 'Nome Board',
 	'SYSTEM_DST'					=> 'Abilita ora legale',
 	'SYSTEM_TIMEZONE'				=> 'Fuso orario ospite',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fuso orario da utilizzare per la visualizzazione degli utenti che non sono loggati (ospiti, ma anche Bot). Gli utenti loggati possono scegliere il fuso orario in fase di registrazione e possono modificarlo nel proprio Pannello di Controllo Utente.',
 	'WARNINGS_EXPIRE'				=> 'Durata del richiamo',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Numero di giorni che devono trascorrere prima che l’avviso scada automaticamente dal record di un utente. Imposta questo valore a 0 per rendere permanenti i richiami.',
+	'WARNINGS_EXPIRE_EXPLAIN'       => 'Numero di giorni che devono trascorrere prima che il richiamo sia cancellato automaticamente dal profilo di un utente. Imposta questo valore su 0 per rendere permanenti i richiami.', 
 ));
 
 // Board Features
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'Dimensioni massime avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Larghezza per altezza in pixel',
 	'MAX_FILESIZE'					=> 'Dimensione massima file avatar',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Per i file avatar caricati',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Per i file avatar caricati. Se questo valore è uguale a 0, la dimensione del file caricato sarà limitata solo dalla configurazione PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Dimensioni minime avatar',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Larghezza per altezza in pixel',
 ));

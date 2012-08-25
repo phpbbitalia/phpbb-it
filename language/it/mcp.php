@@ -381,7 +381,7 @@ $lang = array_merge($lang, array(
 	'WARNED_USERS_EXPLAIN'	=> 'Questa è una lista di utenti con richiami non scaduti.',
 	'WARNING_PM_BODY'		=> 'Questo è un richiamo che ti è stato inviato da un moderatore o da un amministratore. [quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Richiamo',
-	'WARNING_POST_DEFAULT'	=> 'Questo è un richiamo riferito al tuo messaggio: %s.',
+	'WARNING_POST_DEFAULT'	=> 'Questo è un richiamo riferito al seguente messaggio: %s.',
 	'WARNINGS_ZERO_TOTAL'	=> 'Non ci sono richiami.',
 
 	'YOU_SELECTED_TOPIC'	=> 'Hai selezionato l’argomento numero %d: %s.',

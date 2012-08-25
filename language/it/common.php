@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-22
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-05
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Il form inviato non è valido. Prova a inviarlo di nuovo.',
 	'FORUM'					=> 'Forum',
 	'FORUMS'				=> 'Forum',
-	'FORUMS_MARKED'			=> 'I forum selezionati sono stati segnati come già letti.',
+	'FORUMS_MARKED'			=> 'I forum sono stati segnati come già letti.',
 	'FORUM_CAT'				=> 'Categoria forum',
 	'FORUM_INDEX'			=> 'Indice',
 	'FORUM_LINK'			=> 'Forum link',
@@ -451,6 +451,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Ora di invio',
 	'POST_TOPIC'			=> 'Scrivi un nuovo argomento',
 	'POST_UNAPPROVED'		=> 'Questo messaggio è in attesa di approvazione',
+	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Anteprima',
 	'PREVIOUS'				=> 'Precedente',    // Used in pagination
 	'PREVIOUS_STEP'			=> 'Indietro',
@@ -459,6 +460,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Messaggi privati',
 	'PRIVATE_MESSAGING'		=> 'Messaggistica privata',
 	'PROFILE'				=> 'Pannello di Controllo Utente',
+	'RANK'					=> 'Livello',
 
 	'READING_FORUM'				=> 'Sta leggendo un argomento in %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Sta leggendo un annuncio globale',
@@ -688,7 +690,7 @@ $lang = array_merge($lang, array(
 	'VIEWS'						=> 'Visite ',
 	'VIEW_BOOKMARKS'			=> 'Vedi segnalibri',
 	'VIEW_FORUM_LOGS'			=> 'Vedi log',
-	'VIEW_LATEST_POST'			=> 'Vedi ultimi messaggi',
+	'VIEW_LATEST_POST'			=> 'Vedi ultimo messaggio',
 	'VIEW_NEWEST_POST'			=> 'Vedi ultimi messaggi non letti',
 	'VIEW_NOTES'				=> 'Leggi note utente',
 	'VIEW_ONLINE_TIME'			=> 'basato sugli utenti attivi nell’ultimo %d minuto',

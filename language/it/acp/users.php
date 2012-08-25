@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-07-25
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Cancella messaggi',
 	'DELETE_USER'			=> 'Cancella utente',
-	'DELETE_USER_EXPLAIN'	=> 'Se cancelli l’utente non potrà più essere recuperato.',
+	'DELETE_USER_EXPLAIN'	=> 'Attenzione: l’account dell’utente eliminato, non potrà essere recuperato. I messaggi privati non letti inviati da questo utente, saranno cancellati e non saranno quindi a disposizione dei rispettivi destinatari.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Riabilitazione forzata effettuata correttamente.',
 	'FOUNDER'						=> 'Fondatore',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_PENDING'			=> 'L’utente del gruppo è impostato in modalità "pendente"',
 	'USER_GROUP_SPECIAL'			=> 'L’utente è membro del gruppo speciale',
 	'USER_LIFTED_NR'                => 'Lo stato di nuovo utente registrato è stato rimosso.',
-	'USER_NO_ATTACHMENTS'			=> 'Non sono presenti file allegati.',
+	'USER_NO_POSTS_TO_DELETE'		=> 'L’utente non ha messaggi da conservare o cancellare.',
 	'USER_OUTBOX_EMPTIED'           => 'La casella Messaggi in uscita dell’utente è stata vuotata con successo.',
     'USER_OUTBOX_EMPTY'             => 'La casella Messaggi in uscita dell’utente era già vuota.',
 	'USER_OVERVIEW_UPDATED'			=> 'Dettagli utente aggiornati.',

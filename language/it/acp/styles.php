@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-27
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-05
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -264,6 +264,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'		=> 'Immagine personalizzata 8',
 	'IMG_USER_ICON9'		=> 'Immagine personalizzata 9',
 	'IMG_USER_ICON10'		=> 'Immagine personalizzata 10',
+	'INACTIVE_STYLES'		=> 'Stili inattivi',
 
 	'INCLUDE_DIMENSIONS'		=> 'Includi dimensioni',
 	'INCLUDE_IMAGESET'			=> 'Includi set-immagini',

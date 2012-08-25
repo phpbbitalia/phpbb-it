@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Inviato dall’IP/dominio',
 
-	'RANK'					=> 'Livello',
+ //	'RANK'					=> 'Livello', //
 	'REAL_NAME'				=> 'Nome del destinatario',
 	'RECIPIENT'				=> 'Destinatario',
 	'REMOVE_FOE'			=> 'Rimuovi da ignorati',

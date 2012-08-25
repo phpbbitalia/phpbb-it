@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-12-20
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Una scansione delle tabelle evidenzia la presenza di un’installazione valida priva di prefisso tabelle.',
 	'BOARD_NOT_INSTALLED'			=> 'Non è stata trovata alcuna installazione',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Il phpBB Unified Convertor Framework richiede un’installazione predefinita di phpBB3 per funzionare, <a href="%s">inizia installando phpBB3</a>.',
+	'BACKUP_NOTICE'					=> 'Effettua un backup completo (ftp+database) prima di aggiornare la Board nel caso si verifichino eventuali problemi durante il processo di aggiornamento.',
 
 	'CATEGORY'					=> 'Categoria',
 	'CACHE_STORE'				=> 'Tipo di cache',

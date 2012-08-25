@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-21
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Crea sondaggio',
 	'ADD_POLL_EXPLAIN'			=> 'Se non vuoi aggiungere un sondaggio al tuo argomento lascia vuoti i campi che seguono.',
 	'ALREADY_DELETED'			=> 'Questo messaggio è già stato cancellato.',
+	'ATTACH_DISK_FULL'			=> 'Non c’è abbastanza spazio libero su disco per pubblicare quest’allegato.',
 	'ATTACH_QUOTA_REACHED'		=> 'Il limite massimo di allegati impostato è stato raggiunto.',
 	'ATTACH_SIG'				=> 'Aggiungi firma (la firma può essere modificata attraverso il PCU)',
 
