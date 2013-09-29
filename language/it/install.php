@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
 	'POST_ID'						=> 'ID argomento',
 	'PREFIX_FOUND'					=> 'Una scansione delle tabelle ha visualizzato un’installazione valida utilizzando  <strong>%s</strong> come prefisso tabella.',
 	'PREPROCESS_STEP'				=> 'Esecuzione delle funzioni di pre-elaborazione/query',
-	'PRE_CONVERT_COMPLETE'			=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerose cose. Dopo la conversione controlla soprattutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
+	'PRE_CONVERT_COMPLETE'			=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerosi elementi. Dopo la conversione controlla soprattutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
 	'PROCESS_LAST'					=> 'Elaborazione delle ultime istruzioni',
 
 	'REFRESH_PAGE'				=> 'Aggiorna pagina per continuare conversione',

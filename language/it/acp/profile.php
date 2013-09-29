@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ALWAYS_TODAY'			=> 'Sempre la data corrente',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Inserisci le tue opzioni adesso',
-	'BOOL_TYPE_EXPLAIN'		=> 'Definisci il tipo: checkbox o pulsanti di scelta. Il checkbox sarà visualizzato solo se è stato selezionato per un dato utente. In quel caso la <strong>seconda</strong> opzione lingua sarà usata. I pulsanti di scelta saranno visualizzati indipendentemente dal loro valore.',
+	'BOOL_TYPE_EXPLAIN'		=> 'Definisci il tipo: checkbox o pulsanti di scelta. Il checkbox sarà visualizzato solo se è stato selezionato per un dato utente. In quel caso sarà usata la <strong>seconda</strong> opzione lingua. I pulsanti di scelta saranno visualizzati indipendentemente dal loro valore.',
 
 	'CHANGED_PROFILE_FIELD'		=> 'Campo profilo modificato.',
 	'CHARS_ANY'					=> 'Qualsiasi carattere',
