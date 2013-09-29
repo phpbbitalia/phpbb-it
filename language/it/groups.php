@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 	'NO_LEADERS'					=> 'Non sei leader di alcun gruppo.',
 	'NOT_LEADER_OF_GROUP'			=> 'L’operazione richiesta non può essere conclusa perché non sei il leader del gruppo selezionato.',
-	'NOT_MEMBER_OF_GROUP'			=> 'L’operazione richiesta non puó essere conclusa perché non sei iscritto al gruppo selezionato, o ancora non hai avuto approvazione di adesione.',
+	'NOT_MEMBER_OF_GROUP'			=> 'L’operazione richiesta non può essere conclusa perché non sei iscritto al gruppo selezionato, o ancora non hai avuto approvazione di adesione.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Non puoi cancellarti dal gruppo predefinito.',
 	
 	'PRIMARY_GROUP'		=> 'Gruppo principale',

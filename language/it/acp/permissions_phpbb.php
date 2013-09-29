@@ -160,8 +160,8 @@ $lang = array_merge($lang, array(
 	'acl_f_edit'		=> array('lang' => 'Può modificare i messaggi', 'cat' => 'actions'),
 	'acl_f_delete'		=> array('lang' => 'Può cancellare i messaggi', 'cat' => 'actions'),
 	'acl_f_user_lock'	=> array('lang' => 'Può bloccare gli argomenti', 'cat' => 'actions'),
-	'acl_f_bump'		=> array('lang' => 'Può fare bump argomenti', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'Può fare segnalazione messaggi', 'cat' => 'actions'),
+	'acl_f_bump'		=> array('lang' => 'Può effettuare bump argomenti', 'cat' => 'actions'),
+	'acl_f_report'		=> array('lang' => 'Può effettuare segnalazione messaggi', 'cat' => 'actions'),
 	'acl_f_subscribe'	=> array('lang' => 'Può controllare forum', 'cat' => 'actions'),
 	'acl_f_print'		=> array('lang' => 'Può stampare argomenti', 'cat' => 'actions'),
 	'acl_f_email'		=> array('lang' => 'Può spedire argomenti via e-mail', 'cat' => 'actions'),
@@ -186,14 +186,14 @@ $lang = array_merge($lang, array(
 	'acl_m_merge'	=> array('lang' => 'Può unire argomenti', 'cat' => 'topic_actions'),
 
 	'acl_m_info'	=> array('lang' => 'Può vedere dettagli messaggio', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'Può fare richiami<br /><em>Questa impostazione esiste solo come globale e non localmente su forum.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_warn'	=> array('lang' => 'Può effettuare richiami<br /><em>Questa impostazione esiste solo come globale e non localmente su forum.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 	'acl_m_ban'		=> array('lang' => 'Può gestire ban<br /><em>Questa impostazione esiste solo come globale e non localmente su forum.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
 	'acl_a_board'		=> array('lang' => 'Può modificare impostazioni forum/controllare aggiornamenti', 'cat' => 'settings'),
-	'acl_a_server'		=> array('lang' => 'Può modificare impostazioni server/communicazione', 'cat' => 'settings'),
+	'acl_a_server'		=> array('lang' => 'Può modificare impostazioni server/comunicazione', 'cat' => 'settings'),
 	'acl_a_jabber'		=> array('lang' => 'Può modificare impostazioni Jabber', 'cat' => 'settings'),
 	'acl_a_phpinfo'		=> array('lang' => 'Può vedere impostazioni php', 'cat' => 'settings'),
 
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'acl_a_email'		=> array('lang' => 'Può inviare e-mail generali', 'cat' => 'misc'),
 	'acl_a_bots'		=> array('lang' => 'Può gestire Bot', 'cat' => 'misc'),
 	'acl_a_reasons'		=> array('lang' => 'Può gestire segnalazioni e motivi rifiuti', 'cat' => 'misc'),
-	'acl_a_backup'		=> array('lang' => 'Può fare backup e ripristino del database', 'cat' => 'misc'),
+	'acl_a_backup'		=> array('lang' => 'Può effettuare il backup e il ripristino del database', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Può gestire ricerca e impostazioni', 'cat' => 'misc'),
 ));
 

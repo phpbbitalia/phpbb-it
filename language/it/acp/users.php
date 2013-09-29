@@ -123,6 +123,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_PENDING'			=> 'L’utente del gruppo è impostato in modalità "pendente"',
 	'USER_GROUP_SPECIAL'			=> 'L’utente è membro del gruppo speciale',
 	'USER_LIFTED_NR'                => 'Lo stato di nuovo utente registrato è stato rimosso.',
+	'USER_NO_ATTACHMENTS'			=> 'Non ci sono file allegati da visualizzare.',
 	'USER_NO_POSTS_TO_DELETE'		=> 'L’utente non ha messaggi da conservare o cancellare.',
 	'USER_OUTBOX_EMPTIED'           => 'La casella Messaggi in uscita dell’utente è stata vuotata con successo.',
     'USER_OUTBOX_EMPTY'             => 'La casella Messaggi in uscita dell’utente era già vuota.',

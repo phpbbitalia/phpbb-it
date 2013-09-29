@@ -103,7 +103,7 @@ $help = array(
 	),
 	array(
 		0 => 'Aggiungere allegati nei messaggi',
-		1 => 'Gli allegati possono essere inseriti in qualsiasi punto di un messaggio usando il BBcode <strong>[attachment=][/attachment]</strong>, se la funzionalità degli allegati è stata abilitata da un amministratore e se hai i permessi adeguati. All’interno della schermata di scrittura messaggi è presente un comando per inserire gli allegati all’interno del testo.'
+		1 => 'Gli allegati possono essere inseriti in qualsiasi punto di un messaggio usando il BBCode <strong>[attachment=][/attachment]</strong>, se la funzionalità degli allegati è stata abilitata da un amministratore e se hai i permessi adeguati. All’interno della schermata di scrittura messaggi è presente un comando per inserire gli allegati all’interno del testo.'
 	),
 	array(
 		0 => '--',
@@ -111,7 +111,7 @@ $help = array(
 	),
 	array(
 		0 => 'Posso aggiungere i miei tag personali?',
-		1 => 'Se sei un amministratore di questa Board ed hai permessi adeguati, puoi aggiungere altri BBcode nella sezione BBcode personalizzati.'
+		1 => 'Se sei un amministratore di questa Board ed hai permessi adeguati, puoi aggiungere altri BBCode nella sezione BBCode personalizzati.'
 	)
 );
 

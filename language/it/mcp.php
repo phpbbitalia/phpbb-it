@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-16
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -251,7 +251,7 @@ $lang = array_merge($lang, array(
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'La segnalazione selezionata del MP è stata chiusa.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'La segnalazione selezionata del MP è stata eliminata.',
-	'PM_REPORTED_SUCCESS'		=> 'E’ stata inviata una segnalazione per questo messaggio privato.',
+	'PM_REPORTED_SUCCESS'		=> 'È stata inviata una segnalazione per questo messaggio privato.',
 	'PM_REPORT_TOTAL'			=> 'In totale c’è <strong>1</strong> segnalazione relativa a un MP da visionare.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Le segnalazioni selezionate relative ai MP sono state chiuse con successo.',
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Le segnalazioni selezionate relative ai MP sono state cancellate con successo.',	
@@ -272,7 +272,7 @@ $lang = array_merge($lang, array(
 	'POST_DISAPPROVED_SUCCESS'	=> 'Il messaggio selezionato è stato disapprovato.',
 	'POST_LOCKED_SUCCESS'		=> 'Il messaggio selezionato è stato bloccato.',
 	'POST_NOT_EXIST'			=> 'Il messaggio richiesto non esiste.',
-	'POST_REPORTED_SUCCESS'		=> 'E’ stata inviata una segnalazione per questo messaggio.',
+	'POST_REPORTED_SUCCESS'		=> 'È stata inviata una segnalazione per questo messaggio.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Il messaggio selezionato è stato sbloccato.',
 
 	'READ_USERNOTES'			=> 'Note utente',
@@ -320,14 +320,14 @@ $lang = array_merge($lang, array(
 	'SORT_DATE'							=> 'Data',
 	'SORT_IP'							=> 'Indirizzo IP',
 	'SORT_WARNINGS'						=> 'Richiami',
-	'SPLIT_AFTER'						=> 'Dividi l’argomento dal messaggio selezionato in avanti',
+	'SPLIT_AFTER'						=> 'Dividi il messaggio selezionato dall’argomento da qui in avanti',
 	'SPLIT_FORUM'						=> 'Forum per il nuovo argomento',
 	'SPLIT_POSTS'						=> 'Dividi i messaggi selezionati',
 	'SPLIT_SUBJECT'						=> 'Titolo del nuovo argomento',
-	'SPLIT_TOPIC_ALL'					=> 'Dividi argomento dai messaggi selezionati',
+	'SPLIT_TOPIC_ALL'					=> 'Dividi i messaggi selezionati dall’argomento',
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Sei sicuro di voler dividere questo argomento?',
-	'SPLIT_TOPIC_BEYOND'				=> 'Dividi l’argomento dal messaggio selezionato',
-	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Sei sicuro di voler dividere l’argomento dal messaggio selezionato?',
+	'SPLIT_TOPIC_BEYOND'				=> 'Dividi il messaggio selezionato dall’argomento',
+	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Sei sicuro di voler dividere il messaggio selezionato dall’argomento?',
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando il seguente modulo puoi dividere in due l’argomento, sia selezionando individualmente i messaggi da staccare che selezionando il messaggio da dove iniziare la separazione.',
 	'THIS_PM_IP'				=> 'IP per questo messaggio privato',
 	'THIS_POST_IP'				=> 'IP di questo messaggio',

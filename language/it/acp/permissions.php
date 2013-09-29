@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-10
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Per ulteriori informazioni su parametrizzazione e gestione dei permessi sul tuo phpBB3, leggi <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Capitolo 1.5 della Quick Start Guide</a>.</p>
+		<p>Per ulteriori informazioni su parametrizzazione e gestione dei permessi sul tuo phpBB3, leggi <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Capitolo 1.5 della Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Mai',

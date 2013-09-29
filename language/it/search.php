@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Termine di ricerca usato',
 	'SEARCHED_TOPIC'			=> 'Argomento cercato',
+	'SEARCHED_QUERY'			=> 'Query cercata',
 	'SEARCH_ALL_TERMS'			=> 'Cerca per parola o usa frase esatta',
 	'SEARCH_ANY_TERMS'			=> 'Ricerca qualsiasi termine',
 	'SEARCH_AUTHOR'				=> 'Ricerca per autore',

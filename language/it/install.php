@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Continua la conversione precedentemente iniziata',
 	'CONVERT'					=> 'Converti',
 	'CONVERT_COMPLETE'			=> 'Conversione completata',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Hai convertito correttamente la tua Board a phpBB 3.0. Puoi effettuare il login e <a href="../">accedere alla tua Board</a>. Assicurati che le regolazioni siano state trasferite correttamente prima di cancellare la cartella d’installazione. Ricorda che l’aiuto sull’uso di phpBB è disponibile online con la <a href="http://www.phpbb.com/support/documentation/3.0/">Documentazione</a> ed i <a href="http://www.phpbb.com/community/viewforum.php?f=46">forum di supporto</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Hai convertito correttamente la tua Board a phpBB 3.0. Puoi effettuare il login e <a href="../">accedere alla tua Board</a>. Assicurati che le regolazioni siano state trasferite correttamente prima di cancellare la cartella d’installazione. Ricorda che l’aiuto sull’uso di phpBB è disponibile online con la <a href="https://www.phpbb.com/support/documentation/3.0/">Documentazione</a> ed i <a href="https://www.phpbb.com/community/viewforum.php?f=46">forum di supporto</a>.',
 	'CONVERT_INTRO'				=> 'Benvenuto nel phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'Da qui hai la possibilità di importare dati da altri forum (installati). La lista sottostante mostra tutti i moduli di conversione attualmente disponibili. Se la lista non contiene un convertitore per il software dal quale vuoi prelevare i dati, controlla sul nostro sito dove ulteriori moduli di conversione potrebbero essere disponibili.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nuova conversione',
@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 		<h2>Converti una Board esistente a phpBB3</h2>
 		<p>Il phpBB Unified Convertor Framework supporta la conversione da phpBB 2.0.x e da altre Board a phpBB3. Se possiedi già una Board che desideri convertire allora <a href="%2$s">procedi alla conversione</a>.</p>
 		<h2>Inizia ad usare il tuo phpBB3!</h2>
-		<p>Cliccando il pulsante sottostante accederai ad un modulo del tuo Panello di Controllo Amministratore (PCA) che ti permette di inviare informazioni di carattere statistico a phpBB. Ti saremmo grati se vorrai aiutarci inviandoci queste semplici informazioni. Dopo di questo, ti consigliamo di dedicare un po’ di tempo per esaminare le opzioni disponibili. Ricorda che è disponibile un aiuto online tramite la <a href="http://www.phpbb.com/support/documentation/3.0/">Documentazione</a> e anche presso i <a href="http://www.phpbb.com/community/viewforum.php?f=46">Forum di Supporto</a>, leggi <a href="%3$s">README</a> per ulteriori informazioni.</p><p><strong>Adesso cancella, sposta o rinomina la cartella "install" prima di usare la Board. Se la cartella è ancora presente potrai accedere solo al Pannello di Controllo Amministratore (PCA).</strong></p>',
+		<p>Cliccando il pulsante sottostante accederai ad un modulo del tuo Panello di Controllo Amministratore (PCA) che ti permette di inviare informazioni di carattere statistico a phpBB. Ti saremo grati se vorrai aiutarci inviandoci queste semplici informazioni. Dopo questo, ti consigliamo di dedicare un po’ di tempo per esaminare le opzioni disponibili. Ricorda che è disponibile un aiuto online tramite la <a href="https://www.phpbb.com/support/documentation/3.0/">Documentazione</a> e anche presso i <a href="https://www.phpbb.com/community/viewforum.php?f=46">Forum di Supporto</a>, <a href="%3$s">LEGGI</a> per ulteriori informazioni.</p><p><strong>Adesso cancella, sposta o rinomina la cartella "install" prima di usare la Board. Se la cartella è ancora presente potrai accedere solo al Pannello di Controllo Amministratore (PCA).</strong></p>',
 	'INSTALL_INTRO'				=> 'Benvenuto in phpBB3',
 
 	'INSTALL_INTRO_BODY'		=> 'Con questa opzione è possibile installare phpBB3 sul vostro server.</p><p>Per poter installare phpBB avrai bisogno dei dati di accesso al tuo database, che ti sono stati forniti dal gestore del servizio di hosting. Se non sei in possesso di questi dati NON procedere con l’installazione, scrivi al servizio di posta elettronica del tuo fornitore di hosting chiedendo le chiavi di accesso al database. Sono necessari:</p>
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Assicurati che la cartella esista e sia scrivibile dal webserver e poi riprova:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Assicurati che le cartelle esistano e siano scrivibili dal webserver e poi riprova:<br />»<strong>%s</strong>.',
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'Lo schema del tuo database MySQL database è superato. phpBB ha idividuato uno schema per MySQL 3.x/4.x, mentre il server gira su MySQL %2$s.<br /><strong>Prima di procedere con l’aggiornamento devi effettuare quello dello schema.</strong><br /><br />Segui i riferimenti su <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se incontri problemi, cerca soluzioni o invia il tuo commento sul <a href="http://www.phpbb.com/community/viewforum.php?f=46">nostro forum di supporto</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'Lo schema del tuo database MySQL è superato. phpBB ha individuato uno schema per MySQL 3.x/4.x, mentre il server gira su MySQL %2$s.<br /><strong>Prima di procedere con l’aggiornamento devi effettuare quello dello schema.</strong><br /><br />Segui i riferimenti su <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se incontri problemi, cerca soluzioni o invia il tuo commento sul <a href="https://www.phpbb.com/community/viewforum.php?f=46">nostro forum di supporto</a>.',
 
 	'NAMING_CONFLICT'			=> 'Conflitto di nomi: %s e %s sono entrambi degli alias<br /><br />%s',
 	'NEXT_STEP'					=> 'Procedi al passaggio successivo',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Impossibile determinare l’ubicazione. Se sai che Imagemagick è installato devi specificarne l’ubicazione più tardi nel tuo Pannello di Controllo Amministratore',
 	'NO_TABLES_FOUND'			=> 'Nessuna tabella individuata.',
 
-	'OVERVIEW_BODY'					=> 'Benvenuto su phpBB3!<br /><br />phpBB™ è la soluzione open source per forum più utilizzata al mondo. phpBB3 è la più recente edizione di una storia iniziata nel 2000. Come i suoi predecessori il software di phpBB3 è ricco di nuove caratteristiche, di facile utilizzo e completamente supportato dal Team di phpBB. Sono molti i miglioramenti apportati dalla versione phpBB2, che vanno ad integrare caratteristiche molto richieste e non presenti nella precedente versione. Speriamo che sia anche più di quello che ti aspettavi.<br /><br />Questa procedura guidata è stata studiata per aiutarti durante l’installazione di phpBB3, l’aggiornamento all’ultima versione da precedenti release di phpBB3, ed anche convertire a phpBB3 da altri sistemi di forum di discussione (incluso phpBB2). Per altre informazioni ti suggeriamo di leggere <a href="../docs/INSTALL.html">la guida all’installazione</a>.<br /><br />Per leggere la licenza d’uso di phpBB3 o scoprire come ottenere aiuto e supporto, selezione l’opzione giusta dal menù a lato. Per continuare seleziona in alto la sezione appropriata.',
+	'OVERVIEW_BODY'					=> 'Benvenuto su phpBB3!<br /><br />phpBB® è la soluzione open source per forum più utilizzata al mondo. phpBB3 è la più recente edizione di una storia iniziata nel 2000. Come i suoi predecessori il software di phpBB3 è ricco di nuove caratteristiche, di facile utilizzo e completamente supportato dal Team di phpBB. Sono molti i miglioramenti apportati dalla versione phpBB2, che vanno ad integrare caratteristiche molto richieste e non presenti nella precedente versione. Speriamo che sia anche più di quello che ti aspettavi.<br /><br />Questa procedura guidata è stata studiata per aiutarti durante l’installazione di phpBB3, l’aggiornamento all’ultima versione da precedenti release di phpBB3, ed anche convertire a phpBB3 da altri sistemi di forum di discussione (incluso phpBB2). Per altre informazioni ti suggeriamo di leggere <a href="../docs/INSTALL.html">la guida all’installazione</a>.<br /><br />Per leggere la licenza d’uso di phpBB3 o scoprire come ottenere aiuto e supporto, seleziona l’opzione giusta dal menu a lato. Per continuare seleziona in alto la sezione appropriata.',
 
 	'PCRE_UTF_SUPPORT'				=> 'Supporto PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>non</strong> funzionerà se il tuo PHP non è compilato con supporto UTF-8 nell’estensione PCRE.',
@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
 	'POST_ID'						=> 'ID argomento',
 	'PREFIX_FOUND'					=> 'Una scansione delle tabelle ha visualizzato un’installazione valida utilizzando  <strong>%s</strong> come prefisso tabella.',
 	'PREPROCESS_STEP'				=> 'Esecuzione delle funzioni di pre-elaborazione/query',
-	'PRE_CONVERT_COMPLETE'			=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerose cose. Dopo la conversione controlla sopratutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
+	'PRE_CONVERT_COMPLETE'			=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerose cose. Dopo la conversione controlla soprattutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
 	'PROCESS_LAST'					=> 'Elaborazione delle ultime istruzioni',
 
 	'REFRESH_PAGE'				=> 'Aggiorna pagina per continuare conversione',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'SUB_SUPPORT'				=> 'Supporto',
 	'SUCCESSFUL_CONNECT'		=> 'Connesso con successo',
 
-	'SUPPORT_BODY'				=> 'Supporto gratuito viene fornito per la versione più recente di phpBB3 su phpBB.com (in inglese) e su phpBB.it (in italiano). Questo include problemi relativi a:</p><ul><li>installazione</li><li>configurazione</li><li>questioni tecniche</li><li>possibili bug nel software</li><li>aggiornamento da versioni release candidate (3.0.RCx) all\'ultima versione stabile (3.0.x)</li><li>conversione da phpBB 2.0.x a phpBB3</li><li>conversione da altri software per forum a phpBB3 (vedere in particolare il <a href="http://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a> su phpBB.com)</li></ul><p>Incoraggiamo gli utenti che ancora usino versioni beta di phpBB3 a sostituire interamente le loro installazioni con una copia ex-novo dell\'ultima versione del software (l\'aggiornamento da versioni beta a stabili non è supportato né possibile).</p><h2>MOD / Stili</h2><p>Per questioni relative alle MOD (modifiche al codice), consultate gli appropriati forum su <a href="http://www.phpbb.it/forum/viewforum.php?f=17">phpBB.it</a> o <a href="http://www.phpbb.com/community/viewforum.php?f=81">phpBB.com</a>.<br />Analogamente per gli stili, template e set di immagini, consultate i relativi forum su <a href="http://www.phpbb.it/forum/viewforum.php?f=18">phpBB.it</a> o <a href="http://www.phpbb.com/community/viewforum.php?f=80">phpBB.com</a>.<br /><br />Se le tue domande riguardano una specifica MOD o uno specifico stile, scrivi direttamente nel topic dedicato a quella MOD o a quello stile su phpBB.com.</p><h2>Come ottenere supporto su phpBB.it</h2><p><a href="http://www.phpbb.it/?page_id=4">Guide e FAQ su phpBB3</a><br /><a href="http://www.phpbb.it/forum/index.php">Forum con informazioni e supporto</a>.</p><h2>Come ottenere supporto su phpBB.com (in inglese)</h2><p><a href="http://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Risorse e riferimenti</a><br /><a href="http://www.phpbb.com/support/">Sezione di supporto</a><br /><a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />Per assicurarti di essere aggiornato sulle ultime novità e release, puoi sottoscrivere la <a href="http://www.phpbb.com/support/">mailing list di phpBB.com</a>.<br /><br />',
+	'SUPPORT_BODY'				=> 'Supporto completo viene fornito per la versione più recente di phpBB3 su phpBB.com (in Inglese) e su phpBBItalia.net (in Italiano). Questo include problemi relativi a:</p><ul><li>installazione</li><li>configurazione</li><li>questioni tecniche</li><li>possibili bug nel software</li><li>aggiornamento da versioni release candidate (3.0.RCx) all\'ultima versione stabile (3.0.x)</li><li>conversione da phpBB 2.0.x a phpBB3</li><li>conversione da altri software per forum a phpBB3 (vedere in particolare il <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a> su phpBB.com)</li></ul><p>Incoraggiamo gli utenti che ancora usano versioni beta di phpBB3 a sostituire interamente le loro installazioni con una copia ex-novo dell\'ultima versione del software (l\'aggiornamento da versioni beta a stabili non è supportato).</p><h2>MOD / Stili</h2><p>Per questioni relative alle MOD (modifiche al codice), consultate gli appropriati forum su <a href="http://www.phpbbitalia.net/forum/mods-f9/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=81">phpBB.com</a>.<br />Analogamente per gli stili, template e set di immagini, consultate i relativi forum su <a href="http://www.phpbbitalia.net/forum/stili-f14/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=80">phpBB.com</a>.<br /><br />Se le tue domande riguardano una specifica MOD o uno specifico stile, scrivi direttamente nell’argomento dedicato a quella MOD o a quello stile su phpBB.com.</p><h2>Come ottenere supporto su phpBBItalia.net</h2><p><a href="http://www.phpbbitalia.net/forum/guide-f36/">Guide e FAQ su phpBB3</a><br /><a href="http://www.phpbbitalia.net/forum/forum-di-supporto-f4/">Forum con informazioni e supporto</a>.</p><h2>Come ottenere supporto su phpBB.com (in Inglese)</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Risorse e riferimenti</a><br /><a href="https://www.phpbb.com/support/">Sezione di supporto</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />Per assicurarti di essere aggiornato sulle ultime novità e release, puoi sottoscrivere la <a href="https://www.phpbb.com/support/">mailing list di phpBB.com</a>.<br /><br />',
 	'SYNC_FORUMS'				=> 'Inizio sincronizzazione delle sezioni',
 	'SYNC_POST_COUNT'			=> 'Sincronizzazione totale messaggi',
 	'SYNC_POST_COUNT_ID'		=> 'Sincronizzazione totale messaggi dalla <var>voce</var> %1$s alla %2$s.',
@@ -398,7 +398,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'Versione attuale',
 
 	'DATABASE_TYPE'						=> 'Tipo di database',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'Il file di aggiornamento del database contenuto all’interno della directory di installazione è obsoleto. Assicurati di aver caricato la versione corretta del file.',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'Il file di aggiornamento del database contenuto all’interno della cartella di installazione è obsoleto. Assicurati di aver caricato la versione corretta del file.',
 	'DELETE_USER_REMOVE'				=> 'Cancella utente e rimuovi i messaggi',
 	'DELETE_USER_RETAIN'				=> 'Cancella utente ma non i messaggi',
 	'DESTINATION'						=> 'Destinazione del file',
@@ -470,8 +470,8 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_UPDATE'				=> 'Non autorizzato ad aggiornare ',
 	'NO_ERRORS'						=> 'Nessun errore',
 	'NO_UPDATE_FILES'				=> 'Non aggiornare i seguenti file ',
-	'NO_UPDATE_FILES_EXPLAIN'		=> 'I seguenti file sono nuovi o modificati ma la directory in cui normalmente risiedono potrebbe non essere raggiungibile nella tua installazione. Se questa lista contiene file diversi da language/ o styles/ allora devi aver modificato la struttura della tua directory e l’aggiornamento potrebbe essere incompleto.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'Non è stata trovata alcuna directory di aggiornamento valida, assicurati di aver caricato i file relativi.<br /><br />La tua installazione sembra <strong>non</strong> essere aggiornata. Gli aggiornamenti per la tua versione di phpBB sono disponibili %1$s, visita <a href="http://www.phpbb.com/downloads/" rel="external">http://www.phpbb.com/downloads/</a> per scaricare il pacchetto corretto per aggiornare dalla Versione %2$s alla Versione %3$s.',
+	'NO_UPDATE_FILES_EXPLAIN'		=> 'I seguenti file sono nuovi o modificati ma la cartella in cui normalmente risiedono potrebbe non essere raggiungibile nella tua installazione. Se questa lista contiene file diversi da language/ o styles/ allora devi aver modificato la struttura della tua cartella e l’aggiornamento potrebbe essere incompleto.',
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Non è stata trovata alcuna cartella di aggiornamento valida, assicurati di aver caricato i file relativi.<br /><br />La tua installazione sembra <strong>non</strong> essere aggiornata. Gli aggiornamenti per la tua versione di phpBB sono disponibili %1$s, visita <a href="https://www.phpbb.com/downloads/" rel="external">https://www.phpbb.com/downloads/</a> per scaricare il pacchetto corretto per aggiornare dalla Versione %2$s alla Versione %3$s.',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'La tua versione è aggiornata. Non c’è bisogno di eseguire il tool per l’aggiornamento. Se desideri eseguire un controllo sull’integrità dei tuoi file assicurati di aver caricato i file di aggiornamento corretti.',
 	'NO_UPDATE_INFO'				=> 'Le informazioni dei file di aggiornamento non sono state trovate.',
 	'NO_UPDATES_REQUIRED'			=> 'Nessun aggiornamento richiesto',
@@ -530,7 +530,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Annuncio di rilascio</h1>
 
-		<p>Leggi <a href="%1$s" title="%1$s"><strong>l’annuncio di rilascio dell’ultima versione</strong></a> prima di continuare il processo di aggiornamento, può contenere informazioni utili. E’ inoltre presente il collegamento al full-download ed allo storico dei cambiamenti.</p>
+		<p>Leggi <a href="%1$s" title="%1$s"><strong>l’annuncio di rilascio dell’ultima versione</strong></a> prima di continuare il processo di aggiornamento, può contenere informazioni utili. È inoltre presente il collegamento al full-download ed allo storico dei cambiamenti.</p>
 
 		<br />
 
@@ -539,7 +539,7 @@ $lang = array_merge($lang, array(
 		<p>Le raccomandazioni per procedere con l’aggiornamento qui riportate sono valide solo per il pacchetto di aggiornamento automatico. Puoi aggiornare la tua installazione anche con altri metodi e li trovi elencati nel file INSTALL.html. La procedura per aggiornare automaticamente phpBB è:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vai alla <a href="http://www.phpbb.com/downloads/" title="http://www.phpbb.com/downloads/">pagina di download di phpBB.com</a> e scarica il Pacchetto di Aggiornamento Automatico (Automatic Update Package).<br /><br /></li>
+			<li>Vai alla <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">pagina di download di phpBB.com</a> e scarica il Pacchetto di Aggiornamento Automatico (Automatic Update Package).<br /><br /></li>
 			<li>Decomprimi archivio.<br /><br /></li>
 			<li>Invia le parti decompresse complete della cartella install alla radice del tuo phpBB (ovvero dove si trova il file config.php).<br /><br /></li>
 		</ul>
@@ -591,7 +591,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT_INSTALL_POST'			=> 'Questo è un messaggio di esempio nella tua installazione di phpBB3. Ogni cosa sembra funzionare. Se vuoi, puoi cancellare questo messaggio e continuare a configurare il tuo forum. Durante il processo di installazione, alla tua prima categoria e al tuo primo forum è stato assegnato un opportuno set di permessi per i gruppi predefiniti (amministratori, bot, moderatori globali, ospiti, utenti registrati, utenti COPPA). Se decidi di cancellare il primo forum e la prima categoria, ricordati di assegnare i permessi a tutti questi gruppi per ogni categoria e ogni forum che viene creato. Raccomandiamo di rinominare la tua prima categoria e il tuo primo forum e di copiare i permessi da questi quando si creano nuove categorie e nuovi forum. Buon divertimento!',
 
-	'FORUMS_FIRST_CATEGORY'			=> 'La tua prima Categoria',
+	'FORUMS_FIRST_CATEGORY'			=> 'La tua prima categoria',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Descrizione del tuo primo forum.',
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Il tuo primo forum',
 

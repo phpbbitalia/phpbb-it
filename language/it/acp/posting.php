@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-14
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-30
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'La definizione del tag inserita è troppo lunga, riduci tale definizione.',
 	'BBCODE_USAGE'				=> 'Uso del BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Qui definisci come usare il BBcode. Ogni variabile di input deve essere sostituita dal simbolo corrispondente (%svedi sotto%s).',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Qui definisci come usare il BBCode. Ogni variabile di input deve essere sostituita dal simbolo corrispondente (%svedi sotto%s).',
 
 	'EXAMPLE'						=> 'Esempio:',
 	'EXAMPLES'						=> 'Esempi:',
@@ -82,7 +82,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Una serie di cifre',
 		'EMAIL'			=> 'Indirizzo e-mail valido',
 		'URL'			=> 'Un URL valido usando qualsiasi protocollo (http, ftp, etc… non possono essere usati a causa di exploit javascript). Se non è definito, &quot;http://&quot; verrà aggiunto davanti alla stringa.',
-		'LOCAL_URL'		=> 'Un URL locale. L’URL deve essere relativo alla pagina in cui si trova l’argomento e non può contenere il nome del server, né un protocollo.',
+		'LOCAL_URL'		=> 'Un URL locale. L’URL deve essere relativo alla pagina in cui si trova l’argomento e non può contenere il nome del server, né un protocollo; i link relativi vengono preceduti da “%s”',
+		'RELATIVE_URL'	=> 'Un URL relativo. È possibile utilizzarlo per abbinare le parti di un URL, ma attenzione: un URL completo, è un URL relativo valido. Quando vuoi utilizzare un URL relativo nella tua Board, utilizza il segnaposto LOCAL_URL.',
 		'COLOR'			=> 'Un colore definito per HTML, sia in forma numerica <samp>#FF1234</samp> o un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">colore con chiave CSS</a> tipo <samp>fuchsia</samp> o <samp>InactiveBorder</samp>'
 	)
 ));

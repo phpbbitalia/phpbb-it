@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-10
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Questa pagina elenca informazioni della versione PHP installata su questo server. Include dettagli di moduli caricati, variabili disponibili ed impostazioni predefinite. Queste informazioni possono essere utili quando si riscontrano dei problemi. Siate consapevoli che alcune società di hosting limitano le informazioni mostrate per ragioni di sicurezza. Non fornire alcun dettaglio riportato in questa pagina eccetto quando richiesto dal <a href="http://www.phpbb.com/about/team/">team di supporto ufficiale</a> o dai forum di supporto internazionali.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Questa pagina elenca informazioni sulla versione PHP installata in questo server. Include dettagli di moduli caricati, variabili disponibili ed impostazioni predefinite. Queste informazioni possono essere utili quando si riscontrano dei problemi. Siate consapevoli che alcune società di hosting limitano le informazioni mostrate per ragioni di sicurezza. Non fornire alcun dettaglio riportato in questa pagina eccetto quando richiesto dal <a href="https://www.phpbb.com/about/team/">team di supporto ufficiale</a> o dai Forum di supporto internazionali.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Le informazioni sul PHP non sono disponibili. Phpinfo() è stato disabilitato per ragioni di sicurezza.',
 ));
@@ -406,7 +406,7 @@ $lang = array_merge($lang, array(
 
 	'NO_INACTIVE_USERS'	=> 'Non sono presenti utenti non attivi',
 
-	'SORT_INACTIVE'		=> 'Data inattivà',
+	'SORT_INACTIVE'		=> 'Data inattività',
 	'SORT_LAST_VISIT'	=> 'Ultimo accesso',
 	'SORT_REASON'		=> 'Motivo',
 	'SORT_REG_DATE'		=> 'Data di iscrizione',
@@ -513,7 +513,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_VISUAL'			=> '<strong>Impostazioni contromisure spambot modificate</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Argomenti approvati</strong><br />» %s',
-	'LOG_BUMP_TOPIC'			=> '<strong>Argomenti utenti bumped</strong><br />» %s',
+	'LOG_BUMP_TOPIC'			=> '<strong>Bump argomento eseguito su</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Messaggi cancellati</strong><br />» %s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>Argomenti ombra cancellati</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Argomenti cancellati</strong><br />» %s',

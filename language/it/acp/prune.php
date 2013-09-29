@@ -48,19 +48,19 @@ $lang = array_merge($lang, array(
 
 	'JOINED_EXPLAIN'			=> 'Inserisci una data nel formato <kbd>AAAA-MM-GG</kbd>.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Inserisci una data nel formato <kbd>AAAA-MM-GG</kbd>. Inserisci <kbd>0000-00-00</kbd> per cancellare gli utenti che non hanno mai effettuato un accesso; <em>Prima</em> e <em>Dopo</em> non sono prese in considerazione.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'Inserisci una data nel formato <kbd>AAAA-MM-GG</kbd>. Inserisci <kbd>0000-00-00</kbd> per cancellare gli utenti che non hanno mai effettuato un accesso; <em>Prima</em> e <em>Dopo</em> non sono presi in considerazione.',
 
 	'PRUNE_USERS_LIST'				=> 'Lista utenti soggetti a cancellazione',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Con il criterio di scelta impostato, i seguenti account saranno rimossi.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Con il criterio di scelta impostato, i seguenti account saranno disattivati.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Inserisci qui i nomi utente prescelti; saranno usati in alternativa ai criteri di scelta qui sopra. I fondatori non possono essere cancellati.',
+	'SELECT_USERS_EXPLAIN'		=> 'Inserisci qui i nomi utente prescelti; saranno usati in alternativa ai criteri di scelta sopra indicati. I fondatori non possono essere cancellati.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Gli utenti selezionati sono stati disattivati.',
 	'USER_DELETE_SUCCESS'		=> 'Gli utenti selezionati sono stati cancellati.',
 	'USER_PRUNE_FAILURE'		=> 'Nessun utente selezionato con questo criterio di scelta.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'La data inserita non è corretta, il formato corretto è <kbd>YYYY-MM-DD</kbd>.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'La data inserita non è corretta, il formato corretto è <kbd>AAAA-MM-GG</kbd>.',
 ));
 
 // Forum Pruning

@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-01
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Qui puoi impostare le funzioni base della tua Board, dargli un nome appropriato ed una descrizione adeguata. Fra le altre opzioni puoi regolare i valori predefiniti per il fuso orario e per la lingua.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Qui puoi impostare le funzioni base della tua Board, darle un nome appropriato ed una descrizione adeguata. Fra le altre opzioni puoi regolare i valori predefiniti per il fuso orario e per la lingua.',
 	'CUSTOM_DATEFORMAT'				=> 'Personalizzato…',
 	'DEFAULT_DATE_FORMAT'			=> 'Formato della data',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Il formato data è lo stesso della funzione <code>data</code> del PHP.',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Fuso orario ospite',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fuso orario da utilizzare per la visualizzazione degli utenti che non sono loggati (ospiti, ma anche Bot). Gli utenti loggati possono scegliere il fuso orario in fase di registrazione e possono modificarlo nel proprio Pannello di Controllo Utente.',
 	'WARNINGS_EXPIRE'				=> 'Durata del richiamo',
-	'WARNINGS_EXPIRE_EXPLAIN'       => 'Numero di giorni che devono trascorrere prima che il richiamo sia cancellato automaticamente dal profilo di un utente. Imposta questo valore su 0 per rendere permanenti i richiami.', 
+	'WARNINGS_EXPIRE_EXPLAIN'       => 'Numero di giorni che devono trascorrere prima che un richiamo sia cancellato automaticamente dal profilo di un utente. Imposta questo valore su 0 per rendere permanenti i richiami.', 
 ));
 
 // Board Features
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_FLASH'			=> 'Abilita l’uso del BBCode <code>[FLASH]</code> nelle firme degli utenti',
 	'ALLOW_SIG_IMG'				=> 'Abilita l’uso del BBCode <code>[IMG]</code> nelle firme degli utenti',
 	'ALLOW_SIG_LINKS'			=> 'Abilita l’inserimento di collegamenti nelle firme degli utenti',
-	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Se disabilitato, il BBcode <code>[URL]</code> e gli URL automatici non sono attivi.',
+	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Se disabilitato, il BBCode <code>[URL]</code> e gli URL automatici non sono attivi.',
 	'ALLOW_SIG_SMILIES'			=> 'Abilita l’inserimento delle emoticon nelle firme degli utenti',
 	'ALLOW_SMILIES'				=> 'Abilita le emoticon',
 	'ALLOW_TOPIC_NOTIFY'		=> 'Abilita la sottoscrizione agli argomenti',
@@ -120,10 +120,10 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS_EXPLAIN'		=> 'Da qui puoi impostare tutte le funzioni predefinite per i messaggi privati.',
 
 	'ALLOW_BBCODE_PM'			=> 'Abilita BBCode nei messaggi privati',
-	'ALLOW_FLASH_PM'			=> 'Abilita l’uso del tag BBcode <code>[FLASH]</code> nei messaggi privati',
+	'ALLOW_FLASH_PM'			=> 'Abilita l’uso del tag BBCode <code>[FLASH]</code> nei messaggi privati',
 	'ALLOW_FLASH_PM_EXPLAIN'	=> 'La possibilità di utilizzare il tag flash nei messaggi privati, anche se qui abilitata, dipende dalla gestione permessi.',
 	'ALLOW_FORWARD_PM'			=> 'Abilita messaggi privati',
-	'ALLOW_IMG_PM'				=> 'Abilita l’uso del tag BBcode <code>[IMG]</code>',
+	'ALLOW_IMG_PM'				=> 'Abilita l’uso del tag BBCode <code>[IMG]</code>',
 	'ALLOW_MASS_PM'				=> 'Abilita invio di messaggi privati a utenti multipli ed a gruppi',
 	'ALLOW_MASS_PM_EXPLAIN'     => 'L’opzione di invio ai gruppi può essere modificata per singolo gruppo nella pagina di impostazioni del gruppo stesso.',
 	'ALLOW_PRINT_PM'			=> 'Abilita la versione stampabile dei messaggi privati',
@@ -148,9 +148,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Qui puoi regolare tutte le impostazioni predefinite per i messaggi.',
 	'ALLOW_POST_LINKS'					=> 'Abilita i collegamenti nei messaggi pubblici e nei messaggi privati',
-	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Se disabilitato, il BBcode <code>[URL]</code> e gli URL automatici sono disabilitati.',
+	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Se disabilitato, il BBCode <code>[URL]</code> e gli URL automatici sono disabilitati.',
 	'ALLOW_POST_FLASH'					=> 'Abilita l’uso del BBCode <code>[FLASH]</code> nei messaggi',
-	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Se disabilitato, il BBcode <code>[FLASH]</code> non sarà abilitato nei messaggi. In alternativa il sistema dei permessi controlla quali utenti possono usare il tag BBCode <code>[FLASH]</code>.',
+	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Se disabilitato, il BBCode <code>[FLASH]</code> non sarà abilitato nei messaggi. In alternativa il sistema dei permessi controlla quali utenti possono usare il tag BBCode <code>[FLASH]</code>.',
 	
 	'BUMP_INTERVAL'					=> 'Intervallo del bump',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Numero di minuti, ore o giorni trascorsi fra l’ultimo messaggio di un argomento e la possibilità di spostarlo in cima. Impostando su 0 si disabilita questa funzione.',
@@ -216,9 +216,9 @@ $lang = array_merge($lang, array(
     'NEW_MEMBER_GROUP_DEFAULT'  => 'Imposta il gruppo Nuovi Utenti Registrati come predefinito',
     'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'=> 'Se impostato su Sì ed è impostato il numero minimo di messaggi, i nuovi utenti registrati saranno non solo assegnati automaticamente al gruppo <em>Nuovi Utenti Registrati</em>, ma questo diventerà il loro gruppo predefinito. Questo risulta comodo se si vuole assegnare un livello di gruppo o avatar predefinito, che il nuovo utente quindi si vedrà assegnato.',
 	'ACC_ADMIN'					=> 'Amministratore',
-	'ACC_DISABLE'				=> 'Disabilita la registrazione<br />',
-	'ACC_NONE'					=> 'Nessuna attivazione (accesso immediato)<br />',
-	'ACC_USER'					=> 'Utente (e-mail di verifica)<br />',
+	'ACC_DISABLE'				=> 'Disabilita la registrazione',
+	'ACC_NONE'					=> 'Nessuna attivazione (accesso immediato)',
+	'ACC_USER'					=> 'Utente (e-mail di verifica)',
 //	'ACC_USER_ADMIN'			=> 'Utente + Amministratore',
 	'ALLOW_EMAIL_REUSE'			=> 'Consenti riutilizzo indirizzo e-mail',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Abilitando questa funzione si consente a utenti diversi di registrarsi con lo stesso indirizzo e-mail.',
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 	'LDAP_DN'						=> '<var>dn</var> a base LDAP',
 	'LDAP_DN_EXPLAIN'				=> 'Questo è il Distinguished Name che localizza le informazioni utente, es. <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'Attributo e-mail LDAP',
-	'LDAP_EMAIL_EXPLAIN'			=> 'Imposta con il nome del tuo accesso e-mail (se ne esite uno) in modo da impostare automaticamente gli indirizzi e-mail dei nuovi utenti. Lasciando vuoto risulterà un campo indirizzo e-mail vuoto per gli utenti che fanno log in per la prima volta.',
+	'LDAP_EMAIL_EXPLAIN'			=> 'Imposta con il nome del tuo accesso e-mail (se ne esiste uno) in modo da impostare automaticamente gli indirizzi e-mail dei nuovi utenti. Lasciando vuoto risulterà un campo indirizzo e-mail vuoto per gli utenti che fanno log in per la prima volta.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Connessione al server LDAP fallita con user/password specificati.',
 	'LDAP_NO_EMAIL'					=> 'L’attributo e-mail specificato non esiste.',
 	'LDAP_NO_IDENTITY'				=> 'Impossibile trovare identità di connessione per %s.',
@@ -455,7 +455,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASS_CHANGE'				=> 'Forza cambio password',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Richiede all’utente di cambiare la propria password dopo un determinato numero di giorni. Impostando 0 si disabilita l’opzione.',
 	'FORM_TIME_MAX'					=> 'Tempo massimo per inviare il form',
-	'FORM_TIME_MAX_EXPLAIN'			=> 'Tempo massimo per inviare il form. Usa -1 per disattivare. NB. il form potrebbe diventare nullo se la sessione scade, indipendentemente da questa impostazione.',
+	'FORM_TIME_MAX_EXPLAIN'			=> 'Tempo massimo per inviare il form. Usa -1 per disattivare. NB: il form potrebbe diventare nullo se la sessione scade, indipendentemente da questa impostazione.',
 	'FORM_SID_GUESTS'				=> 'Associa i moduli alle sessioni degli ospiti',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Se abilitato, il token del modulo emesso per gli ospiti avrà valore sulla singola sessione (session-exclusive). Questo potrebbe causare alcuni problemi con alcuni ISP.',
 	'FORWARDED_FOR_VALID'			=> 'Convalida l’intestazione <var>X_FORWARDED_FOR</var>',
@@ -483,7 +483,7 @@ $lang = array_merge($lang, array(
     'REFERER_VALID'                 => 'Valida referer',
     'REFERER_VALID_EXPLAIN'         => 'Se abilitato, il referer delle richieste dell’argomento sarà controllato sui parametri di host e percorso script. Questo potrebbe causare problemi con Board che usano più domini o login esterni.',
 	'TPL_ALLOW_PHP'					=> 'Permetti php negli stili',
-	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se queste opzioni sono disabilitate, <code>PHP</code> e <code>INCLUDEPHP</code> , le dichiarazioni saranno riconosciute ed analizzate negli stili.',
+	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se impostato su Sì, le dichiarazioni <code>PHP</code> e <code>INCLUDEPHP</code>, saranno riconosciute ed analizzate negli stili.',
 ));
 
 // Email Settings

@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-11-21
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-08-06
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -60,7 +60,7 @@ $help = array(
 		1 => 'Innanzitutto controlla di aver inserito nome utente e password esattamente. Se sono corretti, allora possono esser successe un paio di cose: se il supporto «registrazione minore» è abilitato e hai cliccato su <em>Ho meno di 13 anni</em> mentre ti stavi registrando, allora devi seguire le istruzioni che hai ricevuto. Se questo non è il tuo caso, forse devi attivare il tuo account. Alcune Board richiedono che tutte le nuove registrazioni vengano attivate dall’utente stesso o dagli amministratori, prima di poter accedere. Quando ti registri ti verrà indicato che tipo di attivazione è richiesta. Se ti è stato inviato un messaggio di posta, allora segui le istruzioni; se non hai ricevuto nessun messaggio... sei sicuro che il tuo indirizzo di posta sia valido? (L’attivazione via posta serve a ridurre la possibilità di avere utenti anonimi che abusano della Board.) Se sei sicuro che l’indirizzo di posta che hai usato sia corretto, allora prova a contattare un amministratore.'
 	),
 	array(
-		0 => 'Mi sono registrato tempo fa, ma non riesco piú a connettermi?!',
+		0 => 'Mi sono registrato tempo fa, ma non riesco più a connettermi?!',
 		1 => 'È possibile che un amministratore abbia cancellato o disattivato il tuo account per qualche ragione. Molti siti rimuovono periodicamente gli account degli utenti che non hanno mai inviato messaggi, per ridurre la grandezza del database. Se il motivo è quest’ultimo registrati nuovamente e cerca di farti coinvolgere maggiormente nelle discussioni.'
 	),
 	array(
@@ -85,7 +85,7 @@ $help = array(
 	),
 	array(
 		0 => 'L’ora non è corretta!',
-		1 => 'L’ora è quasi sicuramente corretta, comunque l’ora che stai vedendo potrebbe essere quella di un fuso orario differente dal tuo. Se cosí fosse, devi cambiare le impostazioni del tuo profilo per il fuso orario e farlo coincidere con la tua area, es. London, Paris, New York, Sydney, ecc. Nota che solo gli utenti registrati possono cambiare il fuso orario e molte impostazioni.'
+		1 => 'L’ora è quasi sicuramente corretta, comunque l’ora che stai vedendo potrebbe essere quella di un fuso orario differente dal tuo. Se così fosse, devi cambiare le impostazioni del tuo profilo per il fuso orario e farlo coincidere con la tua area, es. London, Paris, New York, Sydney, ecc. Nota che solo gli utenti registrati possono cambiare il fuso orario e molte impostazioni.'
 	),
 	array(
 		0 => 'Ho cambiato il fuso orario ma l’ora è ancora sbagliata!',
@@ -97,11 +97,11 @@ $help = array(
 	),
 	array(
 		0 => 'Come posso mostrare un’immagine sotto il mio nome utente?',
-		1 => 'Ci possono essere due immagini sotto un nome utente quando si leggono i messaggi. La prima è l’immagine associata al tuo grado, generalmente ha la forma di stelle, blocchi o punti che indicano quanti interventi hai scritto o il tuo livello. Sotto può esserci un’immagine piú grande nota come avatar, che in genere è unica e specifica per ogni utente. L’amministratore decide se abilitare o meno gli avatar e decide anche il modo in cui gli avatar sono messi a disposizione. Se non ti è concesso l’uso degli avatar, allora è una decisione dell’amministrazione, e devi chiedere a questa le ragioni.'
+		1 => 'Ci possono essere due immagini sotto un nome utente quando si leggono i messaggi. La prima è l’immagine associata al tuo grado, generalmente ha la forma di stelle, blocchi o punti che indicano quanti interventi hai scritto o il tuo livello. Sotto può esserci un’immagine più grande nota come avatar, che in genere è unica e specifica per ogni utente. L’amministratore decide se abilitare o meno gli avatar e decide anche il modo in cui gli avatar sono messi a disposizione. Se non ti è concesso l’uso degli avatar, allora è una decisione dell’amministrazione, e devi chiedere a questa le ragioni.'
 	),
 	array(
 		0 => 'Come cambio il mio livello?',
-		1 => 'In genere, non puoi cambiare direttamente il nome del tuo livello (i gradi compaiono sotto al tuo nome utente nei messaggi e nel tuo profilo, a seconda dello stile che stai usando). Molti adottano i livelli per indicare il numero di interventi che hai scritto e per identificare certi utenti; ad es., moderatori e amministratori possono avere un grado specifico. Per favore non abusare inviando interventi non necessari solo per aumentare il tuo livello; se fai cosí, i moderatori o l’amministratore probabilmente abbasseranno il numero dei tuoi interventi.'
+		1 => 'In genere, non puoi cambiare direttamente il nome del tuo livello (i gradi compaiono sotto al tuo nome utente nei messaggi e nel tuo profilo, a seconda dello stile che stai usando). Molti adottano i livelli per indicare il numero di interventi che hai scritto e per identificare certi utenti; ad es., moderatori e amministratori possono avere un grado specifico. Per favore non abusare inviando interventi non necessari solo per aumentare il tuo livello; se fai così, i moderatori o l’amministratore probabilmente abbasseranno il numero dei tuoi interventi.'
 	),
 	array(
 		0 => 'Perché quando clicco sul collegamento all’indirizzo di posta di un utente mi chiede di accedere come utente registrato?',
@@ -197,7 +197,7 @@ $help = array(
    ), 
    array( 
       0 => 'Cosa sono gli argomenti chiusi?', 
-      1 => 'Gli argomenti possono venire chiusi dai moderatori o dall’amministratore. Non è possibile rispondere ad un argomento chiuso cosí come i sondaggi chiusi terminano automaticamente. Un argomento può venir chiuso per varie ragioni, ad es. se contravviene ai Termini di Utilizzo.' 
+      1 => 'Gli argomenti possono venire chiusi dai moderatori o dall’amministratore. Non è possibile rispondere ad un argomento chiuso così come i sondaggi chiusi terminano automaticamente. Un argomento può venir chiuso per varie ragioni, ad es. se contravviene ai Termini di Utilizzo.' 
    ), 
    array( 
       0 => 'Che cosa sono le icone argomenti?', 
@@ -214,7 +214,7 @@ $help = array(
    ), 
    array( 
       0 => 'Cosa sono gli amministratori?', 
-      1 => 'Gli amministratori sono gli utenti che hanno il piú alto grado di controllo sull’intera Board; possono controllare qualsiasi elemento, inclusi i permessi, la disabilitazione (o «ban») degli utenti, la creazione di moderatori e gruppi di utenti, ecc. Inoltre, possono moderare tutti i forum.' 
+      1 => 'Gli amministratori sono gli utenti che hanno il più alto grado di controllo sull’intera Board; possono controllare qualsiasi elemento, inclusi i permessi, la disabilitazione (o «ban») degli utenti, la creazione di moderatori e gruppi di utenti, ecc. Inoltre, possono moderare tutti i forum.' 
    ), 
    array( 
       0 => 'Cosa sono i moderatori?', 
@@ -222,7 +222,7 @@ $help = array(
    ), 
    array( 
       0 => 'Cosa sono i gruppi di utenti?', 
-      1 => 'I gruppi permettono agli amministratori di riunire gli utenti. Ogni utente può appartenere a piú gruppi e a ogni gruppo possono venire assegnati diversi permessi. Questo facilita l’amministratore nelle operazioni di creazione di moderatori per un forum, o di concessione di permessi per un forum privato, ecc.' 
+      1 => 'I gruppi permettono agli amministratori di riunire gli utenti. Ogni utente può appartenere a più gruppi e a ogni gruppo possono venire assegnati diversi permessi. Questo facilita l’amministratore nelle operazioni di creazione di moderatori per un forum, o di concessione di permessi per un forum privato, ecc.' 
    ), 
    array( 
       0 => 'Dove trovo i gruppi e come posso far parte di uno di essi?', 
@@ -234,11 +234,11 @@ $help = array(
    ), 
    array( 
       0 => 'Perché alcuni gruppi di utenti appaiono in colori differenti?', 
-      1 => 'È possibile per l’amministratore del forum assegnare un colore ai membri di un gruppo per rendere piú semplice identificarli.' 
+      1 => 'È possibile per l’amministratore del forum assegnare un colore ai membri di un gruppo per rendere più semplice identificarli.' 
    ), 
    array( 
       0 => 'Che cos’è un gruppo di utenti predefinito?', 
-      1 => 'Se sei membro di piú di un gruppo di utenti, quello impostato come predefinito determina il colore e quali permessi di gruppo sono attivi. L’amministratore può permetterti di modificare il tuo gruppo di utenti predefinito dal Pannello di Controllo Utente.' 
+      1 => 'Se sei membro di più di un gruppo di utenti, quello impostato come predefinito determina il colore e quali permessi di gruppo sono attivi. L’amministratore può permetterti di modificare il tuo gruppo di utenti predefinito dal Pannello di Controllo Utente.' 
    ), 
    array( 
       0 => 'Che cos’è il collegamento “Staff”?', 
@@ -282,11 +282,11 @@ $help = array(
    ), 
    array( 
       0 => 'Perché la mia ricerca non dà risultati?', 
-      1 => 'Probabilmente la tua ricerca è troppo vaga e include dei termini troppo comuni che non sono indicizzati da phpBB3. Sii piú specifico e usa le opzioni disponibili nella ricerca avanzata.' 
+      1 => 'Probabilmente la tua ricerca è troppo vaga e include dei termini troppo comuni che non sono indicizzati da phpBB3. Sii più specifico e usa le opzioni disponibili nella ricerca avanzata.' 
    ), 
    array( 
       0 => 'Perché la mia ricerca dà come risultato una pagina vuota?', 
-      1 => 'La tua ricerca ha dato troppi risultati per le capacità di calcolo del server. Usa la ricerca avanzata e sii piú specifico nella tua scelta dei termini da ricercare e dei forum in cui cercare.' 
+      1 => 'La tua ricerca ha dato troppi risultati per le capacità di calcolo del server. Usa la ricerca avanzata e sii più specifico nella tua scelta dei termini da ricercare e dei forum in cui cercare.' 
    ), 
    array( 
       0 => 'Come posso cercare un utente?', 
@@ -330,16 +330,15 @@ $help = array(
    ), 
    array( 
       0 => 'Chi ha scritto questo programma?', 
-      1 => 'Questo programma (nella sua forma originale) è prodotto e rilasciato da <a href="http://www.phpbb.com/">phpBB Group</a>, che ne detiene anche il brevetto. È reso disponibile sotto la GNU General Public Licence e può essere liberamente distribuito; clicca sul collegamento per maggiori informazioni.' 
+      1 => 'Questo programma (nella sua forma originale) è prodotto e rilasciato da <a href="https://www.phpbb.com/">phpBB Group</a>, che ne detiene anche il brevetto. È reso disponibile sotto la GNU General Public Licence e può essere liberamente distribuito; clicca sul collegamento per maggiori informazioni.' 
    ), 
    array( 
       0 => 'Perché la caratteristica X non è disponibile?', 
-      1 => 'Questo programma è stato scritto da phpBB Group. Se credi che ci sia bisogno di aggiungere una nuova funzionalità, o vuoi segnalare un errore, visita il sito <a href="http://area51.phpbb.com/">Area51</a>, dove potrai farlo.' 
+      1 => 'Questo programma è stato scritto da phpBB Group. Se credi che ci sia bisogno di aggiungere una nuova funzionalità, visita il sito <a href="https://area51.phpbb.com/">Area51</a>, dove potrai supportare idee esistenti o suggerire nuove funzionalità.' 
    ), 
    array( 
       0 => 'Chi devo contattare per segnalare abusi e/o per questioni d’ordine legale concernenti questa Board?', 
       1 => 'Devi contattare l’amministratore di questa Board. Se non riesci a trovarlo, prova a contattare uno dei moderatori e chiedi a chi puoi rivolgerti. Se ancora non ottieni risposta, puoi contattare il proprietario del dominio (fai una ricerca con <em>whois</em>) oppure, se la Board è ospitata da un servizio gratuito (ad es. yahoo, free.fr, f2s.com, ecc.), l’amministratore di tale servizio. Nota che il phpBB Group non ha assolutamente alcun controllo e non può essere ritenuto responsabile di come, dove e da chi viene utilizzata questa Board. È assolutamente inutile contattare il phpBB Group in relazione a qualsiasi questione legale non direttamente collegata al sito phpbb.com o al software phpBB stesso. I messaggi di posta elettronica inviati al phpBB Group riguardanti l’uso da parte di terzi di questo programma non riceveranno risposta.' 
    ) 
 ); 
-
 ?>

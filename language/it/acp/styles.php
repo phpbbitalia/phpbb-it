@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 
 	'IMG_TOPIC_UNREAD'				=> 'Argomento con messaggi da leggere',
 	'IMG_TOPIC_UNREAD_MINE'			=> 'Argomento inviato da leggere',
-	'IMG_TOPIC_UNREAD_HOT'			=> 'Angomento popolare con messaggi da leggere',
+	'IMG_TOPIC_UNREAD_HOT'			=> 'Argomento popolare con messaggi da leggere',
 	'IMG_TOPIC_UNREAD_HOT_MINE'		=> 'Argomento popolare inviato da leggere',
 	'IMG_TOPIC_UNREAD_LOCKED'		=> 'Argomento bloccato da leggere',
 	'IMG_TOPIC_UNREAD_LOCKED_MINE'	=> 'Argomento bloccato inviato da leggere',

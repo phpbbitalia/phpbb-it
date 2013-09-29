@@ -13,7 +13,7 @@ Password: {PASSWORD}
 URL: {U_BOARD}
 ----------------------------
 
-Altre informazioni sulla tua installazione phpBB le trovi nella cartella docs e sulla pagina di supporto di phpBB.com - http://www.phpbb.com/support/
+Altre informazioni sulla tua installazione phpBB le trovi nella cartella docs e sulla pagina di supporto di phpBB.com - https://www.phpbb.com/support/
 
 Per tenere in perfetta sicurezza il sistema, ti suggeriamo caldamente di mantenerti aggiornato con le release del software, cosa semplice da fare con l'iscrizione alla mailing list di phpBB.com.
 

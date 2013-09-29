@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-16
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-22
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_DELETING_INDEX'				=> 'Continua il precedente processo di cancellazione indirizzo',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Avviato processo di cancellazione indirizzo. Per poter accedere nuovamente alla pagina dell’Indice di ricerca devi prima completarlo.',
 	'CONTINUE_INDEXING'						=> 'Continua il precedente processo di indicizzazione',
-	'CONTINUE_INDEXING_EXPLAIN'				=> 'Avviato processo di indicizzazione. Per poter accedere nuovamente alla pagina dell’Indice di ricerca dovete prima completarlo.',
+	'CONTINUE_INDEXING_EXPLAIN'				=> 'Avviato processo di indicizzazione. Per poter accedere nuovamente alla pagina dell’Indice di ricerca devi prima completarlo.',
 	'CREATE_INDEX'							=> 'Crea Indice',
 
 	'DELETE_INDEX'							=> 'Cancella Indice',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Il motore di ricerca sta pulendo il suo Indice. Questo può impiegare alcuni minuti.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Il backend di testo MySQL può essere utilizzato solo con MySQL4 o superiore.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Gli Indici di testo MySQL completi possono essere utilizzati solo con tabelle MyISAM.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Gli Indici di testo MySQL completi possono essere utilizzati solo con tabelle MyISAM o InnoDB. MySQL 5.6.4 o successivo è necessario per gli Indici di testo completi su tabelle InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Numero totale di messaggi indicizzati',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Supporto per caratteri non-latin UTF-8 che usano mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Supporto per caratteri non-latin UTF-8 che usano PCRE:',
@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
 
 	'INDEX_STATS'							=> 'Indice statistiche',
 	'INDEXING_IN_PROGRESS'					=> 'Indicizzazione in corso',
-	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Il motore di ricerca sta indicizzando tutti i messaggi del Forum. Questo può impiegare da alcuni minuti ad alcune ore, attendi.',
+	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Il motore di ricerca sta indicizzando tutti i messaggi del Forum. Questo può impiegare da alcuni minuti ad alcune ore; attendi.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Limite di caricamento del sistema per ricerca pagina',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Se il limite di caricamento del sistema eccede di un minuto questo valore, la pagina andrà OffLine, 1.0 uguaglia l’utilizzo del ~100% di un processore. Questo funziona solo su server basati su UNIX.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Se il limite di caricamento del sistema eccede di un minuto questo valore, la pagina andrà OffLine. 1.0 uguaglia l’utilizzo del ~100% di un processore. Questo funziona solo su server basati su UNIX.',
 
 	'MAX_SEARCH_CHARS'						=> 'Valore massimo caratteri indicizzati dalla ricerca',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Le parole con non più di questo numero di caratteri saranno indicizzate per la ricerca.',
@@ -85,8 +85,8 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervallo del flood di ricerca per gli ospiti',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Numero di secondi che gli ospiti devono aspettare tra una ricerca e l’altra. Se un ospite fa una ricerca tutti gli altri devono aspettare fino a quando l’intervallo di tempo non è passato.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Tutti gli argomenti fino al numero id %1$d sono stati indicizzati, dei quali %2$d facevano parte di questa fase.<br />La velocità di indicizzazione corrente è di approssimativamente %3$.1f argomenti al secondo.<br />Indicizzazione in corso…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Tutti gli argomenti fino al numero id %1$d sono stati eliminati dall’Indice.<br />Eliminazione in corso…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Tutti gli argomenti fino al numero id %1$d sono stati indicizzati, dei quali %2$d facevano parte di questa fase.<br />La velocità di indicizzazione corrente è di approssimativamente %3$.1f argomenti al secondo.<br />Indicizzazione in corso...',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Tutti gli argomenti fino al numero id %1$d sono stati eliminati dall’Indice.<br />Eliminazione in corso...',
 	'SEARCH_INDEX_CREATED'					=> 'Tutti i messaggi sono stati indicizzati correttamente nel database.',
 	'SEARCH_INDEX_REMOVED'					=> 'L’Indice di ricerca per questo motore è stato cancellato.',
 	'SEARCH_INTERVAL'						=> 'Intervallo del flood di ricerca per gli utenti',

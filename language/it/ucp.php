@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-07-25
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Accedendo a “%1$s” (in seguito “noi”, “nostro”,  “%1$s”, “%2$s”), l’utente accetta di essere vincolato legalmente alle seguenti condizioni d’uso. Se non accetti di essere limitato legalmente alle condizioni d’uso seguenti non utilizzare i servizi offerti da “%1$s”. Le condizioni d’uso possono cambiare in qualunque momento, sarà nostra premura avvisarti di tali modifiche, benché sia opportuno controllare con frequenza queste pagine per eventuali modifiche, dato che l’uso dei servizi di “%1$s” implica la completa accettazione delle condizioni d’uso.<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Accedendo a “%1$s” (in seguito “noi”, “nostro”,  “%1$s”, “%2$s”), l’utente accetta di essere vincolato legalmente alle seguenti condizioni d’uso. Se non accetti di essere limitato legalmente dalle condizioni d’uso seguenti non utilizzare i servizi offerti da “%1$s”. Le condizioni d’uso possono cambiare in qualunque momento, sarà nostra premura avvisarti di tali modifiche, benché sia opportuno controllare con frequenza queste pagine per eventuali modifiche, dato che l’uso dei servizi di “%1$s” implica la completa accettazione delle condizioni d’uso.<br />
 	<br />
-	“%1$s” utilizza il sistema phpBB (in seguito “loro”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) che è un software per la creazione di comunità web rilasciata sotto “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (in seguito “GPL”) liberamente scaricabile da <a href="http://www.phpbb.com">www.phpbb.com</a>. Il software phpBB facilita le aree di discussione internet, phpBB Group non è responsabile dei contenuti e della gestione. Per ulteriori informazioni su phpBB: <a href="http://www.phpbb.com">http://www.phpbb.com</a>.<br />
+	“%1$s” utilizza il sistema phpBB (in seguito “loro”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) che è un software per la creazione di comunità web rilasciata sotto “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (in seguito “GPL”) liberamente scaricabile da <a href="https://www.phpbb.com">www.phpbb.com</a>. Il software phpBB facilita le aree di discussione internet, phpBB Group non è responsabile dei contenuti e della gestione. Per ulteriori informazioni su phpBB: <a href="https://www.phpbb.com">https://www.phpbb.com</a>.<br />
 	<br />
 	Accetti di non inviare alcun tipo di offesa, oscenità, volgarità, calunnia, minaccia, messaggio a sfondo sessuale, o qualsiasi altro tipo di materiale che può violare una qualsiasi Legge del proprio Stato, o dello Stato dove “%1$s” è ospitato, o di una Legge internazionale. Fare ciò porta all’immediato e permanente divieto di accesso, con notifica al tuo provider Internet se è ritenuto da noi opportuno. Tutti gli indirizzi IP sono registrati per salvaguardare e rinforzare queste condizioni. Accetti che “%1$s” abbia il diritto di rimuovere, riscrivere, spostare o chiudere qualsiasi argomento in qualsiasi momento lo ritenga necessario. Come fruitore di questo servizio, accetti che ogni informazione (dato personale) tu abbia inviato sia conservata in un database. Al contempo queste informazioni non saranno divulgate a nessuno senza il tuo consenso, né “%1$s” o phpBB sono da ritenersi responsabili per qualsiasi violazione al sistema che possa compromettere queste informazioni.
 	',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'			=> 'Gli allegati sono stati cancellati.',
 	'ATTACHMENT_DELETED'			=> 'L’allegato è stato cancellato.',
 	'AVATAR_CATEGORY'				=> 'Categoria',
-	'AVATAR_EXPLAIN'				=> 'Dimensioni massime: larghezza: %1$d pixel, altezza: %2$d pixel, grandezza file: %3$.2f KiB.',
+	'AVATAR_EXPLAIN'				=> 'Dimensioni massime: larghezza: %1$d pixel, altezza: %2$d pixel, grandezza file: %3$.2f kB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'L’inserimento avatar è disabilitato.',
 	'AVATAR_GALLERY'				=> 'Galleria locale',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Impossibile caricare avatar in %s.',
@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Qui puoi modificare la tua bozza. Le bozze non contengono allegati e dati di sondaggio.',
 	'EMAIL_BANNED_EMAIL'		=> 'L’e-mail inserita non può essere usata.',
-	'EMAIL_INVALID_EMAIL'		=> 'L’indirizzo e-mail inserito non è valido.',
+
 	'EMAIL_REMIND'				=> 'Deve essere l’indirizzo e-mail che hai inserito durante la registrazione.',
 	'EMAIL_TAKEN_EMAIL'			=> 'L’indirizzo e-mail inserito è già in uso.',
 	'EMPTY_DRAFT'				=> 'Devi inserire un messaggio per apportare i cambiamenti.',
@@ -257,8 +257,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'da',
 	'MESSAGE_COLOURS'				=> 'Colori messaggio',
 	'MESSAGE_DELETED'				=> 'Il messaggio è stato cancellato.',
+	'MESSAGE_EDITED'				=> 'Il messaggio è stato modificato.',
 	'MESSAGE_HISTORY'				=> 'Storico messaggio',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Il messaggio è stato rimosso dall’autore prima che venisse recapitato.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Il messaggio è stato rimosso dall’autore.',
 	'MESSAGE_SENT_ON'				=> 'il',
 	'MESSAGE_STORED'				=> 'Il messaggio è stato inviato.',
 	'MESSAGE_TO'					=> 'A',

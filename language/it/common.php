@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-05
+* @copyright (c) 2012 phpBBItalia.net - translated on 2013-07-21
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -81,16 +81,16 @@ $lang = array_merge($lang, array(
 	'AUTH_NO_PROFILE_CREATED'		=> 'La creazione del profilo utente è fallita.',
 	'AVATAR_DISALLOWED_CONTENT'     => 'Il contenuto è stato respinto in quanto il file caricato è stato identificato come un possibile vettore di attacco.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'Questo file non può essere visualizzato perché l’estensione <strong>%s</strong> non è permessa.',
-	'AVATAR_EMPTY_REMOTE_DATA'		=> 'L’avatar non puó essere caricato, il file potrebbe non essere valido o corrotto.',
+	'AVATAR_EMPTY_REMOTE_DATA'		=> 'L’avatar non può essere caricato, il file potrebbe non essere valido o corrotto.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'Il file dell’avatar inviato è vuoto.',
 	'AVATAR_INVALID_FILENAME'		=> '%s è un nome file non valido.',
-	'AVATAR_NOT_UPLOADED'			=> 'L’avatar non puó essere caricato.',
+	'AVATAR_NOT_UPLOADED'			=> 'L’avatar non può essere caricato.',
 	'AVATAR_NO_SIZE'				=> 'Non è possibile determinare larghezza o altezza dell’avatar collegato. Inserisci i valori manualmente.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Il file è stato caricato solo parzialmente.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Il file avatar è troppo grande.<br />Non è possibile determinare la grandezza massima permessa definita da PHP in php.ini.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Il file avatar è troppo grande. la dimensione massima permessa è %1$d %2$s.<br />Questo valore è impostato nel file di sistema php.ini e non puó essere modificato.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Il file avatar è troppo grande. la dimensione massima permessa è %1$d %2$s.<br />Questo valore è impostato nel file di sistema php.ini e non può essere modificato.',
 	'AVATAR_URL_INVALID'			=> 'L’indirizzo specificato non è valido.',
-	'AVATAR_URL_NOT_FOUND'			=> 'Il file specificato non puó essere trovato.',
+	'AVATAR_URL_NOT_FOUND'			=> 'Il file specificato non può essere trovato.',
 	'AVATAR_WRONG_FILESIZE'			=> 'La dimensione file dell’avatar deve essere compresa tra 0 e %1d %2s.',
 	'AVATAR_WRONG_SIZE'				=> 'L’avatar sottoposto è largo %5$d pixel e alto %6$d pixel. Gli avatar devono avere una larghezza minima di %1$d pixel e un’altezza minima %2$d pixel, mentre non possono superare %3$d pixel di larghezza e %4$d pixel di altezza.',
 
@@ -161,6 +161,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Modifica messaggio',
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Indirizzo e-mail',
+	'EMAIL_INVALID_EMAIL'				=> 'L’indirizzo e-mail che hai inserito non è valido.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Si è verificato un errore alla <strong>riga %1$s</strong> durante l’invio e-mail. Messaggio: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Devi specificare un oggetto per il nuovo argomento.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Devi specificare un oggetto per il nuovo messaggio.',
@@ -177,7 +178,7 @@ $lang = array_merge($lang, array(
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Il percorso a phpBB specificato sembra non essere valido.',
 	'EXPAND_VIEW'						=> 'Espandi visuale',
 	'EXTENSION'							=> 'Estensione',
-	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'L’estensione <strong>%s</strong> è stata disattivata e non puó essere visualizzata.',
+	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'L’estensione <strong>%s</strong> è stata disattivata e non può essere visualizzata.',
 
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'FAQ (Domande Frequenti)',
@@ -185,7 +186,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Dimensione file',
 	'FILEDATE'				=> 'Data del file',
 	'FILE_COMMENT'			=> 'Commento file',
-	'FILE_NOT_FOUND'		=> 'Il file cercato non puó essere trovato.',
+	'FILE_NOT_FOUND'		=> 'Il file cercato non può essere trovato.',
 	'FIND_USERNAME'			=> 'Trova utente',
 	'FOLDER'				=> 'Cartella',
 	'FORGOT_PASS'			=> 'Ho dimenticato la password',
@@ -201,7 +202,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES'			=> 'Regole del forum',
 	'FORUM_RULES_LINK'		=> 'Clicca per leggere le regole del forum',
 	'FROM'					=> 'da',
-	'FSOCK_DISABLED'		=> 'L’operazione non puó essere terminata perché la funzione <var>fsockopen</var> è stata disabilitata o il server interrogato non puó essere trovato.',
+	'FSOCK_DISABLED'		=> 'L’operazione non può essere terminata perché la funzione <var>fsockopen</var> è stata disabilitata o il server interrogato non può essere trovato.',
 	'FSOCK_TIMEOUT'			=> 'Si è verificato un timeout durante la lettura dal flusso di rete.',
 	
 	'FTP_FSOCK_HOST'				=> 'Host FTP',
@@ -314,7 +315,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Non è stato possibile convertire la tua password al momento dell’aggiornamento del software di questa Board. %sRichiedi una nuova password%s. Se il problema persiste contatta un %samministratore%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Il nome utente inserito non è corretto, fai un altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
 	'LOGIN_FORUM'						=> 'Per leggere o inviare messaggi su questo forum devi inserire la password.',
-	'LOGIN_INFO'						=> 'Per eseguire il login devi essere registrato. La registrazione richiede solo pochi secondi e garantisce l’accesso alle funzioni avanzate. L’amministratore puó anche dare permessi speciali agli utenti. Prima di eseguire il login assicurati di aver letto i termini d’uso e le varie regole.',
+	'LOGIN_INFO'						=> 'Per eseguire il login devi essere registrato. La registrazione richiede solo pochi secondi e garantisce l’accesso alle funzioni avanzate. L’amministratore può anche dare permessi speciali agli utenti. Prima di eseguire il login assicurati di aver letto i termini d’uso e le varie regole.',
 	'LOGIN_VIEWFORUM'					=> 'Per leggere questo forum devi essere registrato ed aver effettuato il login.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Per modificare i messaggi di questo forum devi essere registrato ed aver effettuato il login.',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Per visualizzare la lista utenti in linea devi essere registrato e loggato.',
@@ -391,6 +392,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Nessun messaggio in questo argomento nel periodo impostato.',
 	'NO_FEED_ENABLED'			=> 'I Feed non sono disponibili in questa Board.',
 	'NO_FEED'					=> 'Il Feed richiesto non è disponibile.',
+	'NO_STYLE_DATA'				=> 'Impossibile recuperare lo stile selezionato',
 	'NO_SUBJECT'				=> 'Nessun oggetto specificato',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'La ricerca preimpostata non esiste.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Metodo di autenticazione non supportato.',
@@ -400,7 +402,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPICS_TIME_FRAME'		=> 'Nessun argomento in questo forum nel periodo impostato.',
 	'NO_UNREAD_PM'				=> '<strong>0</strong> messaggi non letti',
 	'NO_UNREAD_POSTS'			=> 'Nessun messaggio da leggere',
-	'NO_UPLOAD_FORM_FOUND'		=> 'Caricamento iniziato, ma non è stato trovata alcuna forma valida di caricamento del file.',
+	'NO_UPLOAD_FORM_FOUND'		=> 'Caricamento iniziato, ma non è stata trovata alcuna forma valida di caricamento del file.',
 	'NO_USER'					=> 'L’utente richiesto non esiste.',
 	'NO_USERS'					=> 'Gli utenti richiesti non esistono.',
 	'NO_USER_SPECIFIED'			=> 'Nessun nome utente specificato.',
@@ -568,11 +570,13 @@ $lang = array_merge($lang, array(
 	'SUBFORUMS'					=> 'Subforum',
 	'SUBJECT'					=> 'Titolo',
 	'SUBMIT'					=> 'Invia',
+	'TB'						=> 'TB',
 
-	'TERMS_USE'			=> 'Condizioni d’uso',
-	'TEST_CONNECTION'	=> 'Test connessione',
-	'THE_TEAM'			=> 'Staff',
-	'TIME'				=> 'Ora',
+	'TERMS_USE'					=> 'Condizioni d’uso',
+	'TEST_CONNECTION'			=> 'Test connessione',
+	'THE_TEAM'					=> 'Staff',
+	'TIB'						=> 'TiB',
+	'TIME'						=> 'Ora',
 	'TOO_LARGE'						=> 'Il valore inserito è troppo grande.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'Il valore del <strong>numero massimo consentito di destinatari per messaggio privato</strong> inserito è troppo grande.',
 
@@ -639,7 +643,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_POSTS'		=> 'Totale messaggi',
 	'TOTAL_POSTS_OTHER'	=> 'Totale messaggi: <strong>%d</strong>',
 	'TOTAL_POSTS_ZERO'	=> 'Totale messaggi: <strong>0</strong>',
-	'TOPIC_REPORTED'	=> 'E’ stata fatta una segnalazione per questo argomento',
+	'TOPIC_REPORTED'	=> 'È stata fatta una segnalazione per questo argomento',
 	'TOTAL_TOPICS_OTHER'=> 'Totale argomenti: <strong>%d</strong>',
 	'TOTAL_TOPICS_ZERO'	=> 'Totale argomenti: <strong>0</strong>',
 	'TOTAL_USERS_OTHER'	=> 'Totale iscritti: <strong>%d</strong>',
@@ -659,9 +663,9 @@ $lang = array_merge($lang, array(
 	'UNWATCH_FORUM_DETAILED'	=> 'Sei sicuro di voler rimuovere la sottoscrizione dal forum “%s”?',
 	'UNWATCH_TOPIC_CONFIRM'		=> 'Sei sicuro di voler rimuovere la sottoscrizione da questo argomento?',
 	'UNWATCH_TOPIC_DETAILED'	=> 'Sei sicuro di voler rimuovere la sottoscrizione dall’argomento “%s”?',
-	'UNWATCHED_FORUMS'		=> 'Non stai piú controllando i forum selezionati.',
-	'UNWATCHED_TOPICS'		=> 'Non stai piú controllando gli argomenti selezionati.',
-	'UNWATCHED_FORUMS_TOPICS'	=> 'Non stai piú controllando le voci selezionati.',
+	'UNWATCHED_FORUMS'		=> 'Non stai più controllando i forum selezionati.',
+	'UNWATCHED_TOPICS'		=> 'Non stai più controllando gli argomenti selezionati.',
+	'UNWATCHED_FORUMS_TOPICS'	=> 'Non stai più controllando le voci selezionati.',
 	'UPDATE'				=> 'Aggiorna',
 	'UPLOAD_IN_PROGRESS'	=> 'Invio in corso.',
 	'URL_REDIRECT'			=> 'Se il tuo browser non supporta il redirect %sclicca qui per andare alla pagina%s.',
@@ -716,6 +720,7 @@ $lang = array_merge($lang, array(
 	'WHOIS'				=> 'Whois',
 	'WHO_IS_ONLINE'		=> 'Chi c’è in linea',
 	'WRONG_PASSWORD'	=> 'La password inserita è errata.',
+	'WRONG_DATA_COLOUR'			=> 'Il valore del colore inserito non è valido.',
 
 	'WRONG_DATA_ICQ'			=> 'Il numero inserito non è un numero ICQ valido.',
 	'WRONG_DATA_JABBER'			=> 'Il nome inserito non è un nome account Jabber valido.',

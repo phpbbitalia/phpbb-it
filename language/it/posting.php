@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
+* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -57,14 +57,14 @@ $lang = array_merge($lang, array(
 	'BBCODE_I_HELP'				=> 'Corsivo: [i]testo[/i]',
 	'BBCODE_L_HELP'				=> 'Lista: [list]testo[/list]',
 	'BBCODE_LISTITEM_HELP'		=> 'Elemento lista: [*]testo[/*]',
-	'BBCODE_O_HELP'				=> 'Lista ordinata: [list=]testo[/list]',
+	'BBCODE_O_HELP'				=> 'Lista ordinata: esempio [list=1][*]Punto primo[/list] o [list=a][*]Punto a[/list]',
 	'BBCODE_P_HELP'				=> 'Immagine: [img]http://immagine_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Cita: [quote]testo[/quote]',
 	'BBCODE_S_HELP'				=> 'Colore: [color=red]testo[/color]  Tip: puoi usare anche codici esadecimali dei colori color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Sottolineato: [u]testo[/u]',
 	'BBCODE_W_HELP'				=> 'Collegamento: [url]http://url[/url] o [url=http://url]testo aggiuntivo[/url]',
 	'BBCODE_Y_HELP'				=> 'Lista: Aggiungi elementi alla lista',
-	'BUMP_ERROR'				=> 'Non puoi fare il bump di questo argomento così presto dopo l’ultimo messaggio.',
+	'BUMP_ERROR'				=> 'Non puoi effettuare il bump di questo argomento così presto dopo l’ultimo messaggio.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Puoi cancellare solo i messaggi che non hanno avuto risposte.',
 	'CANNOT_EDIT_POST_LOCKED'	=> 'Questo messaggio è stato bloccato. Non puoi modificarlo.',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_SMILIES'			=> 'Il messaggio contiene troppe emoticon. Il limite massimo è %d.',
 	'TOO_MANY_URLS'				=> 'Il messaggio contiene troppi collegamenti. Il limite massimo è %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Non puoi specificare più voci per utente di quante il sondaggio ne contenga.',
-	'TOPIC_BUMPED'				=> 'Bump all’argomento eseguito correttamente.',
+	'TOPIC_BUMPED'				=> 'Bump argomento eseguito correttamente.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Non puoi usare questo BBCode: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Per far tornare normale questo argomento globale, devi specificare il forum dove desideri che venga visualizzato.',
@@ -211,13 +211,13 @@ $lang = array_merge($lang, array(
 	'URL_NOT_FOUND'				=> 'Il file specificato non è stato trovato.',
 	'URL_IS_OFF'				=> '[url] <em>non attivo</em>',
 	'URL_IS_ON'					=> '[url] <em>attivo</em>',
-	'USER_CANNOT_BUMP'			=> 'Non puoi eseguire il bump di argomenti in questo forum.',
+	'USER_CANNOT_BUMP'			=> 'Non puoi eseguire il bump argomento in questo forum.',
 	'USER_CANNOT_DELETE'		=> 'Non puoi cancellare messaggi in questo forum.',
 	'USER_CANNOT_EDIT'			=> 'Non puoi modificare i messaggi in questo forum.',
 	'USER_CANNOT_REPLY'			=> 'Non puoi rispondere agli argomenti in questo forum.',
 	'USER_CANNOT_FORUM_POST'	=> 'Non puoi inserire messaggi in questo forum in quanto il tipo di forum non lo consente.',
 
-	'VIEW_MESSAGE'				=> '%sVisualizza il tuo messaggio%s',
+	'VIEW_MESSAGE'				=> '%sVisualizza il messaggio%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sVisualizza il tuo messaggio inviato%s',
 
 	'WRONG_FILESIZE'			=> 'La dimensione del file è eccessiva, il limite massimo è %1d %2s.',
