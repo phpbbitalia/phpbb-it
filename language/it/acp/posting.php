@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_ICONS'				=> 'Esporta e scarica icons.pak',
 	'EXPORT_ICONS_EXPLAIN'		=> '%sCliccando questo link, le icone attualmente installate verranno raccolte in <samp>icons.pak</samp> che una volta scaricato potrà essere usato per creare un file <samp>.zip</samp> o <samp>.tgz</samp> con tutte le tue icone più questo file <samp>icons.pak</samp> di configurazione%s.',
 	'EXPORT_SMILIES'			=> 'Esporta e scarica smilies.pak',
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sCliccando questo link, le emoticon attualmente installate verranno raccolte in <samp>smilies.pak</samp> che una volta scaricato potrà essere usato per creare un file samp>.zip</samp> o <samp>.tgz</samp> con tutte le tue emoticon più questo file <samp>smilies.pak</samp> di configurazione%s.',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sCliccando questo link, le emoticon attualmente installate verranno raccolte in <samp>smilies.pak</samp> che una volta scaricato potrà essere usato per creare un file <samp>.zip</samp> o <samp>.tgz</samp> con tutte le tue emoticon più questo file <samp>smilies.pak</samp> di configurazione%s.',
 
 	'FIRST'			=> 'Primo',
 

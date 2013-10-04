@@ -6,7 +6,8 @@ Per favore, conserva questa e-mail. Le informazioni del tuo account sono:
 
 ----------------------------
 Nome utente: {USERNAME}
-Password: {PASSWORD}
+
+URL: {U_BOARD}
 ----------------------------
 
 Il tuo account non e' ancora attivo: un amministratore deve attivarlo prima che tu possa accedere. Riceverai un'altra e-mail appena avviene l'attivazione.

@@ -36,4 +36,6 @@ Data: _______________
 
 Una volta che avremo ricevuto copia della presente via fax o per posta, il tuo account verra' attivato.
 Non scordare la tua password, non sara' possibile recuperarla dal nostro database in quanto viene criptata.
-In caso di smarrimento della stessa, sara' comunque possibile richiederne una nuova, utilizzando l'indirizzo e-mail associato al tuo account. Grazie per esserti iscritto. {EMAIL_SIG}
+In caso di smarrimento della stessa, sara' comunque possibile richiederne una nuova, utilizzando l'indirizzo e-mail associato al tuo account. Grazie per esserti iscritto.
+
+{EMAIL_SIG}

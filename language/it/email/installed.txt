@@ -8,7 +8,6 @@ Questa e-mail contiene importanti informazioni sulla tua installazione che devi 
 
 ----------------------------
 Nome utente: {USERNAME}
-Password: {PASSWORD}
 
 URL: {U_BOARD}
 ----------------------------
