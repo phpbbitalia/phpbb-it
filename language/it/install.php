@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
-* @copyright (c) 2010 phpBB.it - translated on 2010-11-17
+* @copyright (c) 2010 phpBB.it - translated on 2014-03-30
 * @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Password database',
 	'DB_PORT'					=> 'Porta server del database',
 	'DB_PORT_EXPLAIN'			=> 'Lascia questo spazio vuoto a meno che tu non sappia che il server opera su una porta non-standard.',
-	'DB_UPDATE_NOT_SUPPORTED'   => 'Siamo spiacenti, ma questo script non supporta aggiornamenti da versioni di phpBB antecedenti la “%1$s”. La versione che hai installata ora è la “%2$s”. Per favore, provvedi ad aggiornare ad una versione precedente a questa, prima di utilizzare questo script. Se necessiti di assistenza fai riferimento al Support Forum di phpBB.com.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Siamo spiacenti, ma questo script non supporta aggiornamenti da versioni di phpBB antecedenti la “%1$s”. La versione che hai installata ora è la “%2$s”. Per favore, provvedi ad aggiornare ad una versione precedente a questa, prima di utilizzare questo script. Se necessiti di assistenza fai riferimento al Support Forum di phpBB.com.',
 	'DB_USERNAME'				=> 'Nome utente database',
 	'DB_TEST'					=> 'Test di connessione',
 	'DEFAULT_LANG'				=> 'Lingua predefinita della Board',
@@ -170,9 +170,9 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Richiesti</strong> - Per funzionare correttamente, phpBB deve poter accedere ad alcune cartelle e deve poter scrivere alcuni file. Se leggi “Non trovato”, devi creare il file o la cartella relativa. Se leggi “Non scrivibile”, devi modificare i permessi relativi al file o alla cartella per permettere a phpBB di scrivere.',
 	'FILLING_TABLE'				=> 'La tabella <strong>%s</strong> viene popolata',
 	'FILLING_TABLES'			=> 'Tabelle in popolamento',
-	
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'=> 'phpBB non supporta più versioni antecedenti la 2.1 di Firebird/Interbase. Per favore, provvedi ad aggiornare Firebird almeno alla versione 2.1.0 prima di procedere con l’aggiornamento.',
-	
+
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'	=> 'phpBB non supporta più versioni antecedenti la 2.1 di Firebird/Interbase. Per favore, provvedi ad aggiornare Firebird almeno alla versione 2.1.0 prima di procedere con l’aggiornamento.',
+
 	'FINAL_STEP'				=> 'Esegui il passaggio finale',
 	'FORUM_ADDRESS'				=> 'Indirizzo della Board',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Questo è l’URL della precedente Board, per esempio <samp>http://www.example.com/phpBB2/</samp>. Se qui è stato immesso un indirizzo ogni parola di questo sarà sostituita con il nuovo indirizzo della Board all’interno dei messaggi, dei messaggi privati e delle firme.',
@@ -187,18 +187,18 @@ $lang = array_merge($lang, array(
 
 	'GPL'						=> 'General Public License',
 
-	'INITIAL_CONFIG'			=> 'Configurazione di base',
-	'INITIAL_CONFIG_EXPLAIN'	=> 'Ora che la procedura di installazione ha constatato che il tuo server può eseguire phpBB, devi fornire alcune informazioni specifiche. Se non sai come collegarti al tuo database devi contattare il tuo fornitore di hosting: qualora non potessi puoi provare nei forum di supporto phpBB. Controlla attentamente tutti i dati che inserisci prima di continuare.',
-	'INSTALL_CONGRATS'			=> 'Congratulazioni!',
-	'INSTALL_CONGRATS_EXPLAIN'	=> '
+	'INITIAL_CONFIG'				=> 'Configurazione di base',
+	'INITIAL_CONFIG_EXPLAIN'		=> 'Ora che la procedura di installazione ha constatato che il tuo server può eseguire phpBB, devi fornire alcune informazioni specifiche. Se non sai come collegarti al tuo database devi contattare il tuo fornitore di hosting: qualora non potessi puoi provare nei forum di supporto phpBB. Controlla attentamente tutti i dati che inserisci prima di continuare.',
+	'INSTALL_CONGRATS'				=> 'Congratulazioni!',
+	'INSTALL_CONGRATS_EXPLAIN'		=> '
 		Hai appena installato correttamente phpBB %1$s. Si prega di procedere scegliendo una delle seguenti opzioni:</p>
 		<h2>Converti una Board esistente a phpBB3</h2>
 		<p>Il phpBB Unified Convertor Framework supporta la conversione da phpBB 2.0.x e da altre Board a phpBB3. Se possiedi già una Board che desideri convertire allora <a href="%2$s">procedi alla conversione</a>.</p>
 		<h2>Inizia ad usare il tuo phpBB3!</h2>
 		<p>Cliccando il pulsante sottostante accederai ad un modulo del tuo Panello di Controllo Amministratore (PCA) che ti permette di inviare informazioni di carattere statistico a phpBB. Ti saremo grati se vorrai aiutarci inviandoci queste semplici informazioni. Dopo questo, ti consigliamo di dedicare un po’ di tempo per esaminare le opzioni disponibili. Ricorda che è disponibile un aiuto online tramite la <a href="https://www.phpbb.com/support/documentation/3.0/">Documentazione</a> e anche presso i <a href="https://www.phpbb.com/community/viewforum.php?f=46">Forum di Supporto</a>, <a href="%3$s">LEGGI</a> per ulteriori informazioni.</p><p><strong>Adesso cancella, sposta o rinomina la cartella "install" prima di usare la Board. Se la cartella è ancora presente potrai accedere solo al Pannello di Controllo Amministratore (PCA).</strong>',
-	'INSTALL_INTRO'				=> 'Benvenuto in phpBB3',
+	'INSTALL_INTRO'					=> 'Benvenuto in phpBB3',
 
-	'INSTALL_INTRO_BODY'		=> 'Con questa opzione è possibile installare phpBB3 sul vostro server.</p><p>Per poter installare phpBB avrai bisogno dei dati di accesso al tuo database, che ti sono stati forniti dal gestore del servizio di hosting. Se non sei in possesso di questi dati NON procedere con l’installazione, scrivi al servizio di posta elettronica del tuo fornitore di hosting chiedendo le chiavi di accesso al database. Sono necessari:</p>
+	'INSTALL_INTRO_BODY'			=> 'Con questa opzione è possibile installare phpBB3 sul vostro server.</p><p>Per poter installare phpBB avrai bisogno dei dati di accesso al tuo database, che ti sono stati forniti dal gestore del servizio di hosting. Se non sei in possesso di questi dati NON procedere con l’installazione, scrivi al servizio di posta elettronica del tuo fornitore di hosting chiedendo le chiavi di accesso al database. Sono necessari:</p>
 
 	<ul>
 		<li>Tipo di database - il database in uso.</li>
@@ -220,49 +220,49 @@ $lang = array_merge($lang, array(
 		<li>MS SQL Server 2005 o superiore (nativo)</li>
 		<li>Oracle</li>
 	</ul>
-	
+
 	<p>Saranno visualizzati solo quei database supportati sul tuo server.',
-	'INSTALL_INTRO_NEXT'		=> 'Per iniziare l’installazione clicca il pulsante sottostante.',
-	'INSTALL_LOGIN'				=> 'Login',
-	'INSTALL_NEXT'				=> 'Passaggio successivo',
-	'INSTALL_NEXT_FAIL'			=> 'Alcuni test sono falliti dovresti correggere i vari problemi prima di procedere al passaggio successivo. In caso contrario potresti incorrere in un’installazione incompleta.',
-	'INSTALL_NEXT_PASS'			=> 'Tutti i test di base sono riusciti e puoi procedere al passaggio successivo dell’installazione. Se hai modificato qualche permesso, modulo, ecc., e desideri eseguire nuovamente dei test, puoi farlo ora.',
-	'INSTALL_PANEL'				=> 'Pannello d’installazione',
-	'INSTALL_SEND_CONFIG'		=> 'Purtroppo phpBB non ha potuto scrivere le informazioni di configurazione direttamente su config.php. Può dipendere dal fatto che il file non esista o che non sia scrivibile. Sotto trovi una lista di opzioni che ti permetterà di completare l’installazione del config.php.',
-	'INSTALL_START'				=> 'Inizia l’installazione',
-	'INSTALL_TEST'				=> 'Esegui nuovamente il test',
-	'INST_ERR'					=> 'Errore d’installazione',
-	'INST_ERR_DB_CONNECT'		=> 'Impossibile collegarsi al database, controlla il messaggio d’errore qui sotto.',
-	'INST_ERR_DB_FORUM_PATH'	=> 'Il file del database che hai specificato si trova nella cartella della tua Board. Devi mettere questo file in una zona non accessibile da web.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'Il prefisso inserito non è valido. Si deve iniziare con una lettera e deve contenere solo lettere, numeri e underscore (trattini bassi).',
-	'INST_ERR_DB_NO_ERROR'		=> 'Nessun messaggio d’errore restituito.',
-	'INST_ERR_DB_NO_MYSQLI'		=> 'La versione di MySQL installata su questa macchina è incompatibile con l’opzione “MySQL con estensione MySQLi” selezionata. In alternativa prova l’opzione “MySQL”.',
-	'INST_ERR_DB_NO_SQLITE'		=> 'La versione dell’estensione SQLite che hai installato è troppo vecchia e deve essere aggiornata almeno alla 2.8.2.',
-	'INST_ERR_DB_NO_ORACLE'		=> 'La versione di Oracle installata su questa macchina necessita che imposti il parametro <var>NLS_CHARACTERSET</var> su <var>UTF8</var>. Modifica il parametro oppure aggiorna la tua installazione alla 9.2+.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'La versione di Firebird installata su questa macchina è più vecchia della 2.1 e devi aggiornare a una versione più recente.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Il database che hai selezionato per Firebird ha una grandezza pagina inferiore a 8192 e deve essere almeno 8192.',
-	'INST_ERR_DB_NO_POSTGRES'	=> 'Il database che hai selezionato non è stato creato con codifica <var>UNICODE</var> o <var>UTF8</var>. Prova ad installare un database con codifica <var>UNICODE</var> o <var>UTF8</var>.',
-	'INST_ERR_DB_NO_NAME'		=> 'Nessun nome database specificato.',
-	'INST_ERR_EMAIL_INVALID'	=> 'L’indirizzo e-mail che hai inserito non è valido.',
-	'INST_ERR_EMAIL_MISMATCH'	=> 'Gli indirizzi e-mail che hai inserito non coincidono.',
-	'INST_ERR_FATAL'			=> 'Errore critico d’installazione',
-	'INST_ERR_FATAL_DB'			=> 'Si è verificato un errore critico ed irrecuperabile del database. Questo può essere causato dal fatto che l’utente specificato non hai i permessi adatti di <code>CREATE TABLES</code> o <code>INSERT</code>, etc. Maggiori informazioni le trovi successivamente. Prima contatta il tuo hosting provider ed eventualmente i forum di supporto di phpBB per ulteriore assistenza.',
-	'INST_ERR_FTP_PATH'			=> 'Impossibile spostarsi alla cartella indicata, verifica il percorso.',
-	'INST_ERR_FTP_LOGIN'		=> 'Impossibile collegarsi al server FTP, verifica nome utente e password.',
-	'INST_ERR_MISSING_DATA'		=> 'Devi completare tutti i campi di questo blocco.',
-	'INST_ERR_NO_DB'			=> 'Impossibile caricare il modulo PHP per il tipo di database selezionato.',
+	'INSTALL_INTRO_NEXT'			=> 'Per iniziare l’installazione clicca il pulsante sottostante.',
+	'INSTALL_LOGIN'					=> 'Login',
+	'INSTALL_NEXT'					=> 'Passaggio successivo',
+	'INSTALL_NEXT_FAIL'				=> 'Alcuni test sono falliti dovresti correggere i vari problemi prima di procedere al passaggio successivo. In caso contrario potresti incorrere in un’installazione incompleta.',
+	'INSTALL_NEXT_PASS'				=> 'Tutti i test di base sono riusciti e puoi procedere al passaggio successivo dell’installazione. Se hai modificato qualche permesso, modulo, ecc., e desideri eseguire nuovamente dei test, puoi farlo ora.',
+	'INSTALL_PANEL'					=> 'Pannello d’installazione',
+	'INSTALL_SEND_CONFIG'			=> 'Purtroppo phpBB non ha potuto scrivere le informazioni di configurazione direttamente su config.php. Può dipendere dal fatto che il file non esista o che non sia scrivibile. Sotto trovi una lista di opzioni che ti permetterà di completare l’installazione del config.php.',
+	'INSTALL_START'					=> 'Inizia l’installazione',
+	'INSTALL_TEST'					=> 'Esegui nuovamente il test',
+	'INST_ERR'						=> 'Errore d’installazione',
+	'INST_ERR_DB_CONNECT'			=> 'Impossibile collegarsi al database, controlla il messaggio d’errore qui sotto.',
+	'INST_ERR_DB_FORUM_PATH'		=> 'Il file del database che hai specificato si trova nella cartella della tua Board. Devi mettere questo file in una zona non accessibile da web.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'Il prefisso inserito non è valido. Si deve iniziare con una lettera e deve contenere solo lettere, numeri e underscore (trattini bassi).',
+	'INST_ERR_DB_NO_ERROR'			=> 'Nessun messaggio d’errore restituito.',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'La versione di MySQL installata su questa macchina è incompatibile con l’opzione “MySQL con estensione MySQLi” selezionata. In alternativa prova l’opzione “MySQL”.',
+	'INST_ERR_DB_NO_SQLITE'			=> 'La versione dell’estensione SQLite che hai installato è troppo vecchia e deve essere aggiornata almeno alla 2.8.2.',
+	'INST_ERR_DB_NO_ORACLE'			=> 'La versione di Oracle installata su questa macchina necessita che imposti il parametro <var>NLS_CHARACTERSET</var> su <var>UTF8</var>. Modifica il parametro oppure aggiorna la tua installazione alla 9.2+.',
+	'INST_ERR_DB_NO_FIREBIRD'		=> 'La versione di Firebird installata su questa macchina è più vecchia della 2.1 e devi aggiornare a una versione più recente.',
+	'INST_ERR_DB_NO_FIREBIRD_PS'	=> 'Il database che hai selezionato per Firebird ha una grandezza pagina inferiore a 8192 e deve essere almeno 8192.',
+	'INST_ERR_DB_NO_POSTGRES'		=> 'Il database che hai selezionato non è stato creato con codifica <var>UNICODE</var> o <var>UTF8</var>. Prova ad installare un database con codifica <var>UNICODE</var> o <var>UTF8</var>.',
+	'INST_ERR_DB_NO_NAME'			=> 'Nessun nome database specificato.',
+	'INST_ERR_EMAIL_INVALID'		=> 'L’indirizzo e-mail che hai inserito non è valido.',
+	'INST_ERR_EMAIL_MISMATCH'		=> 'Gli indirizzi e-mail che hai inserito non coincidono.',
+	'INST_ERR_FATAL'				=> 'Errore critico d’installazione',
+	'INST_ERR_FATAL_DB'				=> 'Si è verificato un errore critico ed irrecuperabile del database. Questo può essere causato dal fatto che l’utente specificato non hai i permessi adatti di <code>CREATE TABLES</code> o <code>INSERT</code>, etc. Maggiori informazioni le trovi successivamente. Prima contatta il tuo hosting provider ed eventualmente i forum di supporto di phpBB per ulteriore assistenza.',
+	'INST_ERR_FTP_PATH'				=> 'Impossibile spostarsi alla cartella indicata, verifica il percorso.',
+	'INST_ERR_FTP_LOGIN'			=> 'Impossibile collegarsi al server FTP, verifica nome utente e password.',
+	'INST_ERR_MISSING_DATA'			=> 'Devi completare tutti i campi di questo blocco.',
+	'INST_ERR_NO_DB'				=> 'Impossibile caricare il modulo PHP per il tipo di database selezionato.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'Le password che hai inserito non coincidono.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'La password che hai inserito è troppo lunga. La lunghezza massima è di 30 caratteri.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'La password che hai inserito è troppo corta. La lunghezza minima è di 6 caratteri.',
-	'INST_ERR_PREFIX'			=> 'Esistono già tabelle con il prefisso specificato, scegli un’alternativa.',
-	'INST_ERR_PREFIX_INVALID'	=> 'Il prefisso tabella specificato non è valido per il tuo database. Scegline un altro, eliminando caratteri come il trattino.',
-	'INST_ERR_PREFIX_TOO_LONG'	=> 'Il prefisso tabella specificato è troppo lungo. La lunghezza massima è di %d caratteri.',
-	'INST_ERR_USER_TOO_LONG'	=> 'Il nome utente che hai inserito è troppo lungo. La lunghezza massima è di 20 caratteri.',
-	'INST_ERR_USER_TOO_SHORT'	=> 'Il nome utente che hai inserito è troppo corto. La lunghezza minima è di 3 caratteri.',
-	'INVALID_PRIMARY_KEY'		=> 'Chiave primaria non valida: %s',
+	'INST_ERR_PREFIX'				=> 'Esistono già tabelle con il prefisso specificato, scegli un’alternativa.',
+	'INST_ERR_PREFIX_INVALID'		=> 'Il prefisso tabella specificato non è valido per il tuo database. Scegline un altro, eliminando caratteri come il trattino.',
+	'INST_ERR_PREFIX_TOO_LONG'		=> 'Il prefisso tabella specificato è troppo lungo. La lunghezza massima è di %d caratteri.',
+	'INST_ERR_USER_TOO_LONG'		=> 'Il nome utente che hai inserito è troppo lungo. La lunghezza massima è di 20 caratteri.',
+	'INST_ERR_USER_TOO_SHORT'		=> 'Il nome utente che hai inserito è troppo corto. La lunghezza minima è di 3 caratteri.',
+	'INVALID_PRIMARY_KEY'			=> 'Chiave primaria non valida: %s',
 
 	'LONG_SCRIPT_EXECUTION'		=> 'Il processo dura alcuni minuti… Non interrompere lo script.',
-	
+
 	// mbstring
 	'MBSTRING_CHECK'						=> 'Controllo estensione <samp>mbstring</samp>',
 	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Obbligatorio</strong> - <samp>mbstring</samp> è un’estensione PHP che fornisce funzioni stringa multibyte. Certe caratteristiche di mbstring non sono compatibili con phpBB e devono essere disabilitate.',
@@ -277,82 +277,81 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Assicurati che la cartella esista e sia scrivibile dal webserver e poi riprova:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Assicurati che le cartelle esistano e siano scrivibili dal webserver e poi riprova:<br />»<strong>%s</strong>.',
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'Lo schema del tuo database MySQL è superato. phpBB ha individuato uno schema per MySQL 3.x/4.x, mentre il server gira su MySQL %2$s.<br /><strong>Prima di procedere con l’aggiornamento devi effettuare quello dello schema.</strong><br /><br />Segui i riferimenti su <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se incontri problemi, cerca soluzioni o invia il tuo commento sul <a href="https://www.phpbb.com/community/viewforum.php?f=46">nostro forum di supporto</a>.',
+
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Lo schema del tuo database MySQL è superato. phpBB ha individuato uno schema per MySQL 3.x/4.x, mentre il server gira su MySQL %2$s.<br /><strong>Prima di procedere con l’aggiornamento devi effettuare quello dello schema.</strong><br /><br />Segui i riferimenti su <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se incontri problemi, cerca soluzioni o invia il tuo commento sul <a href="https://www.phpbb.com/community/viewforum.php?f=46">nostro forum di supporto</a>.',
 
 	'NAMING_CONFLICT'			=> 'Conflitto di nomi: %s e %s sono entrambi degli alias<br /><br />%s',
 	'NEXT_STEP'					=> 'Procedi al passaggio successivo',
 	'NOT_FOUND'					=> 'Non trovato',
-    'NOT_UNDERSTAND'			=> 'Non capisco %s #%d, tabella %s (“%s”)',
+	'NOT_UNDERSTAND'			=> 'Non capisco %s #%d, tabella %s (“%s”)',
 	'NO_CONVERTORS'				=> 'Nessun convertitore disponibile.',
 	'NO_CONVERT_SPECIFIED'		=> 'Nessun convertitore specificato.',
 	'NO_LOCATION'				=> 'Impossibile determinare l’ubicazione. Se sai che Imagemagick è installato devi specificarne l’ubicazione più tardi nel tuo Pannello di Controllo Amministratore',
 	'NO_TABLES_FOUND'			=> 'Nessuna tabella individuata.',
 
-	'OVERVIEW_BODY'					=> 'Benvenuto su phpBB3!<br /><br />phpBB® è la soluzione open source per forum più utilizzata al mondo. phpBB3 è la più recente edizione di una storia iniziata nel 2000. Come i suoi predecessori il software di phpBB3 è ricco di nuove caratteristiche, di facile utilizzo e completamente supportato dal Team di phpBB. Sono molti i miglioramenti apportati dalla versione phpBB2, che vanno ad integrare caratteristiche molto richieste e non presenti nella precedente versione. Speriamo che sia anche più di quello che ti aspettavi.<br /><br />Questa procedura guidata è stata studiata per aiutarti durante l’installazione di phpBB3, l’aggiornamento all’ultima versione da precedenti release di phpBB3, ed anche convertire a phpBB3 da altri sistemi di forum di discussione (incluso phpBB2). Per altre informazioni ti suggeriamo di leggere <a href="../docs/INSTALL.html">la guida all’installazione</a>.<br /><br />Per leggere la licenza d’uso di phpBB3 o scoprire come ottenere aiuto e supporto, seleziona l’opzione giusta dal menu a lato. Per continuare seleziona in alto la sezione appropriata.',
+	'OVERVIEW_BODY'				=> 'Benvenuto su phpBB3!<br /><br />phpBB® è la soluzione open source per forum più utilizzata al mondo. phpBB3 è la più recente edizione di una storia iniziata nel 2000. Come i suoi predecessori il software di phpBB3 è ricco di nuove caratteristiche, di facile utilizzo e completamente supportato dal Team di phpBB. Sono molti i miglioramenti apportati dalla versione phpBB2, che vanno ad integrare caratteristiche molto richieste e non presenti nella precedente versione. Speriamo che sia anche più di quello che ti aspettavi.<br /><br />Questa procedura guidata è stata studiata per aiutarti durante l’installazione di phpBB3, l’aggiornamento all’ultima versione da precedenti release di phpBB3, ed anche convertire a phpBB3 da altri sistemi di forum di discussione (incluso phpBB2). Per altre informazioni ti suggeriamo di leggere <a href="../docs/INSTALL.html">la guida all’installazione</a>.<br /><br />Per leggere la licenza d’uso di phpBB3 o scoprire come ottenere aiuto e supporto, seleziona l’opzione giusta dal menu a lato. Per continuare seleziona in alto la sezione appropriata.',
 
-	'PCRE_UTF_SUPPORT'				=> 'Supporto PCRE UTF-8',
-	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>non</strong> funzionerà se il tuo PHP non è compilato con supporto UTF-8 nell’estensione PCRE.',
+	'PCRE_UTF_SUPPORT'					=> 'Supporto PCRE UTF-8',
+	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB <strong>non</strong> funzionerà se il tuo PHP non è compilato con supporto UTF-8 nell’estensione PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'La funzione PHP getimagesize() è disponibile',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Richiesto</strong> - Per fare in modo che phpBB funzioni correttamente, la funzione getimagesize deve essere abilitata.',
-	'PHP_OPTIONAL_MODULE'			=> 'Moduli facoltativi',
-	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Facoltativi</strong> - Questi moduli o applicazioni sono facoltativi. Tuttavia, se sono disponibili permetteranno caratteristiche supplementari.',
-	'PHP_SUPPORTED_DB'				=> 'Database supportati',
-	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Richiesto</strong> - Devi supportare almeno un database compatibile all’interno di PHP. Se nessun modulo database viene visualizzato come disponibile dovresti contattare il tuo fornitore o esaminare la documentazione di installazione PHP relativa per avere dei suggerimenti.',
-	'PHP_REGISTER_GLOBALS'			=> 'Impostazione PHP <var>register_globals</var> è disabilitata',
-	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB funzionerà anche se questa impostazione è abilitata, ma se è possibile, si raccomanda di disabilitare register_globals sul tuo PHP per motivi di sicurezza.',
-	'PHP_SAFE_MODE'					=> 'Modo sicuro',
-	'PHP_SETTINGS'					=> 'Versione e impostazioni PHP',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Richiesto</strong> - Dovete eseguire per lo meno la versione di 4.3.3 di PHP per poter installare phpBB. Se visualizzate <var>modo sicuro</var> il vostro PHP sta eseguendo in quel modo. Questo imporrà limitazioni sulla gestione remota e simili.',
-	'PHP_URL_FOPEN_SUPPORT'			=> 'Impostazione PHP <var>allow_url_fopen</var> è abilitata',
-	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Facoltativo</strong> - Questa impostazione è facoltativa, comunque alcune funzioni di phpBB, tipo quella di poter caricare gli avatar da altri siti, non funzioneranno correttamente senza di essa. ',
-	'PHP_VERSION_REQD'				=> 'Versione PHP >= 4.3.3',
-	'POST_ID'						=> 'ID argomento',
-	'PREFIX_FOUND'					=> 'Una scansione delle tabelle ha visualizzato un’installazione valida utilizzando  <strong>%s</strong> come prefisso tabella.',
-	'PREPROCESS_STEP'				=> 'Esecuzione delle funzioni di pre-elaborazione/query',
-	'PRE_CONVERT_COMPLETE'			=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerosi elementi. Dopo la conversione controlla soprattutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
-	'PROCESS_LAST'					=> 'Elaborazione delle ultime istruzioni',
+	'PHP_OPTIONAL_MODULE'				=> 'Moduli facoltativi',
+	'PHP_OPTIONAL_MODULE_EXPLAIN'		=> '<strong>Facoltativi</strong> - Questi moduli o applicazioni sono facoltativi. Tuttavia, se sono disponibili permetteranno caratteristiche supplementari.',
+	'PHP_SUPPORTED_DB'					=> 'Database supportati',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Richiesto</strong> - Devi supportare almeno un database compatibile all’interno di PHP. Se nessun modulo database viene visualizzato come disponibile dovresti contattare il tuo fornitore o esaminare la documentazione di installazione PHP relativa per avere dei suggerimenti.',
+	'PHP_REGISTER_GLOBALS'				=> 'Impostazione PHP <var>register_globals</var> è disabilitata',
+	'PHP_REGISTER_GLOBALS_EXPLAIN'		=> 'phpBB funzionerà anche se questa impostazione è abilitata, ma se è possibile, si raccomanda di disabilitare register_globals sul tuo PHP per motivi di sicurezza.',
+	'PHP_SAFE_MODE'						=> 'Modo sicuro',
+	'PHP_SETTINGS'						=> 'Versione e impostazioni PHP',
+	'PHP_SETTINGS_EXPLAIN'				=> '<strong>Richiesto</strong> - Dovete eseguire per lo meno la versione di 4.3.3 di PHP per poter installare phpBB. Se visualizzate <var>modo sicuro</var> il vostro PHP sta eseguendo in quel modo. Questo imporrà limitazioni sulla gestione remota e simili.',
+	'PHP_URL_FOPEN_SUPPORT'				=> 'Impostazione PHP <var>allow_url_fopen</var> è abilitata',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'		=> '<strong>Facoltativo</strong> - Questa impostazione è facoltativa, comunque alcune funzioni di phpBB, tipo quella di poter caricare gli avatar da altri siti, non funzioneranno correttamente senza di essa. ',
+	'PHP_VERSION_REQD'					=> 'Versione PHP >= 4.3.3',
+	'POST_ID'							=> 'ID argomento',
+	'PREFIX_FOUND'						=> 'Una scansione delle tabelle ha visualizzato un’installazione valida utilizzando  <strong>%s</strong> come prefisso tabella.',
+	'PREPROCESS_STEP'					=> 'Esecuzione delle funzioni di pre-elaborazione/query',
+	'PRE_CONVERT_COMPLETE'				=> 'Tutti i passaggi di pre-conversione sono stati completati correttamente. Ora puoi iniziare il processo di conversione effettivo. Nota che è possibile che tu debba adattare manualmente numerosi elementi. Dopo la conversione controlla soprattutto i permessi assegnati, ricostruisci se necessario l’Indice di ricerca e assicurati che i file siano stati copiati correttamente, ad esempio gli avatar e le emoticon.',
+	'PROCESS_LAST'						=> 'Elaborazione delle ultime istruzioni',
 
 	'REFRESH_PAGE'				=> 'Aggiorna pagina per continuare conversione',
 	'REFRESH_PAGE_EXPLAIN'		=> 'Se impostato su SI, il convertitore aggiornerà la pagina per continuare la conversione dopo aver terminato un passaggio. Se questa è la tua prima conversione per scopi di verifica e per determinare qualsiasi errore in anticipo, ti suggeriamo di impostare NO.',
-
 	'REQUIREMENTS_TITLE'		=> 'Compatibilità installazione',
 	'REQUIREMENTS_EXPLAIN'		=> 'Prima di procedere all’installazione completa phpBB eseguirà alcuni test sulla configurazione del tuo server e dei tuoi file, per assicurarsi che tu possa installare ed eseguire phpBB. Assicurati di leggere accuratamente i risultati e non procedere fin quando tutti i test richiesti non saranno superati. Se desideri utilizzare una qualunque delle caratteristiche a seconda dei test opzionali, devi essere sicuro che anche tutti i test siano stati superati.',
 	'RETRY_WRITE'				=> 'Ritenta scrittura di config',
 	'RETRY_WRITE_EXPLAIN'		=> 'Se vuoi puoi cambiare i permessi in config.php per permettere a phpBB di scriverlo. Se desideri fare questo puoi cliccare "Ritenta" qui sotto. Ricorda di restituire i permessi in config.php dopo che phpBB ha finito l’installazione.',
 
-	'SCRIPT_PATH'				=> 'Percorso dello script',
-	'SCRIPT_PATH_EXPLAIN'		=> 'Il percorso dove è situato phpbb relativo al nome di dominio, es. <samp>/phpBB3</samp>.',
-	'SELECT_LANG'				=> 'Seleziona lingua',
-	'SERVER_CONFIG'				=> 'Configurazione del server',
-	'SEARCH_INDEX_UNCONVERTED'	=> 'Indice di ricerca non convertito',
+	'SCRIPT_PATH'						=> 'Percorso dello script',
+	'SCRIPT_PATH_EXPLAIN'				=> 'Il percorso dove è situato phpbb relativo al nome di dominio, es. <samp>/phpBB3</samp>.',
+	'SELECT_LANG'						=> 'Seleziona lingua',
+	'SERVER_CONFIG'						=> 'Configurazione del server',
+	'SEARCH_INDEX_UNCONVERTED'			=> 'Indice di ricerca non convertito',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Il tuo vecchio Indice di ricerca non è stato convertito. La ricerca darà sempre un risultato vuoto. Per creare un nuovo Indice di ricerca vai nel Pannello di Controllo Amministratore e scegli "Manutenzione", poi scegli Cerca Indice dal submenu.',
-	'SOFTWARE'					=> 'Board software',
-	'SPECIFY_OPTIONS'			=> 'Specifica opzioni di conversione',
-	'STAGE_ADMINISTRATOR'		=> 'Dettagli Amministratore',
-	'STAGE_ADVANCED'			=> 'Impostazioni avanzate',
-	'STAGE_ADVANCED_EXPLAIN'	=> 'Le impostazioni in questa pagina necessitano di essere usate solo se si è a conoscenza di aver bisogno di qualcosa di diverso dalle impostazioni predefinite. Se non sei sicuro procedi alla pagina successiva, dato che queste impostazioni possono essere modificate in seguito dal Pannello di Controllo Amministratore.',
-	'STAGE_CONFIG_FILE'			=> 'File di configurazione',
-	'STAGE_CREATE_TABLE'		=> 'Crea tabelle database',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'Le tabelle presenti nel database utilizzate da phpBB 3 sono state create e popolate con qualche dato iniziale. Procedi alla schermata successiva per completare l’installazione di phpBB.',
-	'STAGE_DATABASE'			=> 'Impostazioni database',
-	'STAGE_FINAL'				=> 'Stadio finale',
-	'STAGE_INTRO'				=> 'Introduzione',
-	'STAGE_IN_PROGRESS'			=> 'Conversione in corso',
-	'STAGE_REQUIREMENTS'		=> 'Requisiti',
-	'STAGE_SETTINGS'			=> 'Impostazioni',
-	'STARTING_CONVERT'			=> 'Inizio processo di conversione',
-	'STEP_PERCENT_COMPLETED'	=> 'Passo <strong>%d</strong> di <strong>%d</strong>',
-	'SUB_INTRO'					=> 'Introduzione',
-	'SUB_LICENSE'				=> 'Licenza',
-	'SUB_SUPPORT'				=> 'Supporto',
-	'SUCCESSFUL_CONNECT'		=> 'Connesso con successo',
-
-	'SUPPORT_BODY'				=> 'Supporto completo viene fornito per la versione più recente di phpBB3 su phpBB.com (in Inglese) e su phpBBItalia.net (in Italiano). Questo include problemi relativi a:</p><ul><li>installazione</li><li>configurazione</li><li>questioni tecniche</li><li>possibili bug nel software</li><li>aggiornamento da versioni release candidate (3.0.RCx) all\'ultima versione stabile (3.0.x)</li><li>conversione da phpBB 2.0.x a phpBB3</li><li>conversione da altri software per forum a phpBB3 (vedere in particolare il <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a> su phpBB.com)</li></ul><p>Incoraggiamo gli utenti che ancora usano versioni beta di phpBB3 a sostituire interamente le loro installazioni con una copia ex-novo dell\'ultima versione del software (l\'aggiornamento da versioni beta a stabili non è supportato).</p><h2>MOD / Stili</h2><p>Per questioni relative alle MOD (modifiche al codice), consultate gli appropriati forum su <a href="http://www.phpbbitalia.net/forum/mods-f9/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=81">phpBB.com</a>.<br />Analogamente per gli stili, template e set di immagini, consultate i relativi forum su <a href="http://www.phpbbitalia.net/forum/stili-f14/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=80">phpBB.com</a>.<br /><br />Se le tue domande riguardano una specifica MOD o uno specifico stile, scrivi direttamente nell’argomento dedicato a quella MOD o a quello stile su phpBB.com.</p><h2>Come ottenere supporto su phpBBItalia.net</h2><p><a href="http://www.phpbbitalia.net/forum/guide-f36/">Guide e FAQ su phpBB3</a><br /><a href="http://www.phpbbitalia.net/forum/forum-di-supporto-f4/">Forum con informazioni e supporto</a>.</p><h2>Come ottenere supporto su phpBB.com (in Inglese)</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Risorse e riferimenti</a><br /><a href="https://www.phpbb.com/support/">Sezione di supporto</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />Per assicurarti di essere aggiornato sulle ultime novità e release, puoi sottoscrivere la <a href="https://www.phpbb.com/support/">mailing list di phpBB.com</a>.<br /><br />',
-	'SYNC_FORUMS'				=> 'Inizio sincronizzazione delle sezioni',
-	'SYNC_POST_COUNT'			=> 'Sincronizzazione totale messaggi',
-	'SYNC_POST_COUNT_ID'		=> 'Sincronizzazione totale messaggi dalla <var>voce</var> %1$s alla %2$s.',
-	'SYNC_TOPICS'				=> 'Inizio sincronizzazione degli argomenti',
-	'SYNC_TOPIC_ID'				=> 'Sincronizzazione argomenti da <var>id argomento</var> %1$s a %2$s.',
+	'SOFTWARE'							=> 'Board software',
+	'SPECIFY_OPTIONS'					=> 'Specifica opzioni di conversione',
+	'STAGE_ADMINISTRATOR'				=> 'Dettagli Amministratore',
+	'STAGE_ADVANCED'					=> 'Impostazioni avanzate',
+	'STAGE_ADVANCED_EXPLAIN'			=> 'Le impostazioni in questa pagina necessitano di essere usate solo se si è a conoscenza di aver bisogno di qualcosa di diverso dalle impostazioni predefinite. Se non sei sicuro procedi alla pagina successiva, dato che queste impostazioni possono essere modificate in seguito dal Pannello di Controllo Amministratore.',
+	'STAGE_CONFIG_FILE'					=> 'File di configurazione',
+	'STAGE_CREATE_TABLE'				=> 'Crea tabelle database',
+	'STAGE_CREATE_TABLE_EXPLAIN'		=> 'Le tabelle presenti nel database utilizzate da phpBB 3 sono state create e popolate con qualche dato iniziale. Procedi alla schermata successiva per completare l’installazione di phpBB.',
+	'STAGE_DATABASE'					=> 'Impostazioni database',
+	'STAGE_FINAL'						=> 'Stadio finale',
+	'STAGE_INTRO'						=> 'Introduzione',
+	'STAGE_IN_PROGRESS'					=> 'Conversione in corso',
+	'STAGE_REQUIREMENTS'				=> 'Requisiti',
+	'STAGE_SETTINGS'					=> 'Impostazioni',
+	'STARTING_CONVERT'					=> 'Inizio processo di conversione',
+	'STEP_PERCENT_COMPLETED'			=> 'Passo <strong>%d</strong> di <strong>%d</strong>',
+	'SUB_INTRO'							=> 'Introduzione',
+	'SUB_LICENSE'						=> 'Licenza',
+	'SUB_SUPPORT'						=> 'Supporto',
+	'SUCCESSFUL_CONNECT'				=> 'Connesso con successo',
+	'SUPPORT_BODY'						=> 'Supporto completo viene fornito per la versione più recente di phpBB3 su phpBB.com (in Inglese) e su phpBBItalia.net (in Italiano). Questo include problemi relativi a:</p><ul><li>installazione</li><li>configurazione</li><li>questioni tecniche</li><li>possibili bug nel software</li><li>aggiornamento da versioni release candidate (3.0.RCx) all\'ultima versione stabile (3.0.x)</li><li>conversione da phpBB 2.0.x a phpBB3</li><li>conversione da altri software per forum a phpBB3 (vedere in particolare il <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a> su phpBB.com)</li></ul><p>Incoraggiamo gli utenti che ancora usano versioni beta di phpBB3 a sostituire interamente le loro installazioni con una copia ex-novo dell\'ultima versione del software (l\'aggiornamento da versioni beta a stabili non è supportato).</p><h2>MOD / Stili</h2><p>Per questioni relative alle MOD (modifiche al codice), consultate gli appropriati forum su <a href="http://www.phpbbitalia.net/forum/mods-f9/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=81">phpBB.com</a>.<br />Analogamente per gli stili, template e set di immagini, consultate i relativi forum su <a href="http://www.phpbbitalia.net/forum/stili-f14/">phpBBItalia.net</a> o <a href="https://www.phpbb.com/community/viewforum.php?f=80">phpBB.com</a>.<br /><br />Se le tue domande riguardano una specifica MOD o uno specifico stile, scrivi direttamente nell’argomento dedicato a quella MOD o a quello stile su phpBB.com.</p><h2>Come ottenere supporto su phpBBItalia.net</h2><p><a href="http://www.phpbbitalia.net/forum/guide-f36/">Guide e FAQ su phpBB3</a><br /><a href="http://www.phpbbitalia.net/forum/forum-di-supporto-f4/">Forum con informazioni e supporto</a>.</p><h2>Come ottenere supporto su phpBB.com (in Inglese)</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Risorse e riferimenti</a><br /><a href="https://www.phpbb.com/support/">Sezione di supporto</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />Per assicurarti di essere aggiornato sulle ultime novità e release, puoi sottoscrivere la <a href="https://www.phpbb.com/support/">mailing list di phpBB.com</a>.<br /><br />',
+	'SYNC_FORUMS'						=> 'Inizio sincronizzazione delle sezioni',
+	'SYNC_POST_COUNT'					=> 'Sincronizzazione totale messaggi',
+	'SYNC_POST_COUNT_ID'				=> 'Sincronizzazione totale messaggi dalla <var>voce</var> %1$s alla %2$s.',
+	'SYNC_TOPICS'						=> 'Inizio sincronizzazione degli argomenti',
+	'SYNC_TOPIC_ID'						=> 'Sincronizzazione argomenti da <var>id argomento</var> %1$s a %2$s.',
 
 	'TABLES_MISSING'			=> 'Impossibile trovare queste tabelle<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefisso delle tabelle nel database',
@@ -366,7 +365,7 @@ $lang = array_merge($lang, array(
 	'UNWRITABLE'				=> 'Non scrivibile',
 	'UPDATE_TOPICS_POSTED'		=> 'Sto elaborando informazioni sugli argomenti inviati',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Si è verificato un errore durante l’elaborazione delle informazioni sugli argomenti inviati. Puoi ritentare questo passaggio nel PCA dopo che il processo di conversione sarà completato.',
-	'VERIFY_OPTIONS'         => 'Sto verificando le opzioni di conversione',
+	'VERIFY_OPTIONS'			=> 'Sto verificando le opzioni di conversione',
 	'VERSION'					=> 'Versione',
 
 	'WELCOME_INSTALL'			=> 'Benvenuto nel pannello di installazione di phpBB3',
@@ -390,7 +389,7 @@ $lang = array_merge($lang, array(
 	'CHECK_UPDATE_DATABASE'			=> 'Continua il processo di aggiornamento',
 	'COLLECTED_INFORMATION'			=> 'Informazioni sui file',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'La lista sottostante mostra informazioni sui file che devono essere aggiornati. Leggi le informazioni visualizzate per ogni blocco per capirne il significato e sapere cosa fare per eseguire un aggiornamento efficace.',
-	'COLLECTING_FILE_DIFFS'         => 'Sto raccogliendo le differenze tra i file',
+	'COLLECTING_FILE_DIFFS'			=> 'Sto raccogliendo le differenze tra i file',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Adesso devi <a href="../ucp.php?mode=login">effettuare il login alla tua Board</a> e controllare se tutto funziona correttamente. Non dimenticare di cancellare, rinominare oppure spostare la cartella "install"!',
 	'CONTINUE_UPDATE_NOW'			=> 'Procedi con il processo di aggiornamento',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Procedi con l’aggiornamento',					// Shown after file upload to indicate the update process is not yet finished
@@ -411,9 +410,9 @@ $lang = array_merge($lang, array(
 	'DONE'								=> 'Fatto',
 	'DOWNLOAD'							=> 'Scarica',
 	'DOWNLOAD_AS'						=> 'Scarica come',
-	'DOWNLOAD_UPDATE_METHOD_BUTTON'     => 'Scarica archivio file modificati (raccomandato)',
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Scarica archivio file modificati (raccomandato)',
 	'DOWNLOAD_CONFLICTS'				=> 'Conflitti di scaricamento per questo file',
-    'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Cerca &lt;&lt;&lt; per individuare i conflitti',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Cerca &lt;&lt;&lt; per individuare i conflitti',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Scarica archivio file modificati',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Una volta scaricato devi decomprimere l’archivio. All’interno troverai i file modificati che devi caricare nella tua cartella phpBB. Dopo che hai caricato tutti i file controllali di nuovo con l’altro bottone qui sotto.',
 
@@ -443,7 +442,7 @@ $lang = array_merge($lang, array(
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'L’aggiornamento del database è avvenuto correttamente. Adesso devi continuare il processo di aggiornamento.',
 
 	'KEEP_OLD_NAME'		=> 'Mantieni nome utente',
-	
+
 	'LATEST_VERSION'		=> 'Ultima versione',
 	'LINE'					=> 'Linea',
 	'LINE_ADDED'			=> 'Aggiunta',
@@ -453,17 +452,16 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'Per aggiornare la tua installazione devi prima effettuare il login.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'Per facilitare l’invio eccoti l’ubicazione del file che traccia la mappa della tua installazione di phpBB.',
-	
+
 	'MERGE_MODIFICATIONS_OPTION'	=> 'Unisci le modifiche',
-	
+
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Non unire - usa il nuovo file',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Non unire - usa il file correntemente installato',
 	'MERGE_MOD_FILE_OPTION'		=> 'Unisci le modifiche (tralasciando il nuovo codice phpBB all’interno del blocco in conflitto)',
 	'MERGE_NEW_FILE_OPTION'		=> 'Unisci le modifiche (tralasciando il codice modificato all’interno del blocco in conflitto)',
 	'MERGE_SELECT_ERROR'		=> 'Il metodo per unire i file conflittuali non è stato correttamente selezionato.',
-	'MERGING_FILES'            => 'Unisco le differenze',
-    'MERGING_FILES_EXPLAIN'      => 'Sto raccogliendo le modifiche finali ai file.<br /><br />Per favore, aspetta fino a quando phpBB non ha completato tutte le operazioni sui file cambiati.',
-
+	'MERGING_FILES'				=> 'Unisco le differenze',
+	'MERGING_FILES_EXPLAIN'		=> 'Sto raccogliendo le modifiche finali ai file.<br /><br />Per favore, aspetta fino a quando phpBB non ha completato tutte le operazioni sui file cambiati.',
 
 	'NEW_FILE'						=> 'Fine del conflitto',
 	'NEW_USERNAME'					=> 'Nuovo nome utente',
@@ -479,7 +477,6 @@ $lang = array_merge($lang, array(
 	'NOTICE'						=> 'Avviso',
 	'NUM_CONFLICTS'					=> 'Numero di conflitti',
 	'NUMBER_OF_FILES_COLLECTED'		=> 'Sto verificando le differenze per %1$d di %2$d file.<br />Per favore, attendi che la verifica dei file sia terminata.',
-     
 
 	'OLD_UPDATE_FILES'		=> 'I file di aggiornamento sono vecchi. I file di aggiornamento trovati sono per l’aggiornamento da phpBB %1$s a phpBB %2$s ma l’ultima versione di phpBB è %3$s.',
 
@@ -514,9 +511,10 @@ $lang = array_merge($lang, array(
 	'STATUS_NEW_CONFLICT'		=> 'Conflitto con il nuovo file',
 	'STATUS_NOT_MODIFIED'		=> 'File non modificato',
 	'STATUS_UP_TO_DATE'			=> 'File già aggiornato',
-	'TOGGLE_DISPLAY'            => 'Visualizza/nascondi elenco file',
-	'TRY_DOWNLOAD_METHOD' => 'Ti consigliamo di provare il download dell’archivio dei file modificati.<br />Questo metodo funziona sempre e soprattutto è il metodo di aggiornamento raccomandato.',
-    'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Prova questo metodo ora',
+
+	'TOGGLE_DISPLAY'				=> 'Visualizza/nascondi elenco file',
+	'TRY_DOWNLOAD_METHOD'			=> 'Ti consigliamo di provare il download dell’archivio dei file modificati.<br />Questo metodo funziona sempre e soprattutto è il metodo di aggiornamento raccomandato.',
+	'TRY_DOWNLOAD_METHOD_BUTTON'	=> 'Prova questo metodo ora',
 
 	'UPDATE_COMPLETED'				=> 'Aggiornamento completato',
 	'UPDATE_DATABASE'				=> 'Aggiornamento database',
@@ -548,12 +546,14 @@ $lang = array_merge($lang, array(
 		<strong><a href="%2$s" title="%2$s">Avvia il processo di aggiornamento indirizzando il tuo browser verso la cartella di installazione</a>.</strong><br />
 		<br />
 		Verrai guidato attraverso il processo di aggiornamento. Sarai informato quando l’aggiornamento sarà completato.
-		</p>',
-		'UPDATE_INSTRUCTIONS_INCOMPLETE'   => '
+		</p>
+	',
+	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
 
 		<h1>Aggiornamento incompleto rilevato</h1>
 
-		<p>phpBB ha rilevato un aggiornamento automatico incompleto. Controlla di aver seguito ogni passaggio della procedura di aggiornamento automatico. Sotto trovi nuovamente il link, oppure vai direttamente alla cartella install.</p>',
+		<p>phpBB ha rilevato un aggiornamento automatico incompleto. Controlla di aver seguito ogni passaggio della procedura di aggiornamento automatico. Sotto trovi nuovamente il link, oppure vai direttamente alla cartella install.</p>
+	',
 	'UPDATE_METHOD'					=> 'Metodo di aggiornamento',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Puoi scegliere il tuo metodo di aggiornamento preferito. Scegliendo FTP ti verrà mostrata una maschera che dovrai compilare con i tuoi dati. Con questo metodo i file saranno spostati automaticamente alla nuova ubicazione e i backup dei vecchi file verranno creati aggiungendo .bak al nome file. Se scegli di scaricare i file modificati potrai decomprimerli e caricarli manualmente nella giusta collocazione in seguito.',
 	'UPDATE_REQUIRES_FILE'			=> 'La procedura di aggiornamento richiede che sia presente questo file: %s',
@@ -570,15 +570,15 @@ $lang = array_merge($lang, array(
 	'USER_ACTIVE'					=> 'Utente attivo',
 	'USER_INACTIVE'					=> 'Utente non attivo',
 
-	'VERSION_CHECK'				=> 'Controllo versione',
-	'VERSION_CHECK_EXPLAIN' => 'Verifica se il tuo phpBB è aggiornato.',
-	'VERSION_NOT_UP_TO_DATE'	=> 'La tua installazione di phpBB non è aggiornata. Procedi con il processo di aggiornamento.',
-	'VERSION_NOT_UP_TO_DATE_ACP'=> 'La tua installazione di phpBB non è aggiornata.<br />Qui sotto troverai un collegamento all’annuncio del rilascio dell’ultima versione, completo di istruzioni su come effettuare l’aggiornamento.',
+	'VERSION_CHECK'					=> 'Controllo versione',
+	'VERSION_CHECK_EXPLAIN'			=> 'Verifica se il tuo phpBB è aggiornato.',
+	'VERSION_NOT_UP_TO_DATE'		=> 'La tua installazione di phpBB non è aggiornata. Procedi con il processo di aggiornamento.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'La tua installazione di phpBB non è aggiornata.<br />Qui sotto troverai un collegamento all’annuncio del rilascio dell’ultima versione, completo di istruzioni su come effettuare l’aggiornamento.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'La tua installazione di phpBB non è aggiornata.',
-	'VERSION_UP_TO_DATE'		=> 'La tua installazione di phpBB è aggiornata. Nonostante non siano presenti aggiornamenti, puoi comunque continuare e fare il controllo di validità dei file.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'La tua installazione di phpBB è aggiornata. Non sono disponibili aggiornamenti.',
-	'VIEWING_FILE_CONTENTS'		=> 'Vedi contenuti del file',
-	'VIEWING_FILE_DIFF'			=> 'Vedi differenze del file',
+	'VERSION_UP_TO_DATE'			=> 'La tua installazione di phpBB è aggiornata. Nonostante non siano presenti aggiornamenti, puoi comunque continuare e fare il controllo di validità dei file.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'La tua installazione di phpBB è aggiornata. Non sono disponibili aggiornamenti.',
+	'VIEWING_FILE_CONTENTS'			=> 'Vedi contenuti del file',
+	'VIEWING_FILE_DIFF'				=> 'Vedi differenze del file',
 
 	'WRONG_INFO_FILE_FORMAT'	=> 'Formato errato del file di info',
 ));
