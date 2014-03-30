@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Traduzione Italiana <a href="http://www.phpbbitalia.net/">phpBBItalia.net</a> basata su phpBB.it 2010',
+	'TRANSLATION_INFO'	=> 'Traduzione Italiana <a href="http://www.phpbbitalia.net/">phpBBItalia.net</a> basata su phpBB.it 2010',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'it',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Il file immagine che vuoi allegare non è valido.',
 	'AUTHOR'						=> 'Autore',
 	'AUTH_NO_PROFILE_CREATED'		=> 'La creazione del profilo utente è fallita.',
-	'AVATAR_DISALLOWED_CONTENT'     => 'Il contenuto è stato respinto in quanto il file caricato è stato identificato come un possibile vettore di attacco.',
+	'AVATAR_DISALLOWED_CONTENT'		=> 'Il contenuto è stato respinto in quanto il file caricato è stato identificato come un possibile vettore di attacco.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'Questo file non può essere visualizzato perché l’estensione <strong>%s</strong> non è permessa.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'L’avatar non può essere caricato, il file potrebbe non essere valido o corrotto.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'Il file dell’avatar inviato è vuoto.',
@@ -173,8 +173,8 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_AUTH'						=> 'Autorizzazione negata sul server Jabber.',
 	'ERR_JAB_CONNECT'					=> 'Impossibile connettersi al server Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Il nome utente o la password non sono corretti.',
-	'ERR_UNWATCHING'				=> 'Si è verificato un errore durante l’annullamento della sottoscrizione.',
-	'ERR_WATCHING'				  => 'Si è verificato un errore durante la sottoscrizione.',
+	'ERR_UNWATCHING'					=> 'Si è verificato un errore durante l’annullamento della sottoscrizione.',
+	'ERR_WATCHING'						=> 'Si è verificato un errore durante la sottoscrizione.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Il percorso a phpBB specificato sembra non essere valido.',
 	'EXPAND_VIEW'						=> 'Espandi visuale',
 	'EXTENSION'							=> 'Estensione',
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_ERROR'				=> 'Errore Generale',
 	'GB'						=> 'GB',
-    'GIB'						=> 'GiB',
+	'GIB'						=> 'GiB',
 	'GO'						=> 'Vai',
 	'GOTO_PAGE'					=> 'Vai alla pagina',
 	'GROUP'						=> 'Gruppo',
@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 	'TOO_LARGE'					=> 'Il valore inserito è troppo grande.',
 	'TOO_LARGE_MAX_RECIPIENTS'	=> 'Il valore del <strong>numero massimo consentito di destinatari per messaggio privato</strong> inserito è troppo grande.',
 
-    'TOO_LONG'				  => 'Il valore inserito è troppo lungo.',
+	'TOO_LONG'					=> 'Il valore inserito è troppo lungo.',
 
 	'TOO_LONG_AIM'					=> 'Il riferimento AIM inserito è troppo lungo.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Il codice di conferma inserito è troppo lungo.',
@@ -603,7 +603,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Stai tentando di votare con troppe opzioni.',
  
-    'TOO_SHORT'				 => 'Il valore inserito è troppo corto.',
+	'TOO_SHORT'				 => 'Il valore inserito è troppo corto.',
 
 	'TOO_SHORT_AIM'					=> 'Il riferimento AIM inserito è troppo corto.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Il codice di conferma inserito è troppo corto.',
@@ -887,7 +887,7 @@ $lang = array_merge($lang, array(
 		'j M Y, G:i'		=> '8 dic 2007, 13:37',
 		'|j M Y|, G:i'		=> '8 dic 2007, 13:37 / oggi, 13:15',
 		'j F Y, G:i'		=> '8 dicembre 2007, 13:15',
-        '|j F Y|, G:i'		=> '8 dicembre 2007, 13:15 / oggi, 13:15',
+		'|j F Y|, G:i'		=> '8 dicembre 2007, 13:15 / oggi, 13:15',
 		'D j M Y, G:i'		=> 'sab 8 dic 2007, 13:15',
 		'|D j M Y|, G:i'	=> 'sab 8 dic 2007, 13:15 / oggi, 13:15',
 		'l j F Y, G:i'		=> 'sabato 8 dicembre 2007, 13:15',
