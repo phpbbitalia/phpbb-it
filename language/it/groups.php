@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
-* @copyright (c) 2010 phpBB.it - translated on 2010-03-01
+* @copyright (c) 2010 phpBB.it - translated on 2014-03-30
 * @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -43,8 +43,8 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_JOIN_GROUP'			=> 'Non puoi iscriverti a questo gruppo. Puoi iscriverti solo a gruppi aperti.',
 	'CANNOT_RESIGN_GROUP'		=> 'Non puoi cancellarti da questo gruppo. Puoi solo cancellarti da gruppi aperti.',
-	'CHANGED_DEFAULT_GROUP'	=> 'Cambio del gruppo predefinito riuscito.',
-	
+	'CHANGED_DEFAULT_GROUP'		=> 'Cambio del gruppo predefinito riuscito.',
+
 	'GROUP_AVATAR'						=> 'Avatar del gruppo', 
 	'GROUP_CHANGE_DEFAULT'				=> 'Sei sicuro di voler cambiare la tua iscrizione predefinita con il gruppo “%s”?',
 	'GROUP_CLOSED'						=> 'Chiuso',
@@ -83,10 +83,10 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'L’operazione richiesta non può essere conclusa perché non sei il leader del gruppo selezionato.',
 	'NOT_MEMBER_OF_GROUP'			=> 'L’operazione richiesta non può essere conclusa perché non sei iscritto al gruppo selezionato, o ancora non hai avuto approvazione di adesione.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Non puoi cancellarti dal gruppo predefinito.',
-	
+
 	'PRIMARY_GROUP'		=> 'Gruppo principale',
 
-	'REMOVE_SELECTED'		=> 'Rimuovi selezionati',
+	'REMOVE_SELECTED'	=> 'Rimuovi selezionati',
 
 	'USER_GROUP_CHANGE'			=> 'Dal gruppo “%1$s” al gruppo “%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'Dimettiti da leader',
