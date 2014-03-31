@@ -2,7 +2,7 @@ Subject: Hai ricevuto un messaggio privato
 
 Ciao {USERNAME},
 
-hai ricevuto un nuovo messaggio privato da parte di "{AUTHOR_NAME}" nel tuo account su "{SITENAME}" e posta il seguente oggetto:
+hai ricevuto un nuovo messaggio privato da parte di "{AUTHOR_NAME}" nel tuo account su "{SITENAME}" avente il seguente oggetto:
 
 {SUBJECT}
 
