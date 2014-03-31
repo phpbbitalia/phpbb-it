@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Titolo messaggio',
 	'SORT_TIME'					=> 'Data messaggio',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Devi specificare almeno %d caratteri del nome dell’autore.',
+	'TOO_FEW_AUTHOR_CHARS'	=>	'Devi specificare almeno %d caratteri del nome dell’autore.',
 ));
 
 ?>
