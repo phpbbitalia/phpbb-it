@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
+* @copyright (c) 2012 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Invia messaggio',
 	'IM_SENT_JABBER'		=> 'Il tuo messaggio per %1$s è stato inviato correttamente.',
 	'IM_USER'				=> 'Invia un messaggio istantaneo',
-	
+
 	'LAST_ACTIVE'				=> 'Ultima azione',
 	'LESS_THAN'					=> 'Meno di',
 	'LIST_USER'					=> '1 utente',
@@ -111,13 +111,11 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Inviato dall’IP/dominio',
 
- //	'RANK'					=> 'Livello', //
 	'REAL_NAME'				=> 'Nome del destinatario',
 	'RECIPIENT'				=> 'Destinatario',
 	'REMOVE_FOE'			=> 'Rimuovi da ignorati',
 	'REMOVE_FRIEND'			=> 'Rimuovi da amici',
 
- // 'SEARCH_USER_POSTS'		=> 'Cerca messaggi dell’utente', //
 	'SELECT_MARKED'			=> 'Seleziona contrassegnati',
 	'SELECT_SORT_METHOD'	=> 'Seleziona metodo di ordinamento',
 	'SEND_AIM_MESSAGE'		=> 'Invia messaggio AIM',
@@ -133,7 +131,7 @@ $lang = array_merge($lang, array(
 
 	'USERNAME_BEGINS_WITH'	=> 'Nome utente inizia per',
 	'USER_ADMIN'			=> 'Amministra utente',
-	'USER_BAN'              => 'Effettua ban',
+	'USER_BAN'				=> 'Effettua ban',
 	'USER_FORUM'			=> 'Statistiche utente',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Nessun sollecito inviato in questo momento',
