@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
+* @copyright (c) 2013 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Lista ordinata: esempio [list=1][*]Punto primo[/list] o [list=a][*]Punto a[/list]',
 	'BBCODE_P_HELP'				=> 'Immagine: [img]http://immagine_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Cita: [quote]testo[/quote]',
-	'BBCODE_S_HELP'				=> 'Colore: [color=red]testo[/color]  Tip: puoi usare anche codici esadecimali dei colori color=#FF0000',
+	'BBCODE_S_HELP'				=> 'Colore: [color=red]testo[/color] Tip: puoi usare anche codici esadecimali dei colori color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Sottolineato: [u]testo[/u]',
 	'BBCODE_W_HELP'				=> 'Collegamento: [url]http://url[/url] o [url=http://url]testo aggiuntivo[/url]',
 	'BBCODE_Y_HELP'				=> 'Lista: Aggiungi elementi alla lista',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'DISABLE_BBCODE'			=> 'Disabilita BBCode',
 	'DISABLE_MAGIC_URL'			=> 'Non rendere automaticamente cliccabili i collegamenti',
 	'DISABLE_SMILIES'			=> 'Disabilita emoticon',
-	'DISALLOWED_CONTENT'        => 'Il contenuto è stato respinto in quanto il file caricato è stato identificato come un possibile vettore di attacco.',
+	'DISALLOWED_CONTENT'		=> 'Il contenuto è stato respinto in quanto il file caricato è stato identificato come un possibile vettore di attacco.',
 	'DISALLOWED_EXTENSION'		=> 'L’estensione %s non è permessa.',
 	'DRAFT_LOADED'				=> 'La bozza è stata salvata se lo desideri puoi concludere ora il messaggio.<br />La bozza sarà eliminata una volta inserito il messaggio.',
 	'DRAFT_LOADED_PM'			=> 'La bozza è stata salvata se lo desideri puoi concludere ora il messaggio privato.<br />La bozza sarà eliminata una volta inserito il messaggio privato.',
@@ -170,8 +170,8 @@ $lang = array_merge($lang, array(
 	'POST_NORMAL'				=> 'Normale',
 	'POST_REVIEW'				=> 'Rivedi messaggio',
 	'POST_REVIEW_EXPLAIN'		=> 'Nel frattempo sono stati inseriti uno o più messaggi a questo argomento. Alla luce di questo, se desideri puoi rivedere il tuo messaggio.',
-	'POST_REVIEW_EDIT'          => 'Rivedi messaggio',
-    'POST_REVIEW_EDIT_EXPLAIN'  => 'Nel frattempo sono stati inseriti uno o più messaggi a questo argomento. Alla luce di questo, se desideri puoi rivedere il tuo messaggio.',
+	'POST_REVIEW_EDIT'			=> 'Rivedi messaggio',
+	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Nel frattempo sono stati inseriti uno o più messaggi a questo argomento. Alla luce di questo, se desideri puoi rivedere il tuo messaggio.',
 	'POST_STORED'				=> 'Messaggio inserito correttamente.',
 	'POST_STORED_MOD'			=> 'Il messaggio è stato inviato correttamente, ma dovrà essere approvato da un moderatore prima che sia pubblicamente attivo.',
 	'POST_TOPIC_AS'				=> 'Inserisci argomento come',
@@ -186,13 +186,13 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Emoticon',
 	'SMILIES_ARE_OFF'			=> 'Emoticon <em>non attive</em>',
 	'SMILIES_ARE_ON'			=> 'Emoticon <em>attive</em>',
-    'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Durata Importante/Annuncio',
-    'STICK_TOPIC_FOR'           => 'Mantieni come Importante/Annuncio per',
-    'STICK_TOPIC_FOR_EXPLAIN'   => '<br />Scrivi 0 o lascia il campo vuoto per una durata infinita dell’argomento Importante o dell’Annuncio. Ricorda che il numero di giorni è relativo alla data dell’argomento. Perché l’argomento Importante o l’Annuncio, diventi un argomento normale, è necessario che sia visualizzato, dopo la scadenza del termine impostato.',
-    'STYLES_TIP'				=> 'NB: Si possono applicare rapidamente gli stili al testo selezionato.',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Durata Importante/Annuncio',
+	'STICK_TOPIC_FOR'			=> 'Mantieni come Importante/Annuncio per',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> '<br />Scrivi 0 o lascia il campo vuoto per una durata infinita dell’argomento Importante o dell’Annuncio. Ricorda che il numero di giorni è relativo alla data dell’argomento. Perché l’argomento Importante o l’Annuncio, diventi un argomento normale, è necessario che sia visualizzato, dopo la scadenza del termine impostato.',
+	'STYLES_TIP'				=> 'NB: Si possono applicare rapidamente gli stili al testo selezionato.',
 
 	'TOO_FEW_CHARS'				=> 'Il messaggio è troppo corto.',
-	'TOO_FEW_CHARS_LIMIT'       => 'Il messaggio contiene %1$d caratteri. Il numero minimo di caratteri permessi è %2$d.',
+	'TOO_FEW_CHARS_LIMIT'		=> 'Il messaggio contiene %1$d caratteri. Il numero minimo di caratteri permessi è %2$d.',
 	'TOO_FEW_POLL_OPTIONS'		=> 'Devi inserire almeno due voci nel sondaggio.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Non puoi inserire un altro allegato, %d è il limite massimo.',
 	'TOO_MANY_CHARS'			=> 'Il messaggio è troppo lungo.',
