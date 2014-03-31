@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'La funzione allegati è disabilitata.',
 
 	'BOOKMARK_ADDED'		=> 'Segnalibro argomento aggiunto.',
-	'BOOKMARK_ERR'          => 'L’inserimento del segnalibro argomento non è riuscito. Riprova.',
+	'BOOKMARK_ERR'			=> 'L’inserimento del segnalibro argomento non è riuscito. Riprova.',
 	'BOOKMARK_REMOVED'		=> 'Segnalibro argomento rimosso.',
 	'BOOKMARK_TOPIC'		=> 'Inserisci nei segnalibri',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Rimuovi dai segnalibri',
@@ -112,7 +112,6 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Il tuo voto è stato registrato.',
 	'VOTE_CONVERTED'		=> 'Non è supportato il cambio voto per sondaggi convertiti.',
-
 ));
 
 ?>
