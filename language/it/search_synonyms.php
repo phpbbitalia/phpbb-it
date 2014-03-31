@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -77,7 +77,6 @@ $synonyms = array(
 	'flourescent'	=> 'fluorescent',
 	'foriegn'		=> 'foreign',
 	'fourty'		=> 'forty',
-	
 
 	'gage'			=> 'gauge',
 	'geneology'		=> 'genealogy',
