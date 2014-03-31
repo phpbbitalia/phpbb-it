@@ -514,9 +514,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Argomenti approvati</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Bump argomento eseguito su</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Messaggio cancellato “%1$s” scritto da</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Cancellato messaggio “%1$s” scritto da</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>Argomenti ombra cancellati</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Argomento cancellato “%1$s” scritto da</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Cancellato argomento “%1$s” scritto da</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Argomenti copiati</strong><br />» da %s',
 	'LOG_LOCK'					=> '<strong>Argomenti bloccati</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Messaggi bloccati</strong><br />» %s',
