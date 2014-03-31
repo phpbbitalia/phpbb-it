@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2011 phpBBItalia.net - translated on 2011-06-15
+* @copyright (c) 2011 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -39,25 +39,34 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> 'Argomenti attivi',
 	'ANNOUNCEMENTS'			=> 'Annunci',
+
 	'FORUM_PERMISSIONS'		=> 'Permessi forum',
+
 	'ICON_ANNOUNCEMENT'		=> 'Annuncio',
 	'ICON_STICKY'			=> 'Importante',
+
 	'LOGIN_NOTIFY_FORUM'	=> 'Hai ricevuto un avviso per questo forum, accedi per visualizzarlo.',
+
 	'MARK_TOPICS_READ'		=> 'Segna argomenti come già letti',
-	'NEW_POSTS_HOT'			=> 'Nuovi messaggi [ Popolari ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'Nuovi messaggi [ Bloccati ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No nuovi messaggi [ Popolari ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No nuovi messaggi [ Bloccati ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Non hai i permessi per leggere gli argomenti di questo forum.',
+
+	'NEW_POSTS_HOT'				=> 'Nuovi messaggi [ Popolari ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'			=> 'Nuovi messaggi [ Bloccati ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'			=> 'No nuovi messaggi [ Popolari ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'		=> 'No nuovi messaggi [ Bloccati ]',	// Not used anymore
+	'NO_READ_ACCESS'			=> 'Non hai i permessi per leggere gli argomenti di questo forum.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Nessun messaggio da leggere [ Popolare ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'No messaggi non letti [ Bloccati ]',
-	'POST_FORUM_LOCKED'		=> 'Questo forum è bloccato',
-	'TOPICS_MARKED'			=> 'Gli argomenti di questo forum sono stati segnati come già letti.',
-	'UNREAD_POSTS_HOT'		=> 'Messaggi non letti [ Popolari ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Messaggi non letti [ Bloccati ]',
-	'VIEW_FORUM'			=> 'Visualizza forum',
-	'VIEW_FORUM_TOPIC'		=> '1 argomento',
-	'VIEW_FORUM_TOPICS'		=> '%d argomenti',
+
+	'POST_FORUM_LOCKED'			=> 'Questo forum è bloccato',
+
+	'TOPICS_MARKED'				=> 'Gli argomenti di questo forum sono stati segnati come già letti.',
+
+	'UNREAD_POSTS_HOT'			=> 'Messaggi non letti [ Popolari ]',
+	'UNREAD_POSTS_LOCKED'		=> 'Messaggi non letti [ Bloccati ]',
+
+	'VIEW_FORUM'				=> 'Visualizza forum',
+	'VIEW_FORUM_TOPIC'			=> '1 argomento',
+	'VIEW_FORUM_TOPICS'			=> '%d argomenti',
 ));
 
 ?>
