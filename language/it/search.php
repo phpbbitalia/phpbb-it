@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-11-17
-* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
+* @copyright (c) 2013 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -55,10 +55,9 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Devi essere registrato ed aver effettuato l’accesso per poter leggere i tuoi messaggi.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Devi essere registrato ed aver effettuato l’accesso per poter visualizzare i messaggi non letti.',
-	
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Devi essere iscritto e connesso per visualizzare i nuovi messaggi successivi alla tua ultima visita.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Hai indicato troppe parole da ricercare. Per favore inserisci non più di %1$d parole.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Hai indicato troppe parole da ricercare. Per favore inserisci non più di %1$d parole.',
 
 	'NO_KEYWORDS'			=> 'Devi specificare almeno una parola da cercare, ciascuna parola deve essere di almeno %d caratteri e non deve contenere più di %d caratteri, escluse le abbreviazioni.',
 	'NO_RECENT_SEARCHES'	=> 'Nessuna ricerca è stata effettuata recentemente.',
