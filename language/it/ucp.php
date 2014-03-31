@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2013 phpBBItalia.net - translated on 2013-07-20
+* @copyright (c) 2013 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Accedendo a “%1$s” (in seguito “noi”, “nostro”,  “%1$s”, “%2$s”), l’utente accetta di essere vincolato legalmente alle seguenti condizioni d’uso. Se non accetti di essere limitato legalmente dalle condizioni d’uso seguenti non utilizzare i servizi offerti da “%1$s”. Le condizioni d’uso possono cambiare in qualunque momento, sarà nostra premura avvisarti di tali modifiche, benché sia opportuno controllare con frequenza queste pagine per eventuali modifiche, dato che l’uso dei servizi di “%1$s” implica la completa accettazione delle condizioni d’uso.<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Accedendo a “%1$s” (in seguito “noi”, “nostro”, “%1$s”, “%2$s”), l’utente accetta di essere vincolato legalmente alle seguenti condizioni d’uso. Se non accetti di essere limitato legalmente dalle condizioni d’uso seguenti non utilizzare i servizi offerti da “%1$s”. Le condizioni d’uso possono cambiare in qualunque momento, sarà nostra premura avvisarti di tali modifiche, benché sia opportuno controllare con frequenza queste pagine per eventuali modifiche, dato che l’uso dei servizi di “%1$s” implica la completa accettazione delle condizioni d’uso.<br />
 	<br />
 	“%1$s” utilizza il sistema phpBB (in seguito “loro”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) che è un software per la creazione di comunità web rilasciata sotto “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (in seguito “GPL”) liberamente scaricabile da <a href="https://www.phpbb.com">www.phpbb.com</a>. Il software phpBB facilita le aree di discussione internet, phpBB Group non è responsabile dei contenuti e della gestione. Per ulteriori informazioni su phpBB: <a href="https://www.phpbb.com">https://www.phpbb.com</a>.<br />
 	<br />
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_INACTIVE'				=> 'Il tuo account è stato creato. Tuttavia, il sistema richiede l’attivazione dell’account, una chiave di attivazione è stata inviata all’indirizzo e-mail che hai fornito. Controlla la tua posta per maggiori informazioni.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Il tuo account è stato creato. Tuttavia, il sistema richiede l’attivazione dell’account da parte di un amministratore. Un’e-mail è stata inviata agli amministratori, verrai informato quando il tuo account sarà attivato.',
 	'ACTIVATION_EMAIL_SENT'			=> 'L’e-mail di attivazione è stata inviata al tuo indirizzo di posta elettronica.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'L’e-mail di attivazione è stata inviata agli indirizzi di posta elettronica degli amministratori.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'L’e-mail di attivazione è stata inviata agli indirizzi di posta elettronica degli amministratori.',
 	'ADD'							=> 'Aggiungi',
 	'ADD_BCC'						=> 'Aggiungi [CCN]',
 	'ADD_FOES'						=> 'Aggiungi nuovi ignorati',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Impossibile caricare avatar in %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'Il tuo avatar non può essere visualizzato perché gli avatar sono stati disabilitati.',
 	'AVATAR_PAGE'					=> 'Pagina',
-    'AVATAR_TYPE_NOT_ALLOWED'       => 'Il tuo avatar non può essere visualizzato perché è di un tipo disabilitato.',
+	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Il tuo avatar non può essere visualizzato perché è di un tipo disabilitato.',
 
 	'BACK_TO_DRAFTS'			=> 'Torna a bozze salvate',
 	'BACK_TO_LOGIN'				=> 'Torna alla schermata di accesso',
@@ -112,35 +112,36 @@ $lang = array_merge($lang, array(
 	'BOOKMARKS_DISABLED'		=> 'I segnalibri non sono attivi.',
 	'BOOKMARKS_REMOVED'			=> 'I segnalibri sono stati rimossi.',
 
-	'CANNOT_EDIT_MESSAGE_TIME'	=> 'Non è più possibile modificare o cancellare quel messaggio.',
-	'CANNOT_MOVE_TO_SAME_FOLDER'=> 'I messaggi non possono essere spostati nella cartella che vuoi rimuovere.',
-	'CANNOT_MOVE_FROM_SPECIAL'	=> 'I messaggi non possono essere spostati nella cartella posta in uscita.',
-	'CANNOT_RENAME_FOLDER'		=> 'Questa cartella non può essere rinominata.',
-	'CANNOT_REMOVE_FOLDER'		=> 'Questa cartella non può essere rimossa.',
-	'CHANGE_DEFAULT_GROUP'		=> 'Cambia gruppo predefinito',
-	'CHANGE_PASSWORD'			=> 'Cambia password',
-	'CLICK_GOTO_FOLDER'			=> '%1$sVai alla tua “%3$s” cartella%2$s',
-	'CLICK_RETURN_FOLDER'		=> '%1$sRitorna alla tua cartella “%3$s”%2$s',
-	'CONFIRMATION'				=> 'Conferma di registrazione',
-	'CONFIRM_CHANGES'			=> 'Conferma variazioni',	
-	'CONFIRM_EMAIL'				=> 'Conferma indirizzo e-mail',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Questo va specificato solo se stai cambiando indirizzo e-mail.',
-	'CONFIRM_EXPLAIN'			=> 'Per impedire registrazioni automatiche il sistema richiede l’inserimento di un codice di conferma. Il codice è visualizzato nell’immagine che dovresti vedere qui sotto. Se per qualsiasi motivo non riuscissi a leggere il codice contatta un %samministratore%s.',
-	'VC_REFRESH'				=> 'Ricarica il codice di conferma',
-    'VC_REFRESH_EXPLAIN'		=> 'Se non riesci a leggere il codice puoi richiederne un altro cliccando il pulsante.',
-	'CONFIRM_PASSWORD'			=> 'Conferma password',
-	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Devi confermare la password solo se l’hai cambiata sopra.',
-	'COPPA_BIRTHDAY'			=> 'Per continuare la procedura di registrazione, specifica quando sei nato:',
-	'COPPA_COMPLIANCE'			=> 'Adeguamento COPPA',
-	'COPPA_EXPLAIN'				=> 'Cliccando Invia il tuo account verrà creato. Tuttavia non potrà essere attivato fintanto che un genitore o il tutore approvi la tua registrazione. Ti verrà inviato via e-mail il modulo da compilare ed i dettagli di dove inviarlo.',
-	'CREATE_FOLDER'				=> 'Aggiungi cartella…',
-	'CURRENT_IMAGE'				=> 'Immagine attuale',
-	'CURRENT_PASSWORD'			=> 'Password attuale',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'È necessario inserire la password attuale per modificare l’indirizzo e-mail o il nome utente.',
-	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'È necessario inserire la password attuale per modificare la stessa password, l’indirizzo e-mail o il nome utente.',
-	'CUR_PASSWORD_EMPTY'		=> 'Non hai inserito la password attuale.',
-	'CUR_PASSWORD_ERROR'		=> 'La password attuale inserita non è corretta.',
-	'CUSTOM_DATEFORMAT'			=> 'Personalizza…',
+	'CANNOT_EDIT_MESSAGE_TIME'			=> 'Non è più possibile modificare o cancellare quel messaggio.',
+	'CANNOT_MOVE_TO_SAME_FOLDER'		=> 'I messaggi non possono essere spostati nella cartella che vuoi rimuovere.',
+	'CANNOT_MOVE_FROM_SPECIAL'			=> 'I messaggi non possono essere spostati nella cartella posta in uscita.',
+	'CANNOT_RENAME_FOLDER'				=> 'Questa cartella non può essere rinominata.',
+	'CANNOT_REMOVE_FOLDER'				=> 'Questa cartella non può essere rimossa.',
+	'CHANGE_DEFAULT_GROUP'				=> 'Cambia gruppo predefinito',
+	'CHANGE_PASSWORD'					=> 'Cambia password',
+	'CLICK_GOTO_FOLDER'					=> '%1$sVai alla tua “%3$s” cartella%2$s',
+	'CLICK_RETURN_FOLDER'				=> '%1$sRitorna alla tua cartella “%3$s”%2$s',
+	'CONFIRMATION'						=> 'Conferma di registrazione',
+	'CONFIRM_CHANGES'					=> 'Conferma variazioni',	
+	'CONFIRM_EMAIL'						=> 'Conferma indirizzo e-mail',
+	'CONFIRM_EMAIL_EXPLAIN'				=> 'Questo va specificato solo se stai cambiando indirizzo e-mail.',
+	'CONFIRM_EXPLAIN'					=> 'Per impedire registrazioni automatiche il sistema richiede l’inserimento di un codice di conferma. Il codice è visualizzato nell’immagine che dovresti vedere qui sotto. Se per qualsiasi motivo non riuscissi a leggere il codice contatta un %samministratore%s.',
+	'VC_REFRESH'						=> 'Ricarica il codice di conferma',
+	'VC_REFRESH_EXPLAIN'				=> 'Se non riesci a leggere il codice puoi richiederne un altro cliccando il pulsante.',
+
+	'CONFIRM_PASSWORD'					=> 'Conferma password',
+	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Devi confermare la password solo se l’hai cambiata sopra.',
+	'COPPA_BIRTHDAY'					=> 'Per continuare la procedura di registrazione, specifica quando sei nato:',
+	'COPPA_COMPLIANCE'					=> 'Adeguamento COPPA',
+	'COPPA_EXPLAIN'						=> 'Cliccando Invia il tuo account verrà creato. Tuttavia non potrà essere attivato fintanto che un genitore o il tutore approvi la tua registrazione. Ti verrà inviato via e-mail il modulo da compilare ed i dettagli di dove inviarlo.',
+	'CREATE_FOLDER'						=> 'Aggiungi cartella…',
+	'CURRENT_IMAGE'						=> 'Immagine attuale',
+	'CURRENT_PASSWORD'					=> 'Password attuale',
+	'CURRENT_PASSWORD_EXPLAIN'			=> 'È necessario inserire la password attuale per modificare l’indirizzo e-mail o il nome utente.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN'	=> 'È necessario inserire la password attuale per modificare la stessa password, l’indirizzo e-mail o il nome utente.',
+	'CUR_PASSWORD_EMPTY'				=> 'Non hai inserito la password attuale.',
+	'CUR_PASSWORD_ERROR'				=> 'La password attuale inserita non è corretta.',
+	'CUSTOM_DATEFORMAT'					=> 'Personalizza…',
 
 	'DEFAULT_ACTION'			=> 'Azione predefinita',
 	'DEFAULT_ACTION_EXPLAIN'	=> 'Questa azione verrà eseguita nel caso in cui nessuna delle precedenti sia applicabile.',
@@ -175,7 +176,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Qui puoi modificare la tua bozza. Le bozze non contengono allegati e dati di sondaggio.',
 	'EMAIL_BANNED_EMAIL'		=> 'L’e-mail inserita non può essere usata.',
-
 	'EMAIL_REMIND'				=> 'Deve essere l’indirizzo e-mail che hai inserito durante la registrazione.',
 	'EMAIL_TAKEN_EMAIL'			=> 'L’indirizzo e-mail inserito è già in uso.',
 	'EMPTY_DRAFT'				=> 'Devi inserire un messaggio per apportare i cambiamenti.',
@@ -196,7 +196,6 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Il campo “%s” contiene caratteri non validi, sono ammessi solo caratteri alfanumerici.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Il campo “%s” contiene caratteri non validi, sono ammessi solo caratteri alfanumerici, spazio o -+_[].',
 	'FIELD_INVALID_DATE'				=> 'Il campo “%s” riporta una data non valida.',
-	
 	'FIELD_INVALID_VALUE'				=> 'Il campo “%s” ha un valore non valido.',
 
 	'FOE_MESSAGE'				=> 'Messaggio da ignorato',
@@ -304,8 +303,8 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Non sei autorizzato a modificare messaggi privati.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Non sei autorizzato ad inoltrare messaggi privati.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Non sei autorizzato ad inviare messaggi privati ai gruppi.',
-	'NO_AUTH_PASSWORD_REMINDER'     => 'Non sei autorizzato a richiedere una nuova password.',
-    'NO_AUTH_READ_HOLD_MESSAGE'     => 'Non sei autorizzato a leggere i messaggi privati trattenuti.',
+	'NO_AUTH_PASSWORD_REMINDER'		=> 'Non sei autorizzato a richiedere una nuova password.',
+	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Non sei autorizzato a leggere i messaggi privati trattenuti.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Non sei autorizzato a leggere messaggi privati.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Non puoi leggere questo messaggio perché è stato rimosso dall’autore.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'Non sei autorizzato ad inviare messaggi privati.',
@@ -332,7 +331,7 @@ $lang = array_merge($lang, array(
 	'NO_SAVED_DRAFTS'			=> 'Nessuna bozza salvata.',
 	'NO_TO_RECIPIENT'			=> 'Nessuno',
 	'NO_WATCHED_FORUMS'			=> 'Non stai controllando alcun forum.',
-	'NO_WATCHED_SELECTED'       => 'Non hai selezionato nessun argomento o forum controllato.',
+	'NO_WATCHED_SELECTED'		=> 'Non hai selezionato nessun argomento o forum controllato.',
 	'NO_WATCHED_TOPICS'			=> 'Non stai controllando alcun argomento.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'La password deve avere minimo %1$d e massimo %2$d caratteri, deve contenere numeri e lettere sia maiuscole che minuscole.',
@@ -397,7 +396,7 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR'		=> 'La nuova password inserita è identica alla password attuale.',
 	'SEARCH_YOUR_POSTS'			=> 'Mostra i tuoi argomenti',
 	'SEND_PASSWORD'				=> 'Genera nuova password',
-	'SENT_AT'					=> 'Inviato',			// Used before dates in private messages
+	'SENT_AT'					=> 'Inviato',	// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'Rendi visibile il tuo indirizzo e-mail',
 	'SIGNATURE_EXPLAIN'			=> 'Questo è un blocco di testo che può essere aggiunto in fondo ai tuoi messaggi. Il limite caratteri è di %d.',
 	'SIGNATURE_PREVIEW'			=> 'Così apparirà la firma nei tuoi messaggi',
@@ -440,7 +439,7 @@ $lang = array_merge($lang, array(
 	'UCP_PREFS_PERSONAL'		=> 'Preferenze globali',
 	'UCP_PREFS_POST'			=> 'Preferenze messaggi',
 	'UCP_PREFS_VIEW'			=> 'Opzioni di visualizzazione',
-	
+
 	'UCP_PM'					=> 'Messaggi privati',
 	'UCP_PM_COMPOSE'			=> 'Scrivi messaggio',
 	'UCP_PM_DRAFTS'				=> 'Gestione bozze MP',
@@ -460,29 +459,29 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Modifica iscrizioni',
 	'UCP_USERGROUPS_MANAGE'		=> 'Gestione gruppi',
 
-	'UCP_REGISTER_DISABLE'			=> 'La creazione di un nuovo account non è attualmente possibile.',
-	'UCP_REMIND'					=> 'Invia password',
-	'UCP_RESEND'					=> 'Invia e-mail di attivazione',
-	'UCP_WELCOME'					=> 'Benvenuto nel Pannello di Controllo Utente. Da qui puoi monitorare, modificare o aggiornare il tuo <em>Profilo</em>. Puoi gestire tutte le tue <em>Preferenze</em>, attivare o disattivare la sottoscrizione a forum e/o argomenti. Se consentito, tramite l’apposita funzione <em>Messaggi Privati</em>, puoi scambiare messaggi privati con altri utenti. Puoi anche gestire le tue iscrizioni ai <em>Gruppi</em> e, tramite l’opzione <em>Amici &amp; Ignorati</em>, mantenere i contatti con le persone che conosci. Lo Staff potrebbe rilasciare degli annunci a tutti gli utenti del forum, che verranno visualizzati in questa pagina.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
-	'UCP_ZEBRA'						=> 'Amici &amp; Ignorati',
-	'UCP_ZEBRA_FOES'				=> 'Gestione ignorati',
-	'UCP_ZEBRA_FRIENDS'				=> 'Gestione amici',
-	'UNDISCLOSED_RECIPIENT'			=> 'Beneficiari riservati',	
-	'UNKNOWN_FOLDER'				=> 'Cartella sconosciuta',
-	'UNWATCH_MARKED'				=> 'Smetti di controllare selezionati',
-	'UPLOAD_AVATAR_FILE'			=> 'Carica dal tuo computer',
-	'UPLOAD_AVATAR_URL'				=> 'Carica da un URL',
-	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Inserisci l’indirizzo URL di dove risiede l’immagine e verrà copiata su questo sito.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo caratteri alfanumerici.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere caratteri alfanumerici, lo spazio o -+_[].',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo caratteri ASCII, quindi niente simboli speciali.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo lettere o numeri.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere lettere, numeri, lo spazio o -+_[].',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'La lunghezza deve essere di minimo %1$d e massimo %2$d caratteri.',
-	'USERNAME_TAKEN_USERNAME'		=> 'Il nome utente inserito è già in uso, inserisci un’alternativa.',
-	'USERNAME_DISALLOWED_USERNAME'	=> 'Il nome utente inserito è stato respinto o contiene una parola non ammessa. Scegli un altro nome.',
-	'USER_NOT_FOUND_OR_INACTIVE'	=> 'I nomi utente specificati non sono stati trovati o appartengono a utenti non attivi.',
+	'UCP_REGISTER_DISABLE'					=> 'La creazione di un nuovo account non è attualmente possibile.',
+	'UCP_REMIND'							=> 'Invia password',
+	'UCP_RESEND'							=> 'Invia e-mail di attivazione',
+	'UCP_WELCOME'							=> 'Benvenuto nel Pannello di Controllo Utente. Da qui puoi monitorare, modificare o aggiornare il tuo <em>Profilo</em>. Puoi gestire tutte le tue <em>Preferenze</em>, attivare o disattivare la sottoscrizione a forum e/o argomenti. Se consentito, tramite l’apposita funzione <em>Messaggi Privati</em>, puoi scambiare messaggi privati con altri utenti. Puoi anche gestire le tue iscrizioni ai <em>Gruppi</em> e, tramite l’opzione <em>Amici &amp; Ignorati</em>, mantenere i contatti con le persone che conosci. Lo Staff potrebbe rilasciare degli annunci a tutti gli utenti del forum, che verranno visualizzati in questa pagina.',
+	'UCP_YIM'								=> 'Yahoo Messenger',
+	'UCP_ZEBRA'								=> 'Amici &amp; Ignorati',
+	'UCP_ZEBRA_FOES'						=> 'Gestione ignorati',
+	'UCP_ZEBRA_FRIENDS'						=> 'Gestione amici',
+	'UNDISCLOSED_RECIPIENT'					=> 'Beneficiari riservati',	
+	'UNKNOWN_FOLDER'						=> 'Cartella sconosciuta',
+	'UNWATCH_MARKED'						=> 'Smetti di controllare selezionati',
+	'UPLOAD_AVATAR_FILE'					=> 'Carica dal tuo computer',
+	'UPLOAD_AVATAR_URL'						=> 'Carica da un URL',
+	'UPLOAD_AVATAR_URL_EXPLAIN'				=> 'Inserisci l’indirizzo URL di dove risiede l’immagine e verrà copiata su questo sito.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'			=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo caratteri alfanumerici.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'		=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere caratteri alfanumerici, lo spazio o -+_[].',
+	'USERNAME_ASCII_EXPLAIN'				=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo caratteri ASCII, quindi niente simboli speciali.',
+	'USERNAME_LETTER_NUM_EXPLAIN'			=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere solo lettere o numeri.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'	=> 'Il nome utente deve avere minimo %1$d e massimo %2$d caratteri, deve contenere lettere, numeri, lo spazio o -+_[].',
+	'USERNAME_CHARS_ANY_EXPLAIN'			=> 'La lunghezza deve essere di minimo %1$d e massimo %2$d caratteri.',
+	'USERNAME_TAKEN_USERNAME'				=> 'Il nome utente inserito è già in uso, inserisci un’alternativa.',
+	'USERNAME_DISALLOWED_USERNAME'			=> 'Il nome utente inserito è stato respinto o contiene una parola non ammessa. Scegli un altro nome.',
+	'USER_NOT_FOUND_OR_INACTIVE'			=> 'I nomi utente specificati non sono stati trovati o appartengono a utenti non attivi.',
 
 	'VIEW_AVATARS'				=> 'Visualizza gli avatar',
 	'VIEW_EDIT'					=> 'Visualizza/Modifica',
@@ -546,7 +545,6 @@ $lang = array_merge($lang, array(
 		'TO_GROUP'		=> 'al mio gruppo predefinito',
 		'TO_ME'			=> 'a me'
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'I gruppi permettono agli amministratori di gestire al meglio gli utenti. All’inizio verrai inserito in un gruppo che sarà il tuo gruppo predefinito. Questo gruppo definisce come tu apparirai agli altri utenti, ad esempio la colorazione del tuo nome utente, l’avatar, il livello, ecc. Qualora gli amministratori lo concedano, potrai cambiare il tuo gruppo predefinito. Potresti essere inserito in altri gruppi o avere la possibilità di iscriverti. Alcuni gruppi potrebbero darti permessi aggiuntivi per vedere contenuti o aumentare le tue possibilità in altre sezioni del forum.',
 	'GROUP_LEADER'		=> 'Leader gruppo',
