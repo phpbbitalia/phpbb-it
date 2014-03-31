@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @copyright (c) 2010 phpBB.it - translated on 2010-03-01
-* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-07
+* @copyright (c) 2012 phpBBItalia.net - translated on 2014-03-31
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -55,19 +55,19 @@ $lang = array_merge($lang, array(
 	'APPROVE_POSTS'			=> 'Approva messaggi',
 	'APPROVE_POSTS_CONFIRM'	=> 'Sei sicuro di voler approvare questi messaggi?',
 
-	'CANNOT_MOVE_SAME_FORUM'=> 'Non puoi spostare l’argomento nello stesso forum a cui già appartiene.',
-	'CANNOT_WARN_ANONYMOUS'	=> 'Non puoi inviare richiami ad utenti ospiti non iscritti.',
-	'CANNOT_WARN_SELF'		=> 'Non puoi inviare un richiamo a te stesso.',
-	'CAN_LEAVE_BLANK'		=> 'Questo può essere lasciato in bianco.',
-	'CHANGE_POSTER'			=> 'Cambia mittente',
-	'CLOSE_PM_REPORT'		=> 'Chiudi segnalazione MP',
+	'CANNOT_MOVE_SAME_FORUM'	=> 'Non puoi spostare l’argomento nello stesso forum a cui già appartiene.',
+	'CANNOT_WARN_ANONYMOUS'		=> 'Non puoi inviare richiami ad utenti ospiti non iscritti.',
+	'CANNOT_WARN_SELF'			=> 'Non puoi inviare un richiamo a te stesso.',
+	'CAN_LEAVE_BLANK'			=> 'Questo può essere lasciato in bianco.',
+	'CHANGE_POSTER'				=> 'Cambia mittente',
+	'CLOSE_PM_REPORT'			=> 'Chiudi segnalazione MP',
 	'CLOSE_PM_REPORT_CONFIRM'	=> 'Sei sicuro di voler chiudere la segnalazione selezionata del MP?',
-	'CLOSE_PM_REPORTS'		=> 'Chiudi segnalazioni MP',
+	'CLOSE_PM_REPORTS'			=> 'Chiudi segnalazioni MP',
 	'CLOSE_PM_REPORTS_CONFIRM'	=> 'Sei sicuro di voler chiudere le segnalazioni selezionate dei MP?',
-	'CLOSE_REPORT'			=> 'Chiudi segnalazione',
-	'CLOSE_REPORT_CONFIRM'	=> 'Sei sicuro di voler chiudere la segnalazione selezionata?',
-	'CLOSE_REPORTS'			=> 'Chiudi segnalazioni',
-	'CLOSE_REPORTS_CONFIRM'	=> 'Sei sicuro di voler chiudere le segnalazioni selezionate?',
+	'CLOSE_REPORT'				=> 'Chiudi segnalazione',
+	'CLOSE_REPORT_CONFIRM'		=> 'Sei sicuro di voler chiudere la segnalazione selezionata?',
+	'CLOSE_REPORTS'				=> 'Chiudi segnalazioni',
+	'CLOSE_REPORTS_CONFIRM'		=> 'Sei sicuro di voler chiudere le segnalazioni selezionate?',
 
 	'DELETE_PM_REPORT'			=> 'Cancella segnalazione MP',
 	'DELETE_PM_REPORT_CONFIRM'	=> 'Sei sicuro di voler cancellare la segnalazione selezionata del MP?',
@@ -141,17 +141,17 @@ $lang = array_merge($lang, array(
 
 	'MARKED_NOTES_DELETED'		=> 'Sono state rimosse le note utente selezionate.',
 
-	'MCP_ADD'						=> 'Invia richiamo',
+	'MCP_ADD'					=> 'Invia richiamo',
 
 	'MCP_BAN'					=> 'Azioni di Ban',
 	'MCP_BAN_EMAILS'			=> 'Ban e-mail',
 	'MCP_BAN_IPS'				=> 'Ban IP',
 	'MCP_BAN_USERNAMES'			=> 'Ban nome utente',
 
-	'MCP_LOGS'						=> 'Log moderatore',
-	'MCP_LOGS_FRONT'				=> 'Prima pagina',
-	'MCP_LOGS_FORUM_VIEW'			=> 'Log forum',
-	'MCP_LOGS_TOPIC_VIEW'			=> 'Log argomenti',
+	'MCP_LOGS'					=> 'Log moderatore',
+	'MCP_LOGS_FRONT'			=> 'Prima pagina',
+	'MCP_LOGS_FORUM_VIEW'		=> 'Log forum',
+	'MCP_LOGS_TOPIC_VIEW'		=> 'Log argomenti',
 
 	'MCP_MAIN'						=> 'Principale',
 	'MCP_MAIN_FORUM_VIEW'			=> 'Leggi forum',
@@ -187,6 +187,7 @@ $lang = array_merge($lang, array(
 	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Questa è una lista di tutte le segnalazioni sui messaggi privati che sono state precedentemente risolte.',
 	'MCP_PM_REPORTS_OPEN'			=> 'Segnalazioni MP aperte',
 	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Questa è una lista di tutti i messaggi privati segnalati che devono ancora essere gestiti.',
+
 	'MCP_REPORTS'					=> 'Messaggi segnalati',
 	'MCP_REPORT_DETAILS'			=> 'Dettagli segnalazioni',
 	'MCP_REPORTS_CLOSED'			=> 'Segnalazioni chiuse',
@@ -209,7 +210,6 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Richiama per messaggio specifico',
 	'MCP_WARN_USER'			=> 'Richiama utente',
 
- // 'MERGE_POSTS'			=> 'Unisci messaggi', //
 	'MERGE_POSTS_CONFIRM'	=> 'Sei sicuro di voler spostare i messaggi selezionati?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Utilizzando il modulo seguente è possibile spostare i messaggi selezionati in un altro argomento. I messaggi saranno divisi da questo argomento e uniti nell’altro argomento. Questi messaggi non saranno riordinati e appariranno come se gli utenti li avessero inviati nel nuovo argomento.<br />Inserisci l’ID dell’argomento di destinazione o clicca su "Seleziona argomento" per cercarne uno.',
 	'MERGE_TOPIC_ID'		=> 'ID dell’argomento di destinazione',
@@ -302,7 +302,6 @@ $lang = array_merge($lang, array(
 	'RETURN_NEW_FORUM'			=> '%sVai al nuovo forum%s',
 	'RETURN_NEW_TOPIC'			=> '%sVai al nuovo argomento%s',
 	'RETURN_PM'					=> '%sVai al messaggio privato%s',
-	
 	'RETURN_POST'				=> '%sTorna al messaggio%s',
 	'RETURN_QUEUE'				=> '%sTorna alla coda%s',
 	'RETURN_REPORTS'			=> '%sTorna alle segnalazioni%s',
@@ -329,30 +328,31 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividi il messaggio selezionato dall’argomento',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Sei sicuro di voler dividere il messaggio selezionato dall’argomento?',
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando il seguente modulo puoi dividere in due l’argomento, sia selezionando individualmente i messaggi da staccare che selezionando il messaggio da dove iniziare la separazione.',
-	'THIS_PM_IP'				=> 'IP per questo messaggio privato',
-	'THIS_POST_IP'				=> 'IP di questo messaggio',
-	'TOPICS_APPROVED_SUCCESS'	=> 'Gli argomenti selezionati sono stati approvati.',
-	'TOPICS_DELETED_SUCCESS'	=> 'Gli argomenti selezionati sono stati rimossi dal database.',
-	'TOPICS_DISAPPROVED_SUCCESS'=> 'Gli argomenti selezionati sono stati disapprovati.',
-	'TOPICS_FORKED_SUCCESS'		=> 'Gli argomenti selezionati sono stati copiati.',
-	'TOPICS_LOCKED_SUCCESS'		=> 'Gli argomenti selezionati sono stati bloccati.',
-	'TOPICS_MOVED_SUCCESS'		=> 'Gli argomenti selezionati sono stati spostati.',
-	'TOPICS_RESYNC_SUCCESS'		=> 'Gli argomenti selezionati sono stati risincronizzati.',
-	'TOPICS_TYPE_CHANGED'		=> 'Il tipo di argomento è stato modificato.',
-	'TOPICS_UNLOCKED_SUCCESS'	=> 'Gli argomenti selezionati sono stati sbloccati.',
-	'TOPIC_APPROVED_SUCCESS'	=> 'L’argomento selezionato è stato approvato.',
-	'TOPIC_DELETED_SUCCESS'		=> 'L’argomento selezionato è stato rimosso dal database.',
-	'TOPIC_DISAPPROVED_SUCCESS'	=> 'L’argomento selezionato è stato disapprovato.',
-	'TOPIC_FORKED_SUCCESS'		=> 'L’argomento selezionato è stato copiato.',
-	'TOPIC_LOCKED_SUCCESS'		=> 'L’argomento selezionato è stato bloccato.',
-	'TOPIC_MOVED_SUCCESS'		=> 'L’argomento selezionato è stato spostato.',
-	'TOPIC_NOT_EXIST'			=> 'L’argomento selezionato non esiste.',
-	'TOPIC_RESYNC_SUCCESS'		=> 'L’argomento selezionato è stato risincronizzato.',
-	'TOPIC_SPLIT_SUCCESS'		=> 'L’argomento selezionato è stato diviso.',
-	'TOPIC_TIME'				=> 'Ora dell’argomento',
-	'TOPIC_TYPE_CHANGED'		=> 'Il tipo di argomento è stato modificato.',
-	'TOPIC_UNLOCKED_SUCCESS'	=> 'L’argomento selezionato è stato sbloccato.',
-	'TOTAL_WARNINGS'			=> 'Totale richiami',
+
+	'THIS_PM_IP'						=> 'IP per questo messaggio privato',
+	'THIS_POST_IP'						=> 'IP di questo messaggio',
+	'TOPICS_APPROVED_SUCCESS'			=> 'Gli argomenti selezionati sono stati approvati.',
+	'TOPICS_DELETED_SUCCESS'			=> 'Gli argomenti selezionati sono stati rimossi dal database.',
+	'TOPICS_DISAPPROVED_SUCCESS'		=> 'Gli argomenti selezionati sono stati disapprovati.',
+	'TOPICS_FORKED_SUCCESS'				=> 'Gli argomenti selezionati sono stati copiati.',
+	'TOPICS_LOCKED_SUCCESS'				=> 'Gli argomenti selezionati sono stati bloccati.',
+	'TOPICS_MOVED_SUCCESS'				=> 'Gli argomenti selezionati sono stati spostati.',
+	'TOPICS_RESYNC_SUCCESS'				=> 'Gli argomenti selezionati sono stati risincronizzati.',
+	'TOPICS_TYPE_CHANGED'				=> 'Il tipo di argomento è stato modificato.',
+	'TOPICS_UNLOCKED_SUCCESS'			=> 'Gli argomenti selezionati sono stati sbloccati.',
+	'TOPIC_APPROVED_SUCCESS'			=> 'L’argomento selezionato è stato approvato.',
+	'TOPIC_DELETED_SUCCESS'				=> 'L’argomento selezionato è stato rimosso dal database.',
+	'TOPIC_DISAPPROVED_SUCCESS'			=> 'L’argomento selezionato è stato disapprovato.',
+	'TOPIC_FORKED_SUCCESS'				=> 'L’argomento selezionato è stato copiato.',
+	'TOPIC_LOCKED_SUCCESS'				=> 'L’argomento selezionato è stato bloccato.',
+	'TOPIC_MOVED_SUCCESS'				=> 'L’argomento selezionato è stato spostato.',
+	'TOPIC_NOT_EXIST'					=> 'L’argomento selezionato non esiste.',
+	'TOPIC_RESYNC_SUCCESS'				=> 'L’argomento selezionato è stato risincronizzato.',
+	'TOPIC_SPLIT_SUCCESS'				=> 'L’argomento selezionato è stato diviso.',
+	'TOPIC_TIME'						=> 'Ora dell’argomento',
+	'TOPIC_TYPE_CHANGED'				=> 'Il tipo di argomento è stato modificato.',
+	'TOPIC_UNLOCKED_SUCCESS'			=> 'L’argomento selezionato è stato sbloccato.',
+	'TOTAL_WARNINGS'					=> 'Totale richiami',
 
 	'UNAPPROVED_POSTS_TOTAL'		=> 'In totale ci sono <strong>%d</strong> messaggi in attesa di approvazione.',
 	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Non ci sono messaggi in attesa di approvazione.',
@@ -386,14 +386,14 @@ $lang = array_merge($lang, array(
 
 	'YOU_SELECTED_TOPIC'	=> 'Hai selezionato l’argomento numero %d: %s.',
 
-	'report_reasons'		=> array(
+	'report_reasons'	=> array(
 		'TITLE'	=> array(
 			'WAREZ'		=> 'Warez',
 			'SPAM'		=> 'Spam',
 			'OFF_TOPIC'	=> 'Off-topic',
 			'OTHER'		=> 'Altro',
 		),
-		'DESCRIPTION' => array(
+		'DESCRIPTION'	=> array(
 			'WAREZ'		=> 'Il messaggio contiene collegamenti a siti illegali o di pirateria.',
 			'SPAM'		=> 'Il messaggio ha l’unico scopo di promuovere altri siti o attività commerciali.',
 			'OFF_TOPIC'	=> 'Il messaggio è fuori tema con le argomentazioni trattate.',
